@@ -1,3 +1,7 @@
+a:visited {
+	color: purple;
+}
+
 #pt-notifications .mw-echo-notifications-badge {
 	background: black;
 }
