@@ -49,6 +49,11 @@ div#simpleSearch input {
 	border: 1px solid gray;
 }
 
+table {
+	background: black !important;
+	border: 1px solid gray !important;
+}
+
 #mw-page-base {
 	background-image: none;
 	background: black;
@@ -107,14 +112,16 @@ pre, .mw-code {
 	border: 0;
 }
 
-.java.source-java .kw1 {color: gray;}
-
-/* return type, ex void */
-.java.source-java .kw4 {color: blue;} 
 .kw1 { color: gray; }
+.java.source-java .kw1 {color: gray;}
+.css.source-css .kw1 { color: gray; } /* property name */
+
 .kw3 { color: #4444aa; }
 .kw2 { color: #ccc; }
+
 .kw4 { color: lightblue; }
+.java.source-java .kw4 {color: lightblue;} /* return type, ex void */
+
 .re0 { color: #6666ff; }
 .co5 { color: #6666ff; }
 .co3 { color: #6666ff; }
