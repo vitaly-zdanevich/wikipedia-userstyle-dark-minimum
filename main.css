@@ -123,6 +123,9 @@ pre, .mw-code {
 .kw3 { color: #4444aa; }
 .kw2 { color: #ccc; }
 
+ /* keywords: class, extends, private, this, new, return */
+.java5.source-java5 .kw2 { color: white; }
+
 .kw4 { color: lightblue; }
 .java.source-java .kw4 {color: lightblue;} /* return type, ex void */
 
