@@ -1,3 +1,7 @@
+a {
+	color: #36B;
+}
+
 a:visited {
 	color: purple;
 }
@@ -30,12 +34,12 @@ div.vectorTabs ul li{
 
 div#simpleSearch {
 	background: black;
-	border: solid 1px gray;
+	border: solid 1px lightgray;
 }
 
 div#simpleSearch input {
 	background: black;
-	color: gray;
+	color: lightgray;
 }
 
 #siteSub {
@@ -49,13 +53,13 @@ div#simpleSearch input {
 
 .infobox {
 	background: black;
-	color: gray;
-	border: 1px solid gray;
+	color: lightgray;
+	border: 1px solid lightgray;
 }
 
 table {
 	background: black !important;
-	border: 1px solid gray !important;
+	border: 1px solid lightgray !important;
 }
 
 #mw-page-base {
@@ -69,7 +73,7 @@ table {
 }
 
 .mw-body-content {
-	color: gray;
+	color: lightgray;
 }
 
 #mw-panel {
@@ -87,7 +91,7 @@ table {
 
 h1, h2, h3, h4, h5, h6 {
 	border-bottom: 0;
-	color: gray;
+	color: lightgray;
 }
  
 .mw-body h1 {
@@ -99,26 +103,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 code {
-	color: gray;
+	color: lightgray;
 	background: black;
 	border: 1px solid;
 }
 
 .mw-code {
 	background: black;
-	color: gray;
+	color: lightgray;
 	border: 0;
 }
 
 pre, .mw-code {
 	background: black;
-	color: gray;
+	color: lightgray;
 	border: 0;
 }
 
-.kw1 { color: gray; }
-.java.source-java .kw1 {color: gray;}
-.css.source-css .kw1 { color: gray; } /* property name */
+.kw1 { color: lightgray; }
+.java.source-java .kw1 {color: lightgray;}
+.css.source-css .kw1 { color: lightgray; } /* property name */
 
 .kw3 { color: #4444aa; }
 .kw2 { color: #ccc; }
@@ -128,6 +132,31 @@ pre, .mw-code {
 
 .kw4 { color: lightblue; }
 .java.source-java .kw4 {color: lightblue;} /* return type, ex void */
+
+/* constructor call */
+.java5.source-java5 .kw166 {
+	color: lightseagreen;
+}
+
+/* reference and method call */
+.java5.source-java5 .me1 {
+	color: #0EFF87;
+}
+
+/* void */
+.java5.source-java5 .kw3 {
+	color: #0EFF87;
+}
+
+/* () */
+.java5.source-java5 .br0 {
+	color: #0EFF87;
+}
+
+/* <?> */
+.java5.source-java5 .sy0 {
+	color: #0EFF87;
+}
 
 .re0 { color: #6666ff; }
 .co5 { color: #6666ff; }
@@ -146,7 +175,7 @@ pre, .mw-code {
 
 table.ambox {
 	background: black;
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 }
 
 #footer {
