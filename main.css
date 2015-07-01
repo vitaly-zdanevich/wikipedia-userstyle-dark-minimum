@@ -1,86 +1,98 @@
 a {
 	color: #36B;
 }
- 
+
 a:visited {
 	color: purple;
 }
- 
+
 #pt-notifications .mw-echo-notifications-badge {
 	background: black;
 }
- 
+
 div.vectorTabs {
 	background-image: none;
 }
- 
+
 div.vectorTabs span {
 	background-image: none;
 }
- 
+
 div#mw-head div.vectorMenu h3 {
 	background-image: none;
 }
- 
+
 div.vectorTabs li.selected {
 	background-image: none;
 	background: gray;
 }
- 
+
 div.vectorTabs ul li{
 	background-image: none;
 	background: black;
 }
- 
+
 div#simpleSearch {
 	background: black;
 	border: solid 1px lightgray;
 }
- 
+
 div#simpleSearch input {
 	background: black;
 	color: lightgray;
 }
- 
+
 #siteSub {
 	display:none;
 }
- 
+
 /* main font */
 .mw-body-content {
 	font-size: 1.5em;
 }
- 
+
 .infobox {
 	background: black;
 	color: lightgray;
 	border: 1px solid lightgray;
 }
- 
+
 div.thumbinner {
 	background-color: black;
 	border: 1px solid gray;
 }
- 
+
+caption {
+	color: gray !important;
+}
+
 table {
 	background: black !important;
 	border: 1px solid lightgray !important;
 }
- 
+
+table.wikitable > tr > th, table.wikitable > * > tr > th {
+	background-color: gray;
+}
+
+tr {
+	color: wheat;
+}
+
 #mw-page-base {
 	background-image: none;
 	background: black;
 }
- 
+
 .mw-body {
 	background: black;
 	border-width: 0;
 }
- 
+
 .mw-body-content {
 	color: lightgray;
 }
- 
+
 #mw-panel {
 	display:none;
 }
@@ -88,12 +100,12 @@ table {
 #content {
 	margin-left: 0;
 }
- 
+
 #toc {
 	background: black;
 	border: 0;
 }
- 
+
 h1, h2, h3, h4, h5, h6 {
 	border-bottom: 0;
 	color: lightgray;
@@ -102,67 +114,67 @@ h1, h2, h3, h4, h5, h6 {
 .mw-body h1 {
 	font-size: 4em;
 }
- 
+
 .mw-body h2 {
 	font-size: 3em;
 }
- 
+
 code {
 	color: lightgray;
 	background: black;
 	border: 1px solid;
 }
- 
+
 .mw-code {
 	background: black;
 	color: lightgray;
 	border: 0;
 }
- 
+
 pre, .mw-code {
 	background: black;
 	color: lightgray;
 	border: 0;
 }
- 
+
 .kw1 { color: lightgray; }
 .java.source-java .kw1 {color: lightgray;}
 .css.source-css .kw1 { color: lightgray; } /* property name */
- 
+
 .kw3 { color: #4444aa; }
 .kw2 { color: #ccc; }
- 
+
  /* keywords: class, extends, private, this, new, return */
 .java5.source-java5 .kw2 { color: white; }
- 
+
 .kw4 { color: lightblue; }
 .java.source-java .kw4 {color: lightblue;} /* return type, ex void */
- 
+
 /* constructor call */
 .java5.source-java5 .kw166 {
 	color: lightseagreen;
 }
- 
+
 /* reference and method call */
 .java5.source-java5 .me1 {
 	color: #0EFF87;
 }
- 
+
 /* void */
 .java5.source-java5 .kw3 {
 	color: #0EFF87;
 }
- 
+
 /* () */
 .java5.source-java5 .br0 {
 	color: #0EFF87;
 }
- 
+
 /* <?> */
 .java5.source-java5 .sy0 {
 	color: #0EFF87;
 }
- 
+
 .re0 { color: #6666ff; }
 .co5 { color: #6666ff; }
 .co3 { color: #6666ff; }
@@ -177,20 +189,20 @@ pre, .mw-code {
 .sy1 { color: #4040a0; }
 .es1 { color: #222299; }
 .sy3 { color: #444488; }
- 
+
 table.ambox {
 	background: black;
 	border: 1px solid lightgray;
 }
- 
+
 .editOptions {
 	background-color: black;
 }
- 
+
 div#editpage-specialchars a {
 	background-color: black;
 }
- 
+
 #footer {
 	display:none;
 }
