@@ -7,7 +7,7 @@ a:visited {
 }
 
 #pt-notifications .mw-echo-notifications-badge {
-	background: black;
+	background: #000;
 }
 
 div.vectorTabs {
@@ -29,16 +29,16 @@ div.vectorTabs li.selected {
 
 div.vectorTabs ul li{
 	background-image: none;
-	background: black;
+	background: #000;
 }
 
 div#simpleSearch {
-	background: black;
+	background: #000;
 	border: solid 1px lightgray;
 }
 
 div#simpleSearch input {
-	background: black;
+	background: #000;
 	color: lightgray;
 }
 
@@ -52,13 +52,13 @@ div#simpleSearch input {
 }
 
 .infobox {
-	background: black;
+	background: #000;
 	color: lightgray;
 	border: 1px solid lightgray;
 }
 
 div.thumbinner {
-	background-color: black;
+	background-color: #000;
 	border: 1px solid gray;
 }
 
@@ -67,8 +67,8 @@ caption {
 }
 
 table {
-	background: black !important;
-	border: 1px solid lightgray !important;
+	background: #000 !important;
+	border: none !important;
 }
 
 table.wikitable > tr > th, table.wikitable > * > tr > th {
@@ -81,11 +81,11 @@ tr {
 
 #mw-page-base {
 	background-image: none;
-	background: black;
+	background: #000;
 }
 
 .mw-body {
-	background: black;
+	background: #000;
 	border-width: 0;
 }
 
@@ -102,7 +102,7 @@ tr {
 }
 
 #toc {
-	background: black;
+	background: #000;
 	border: 0;
 }
 
@@ -121,18 +121,18 @@ h1, h2, h3, h4, h5, h6 {
 
 code {
 	color: lightgray;
-	background: black;
+	background: #000;
 	border: 1px solid;
 }
 
 .mw-code {
-	background: black;
+	background: #000;
 	color: lightgray;
 	border: 0;
 }
 
 pre, .mw-code {
-	background: black;
+	background: #000;
 	color: lightgray;
 	border: 0;
 }
@@ -191,12 +191,13 @@ pre, .mw-code {
 .sy3 { color: #444488; }
 
 table.ambox {
-	background: black;
+	background: #000;
 	border: 1px solid lightgray;
 }
 
-.editOptions {
-	background-color: black;
+.editOptions, .catlinks, .noprint {
+	background-color: #000 !important;
+	border: none !important;
 }
 
 div[style*="#FCFCCC;"] {
@@ -208,7 +209,7 @@ div[style*="#FFE7CC;"] {
 }
 
 div#editpage-specialchars a {
-	background-color: black;
+	background-color: #000;
 }
 
 #footer {
