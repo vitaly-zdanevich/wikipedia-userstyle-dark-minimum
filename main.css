@@ -80,7 +80,7 @@ caption {
 	color: gray !important;
 }
 
-table {
+table, .plainlinks {
 	background: #000 !important;
 	border: none !important;
 }
