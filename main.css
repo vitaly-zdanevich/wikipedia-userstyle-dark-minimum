@@ -6,8 +6,8 @@ a:visited {
 	color: purple;
 }
 
-#pt-notifications .mw-echo-notifications-badge {
-	background: #000;
+.mw-echo-notifications-badge {
+	background-color: #000 !important;
 }
 
 div.vectorTabs {
@@ -189,6 +189,7 @@ pre, .mw-code {
 .sy1 { color: #4040a0; }
 .es1 { color: #222299; }
 .sy3 { color: #444488; }
+.nc,.nf{color: #9090DB !important;}
 
 table.ambox {
 	background: #000;
