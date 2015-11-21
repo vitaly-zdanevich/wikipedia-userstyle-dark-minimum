@@ -199,6 +199,10 @@ table.ambox {
 	background-color: black;
 }
 
+div[style*="#FCFCCC;"] {
+	background-color: #303023 !important;
+}
+
 div#editpage-specialchars a {
 	background-color: black;
 }
