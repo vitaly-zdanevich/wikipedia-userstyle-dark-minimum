@@ -6,22 +6,17 @@ a:visited {
 	color: purple;
 }
 
-.mw-echo-notifications-badge {
-	background-color: #000 !important;
+div#simpleSearch,
+table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td,
+#pagehistory .after
+{
+	border: solid 1px darkslategrey;
 }
 
-#mw-fr-reviewnotice {
-	background-color: #000;
-	color: #8C8C8C;
-	border: none;
-}
-
-[style*="#CFFF9F;"] {
-    background-color: #000 !important;
-}
-
-[style*="#CFFF9F;"] {
-    background-color: #000 !important;
+#pt-notifications .mw-echo-notifications-badge,
+td
+{
+	background: black !important;
 }
 
 div.vectorTabs {
@@ -43,17 +38,14 @@ div.vectorTabs li.selected {
 
 div.vectorTabs ul li{
 	background-image: none;
-	background: #000;
+	background: black;
 }
 
-div#simpleSearch {
-	background: #000;
-	border: solid 1px lightgray;
-}
-
-div#simpleSearch input {
-	background: #000;
-	color: lightgray;
+h2,
+h3
+{
+	background: black;
+	color: lightgray !important;
 }
 
 #siteSub {
@@ -66,27 +58,37 @@ div#simpleSearch input {
 }
 
 .infobox {
-	background: #000;
+	background: black;
 	color: lightgray;
 	border: 1px solid lightgray;
 }
 
-div.thumbinner {
-	background-color: #000;
-	border: 1px solid gray;
+div.thumbinner, div.thumb {
+	background-color: black !important;
+	border: none !important;
 }
 
 caption {
 	color: gray !important;
 }
 
-table, .plainlinks {
-	background: #000 !important;
-	border: none !important;
+table {
+	background: black !important;
 }
 
 table.wikitable > tr > th, table.wikitable > * > tr > th {
 	background-color: gray;
+}
+
+.navbox-title, 
+th,
+.navbox-abovebelow
+{
+	background: none !important;
+}
+
+.plainlist ul li span {
+    color: lightblue !important;
 }
 
 tr {
@@ -95,11 +97,11 @@ tr {
 
 #mw-page-base {
 	background-image: none;
-	background: #000;
+	background: black;
 }
 
 .mw-body {
-	background: #000;
+	background: black;
 	border-width: 0;
 }
 
@@ -116,7 +118,7 @@ tr {
 }
 
 #toc {
-	background: #000;
+	background: black;
 	border: 0;
 }
 
@@ -135,18 +137,18 @@ h1, h2, h3, h4, h5, h6 {
 
 code {
 	color: lightgray;
-	background: #000;
+	background: black;
 	border: 1px solid;
-}
+}ta
 
 .mw-code {
-	background: #000;
+	background: black;
 	color: lightgray;
 	border: 0;
 }
 
 pre, .mw-code {
-	background: #000;
+	background: black;
 	color: lightgray;
 	border: 0;
 }
@@ -203,28 +205,44 @@ pre, .mw-code {
 .sy1 { color: #4040a0; }
 .es1 { color: #222299; }
 .sy3 { color: #444488; }
-.nc,.nf{color: #9090DB !important;}
 
 table.ambox {
-	background: #000;
+	background: black;
 	border: 1px solid lightgray;
 }
 
-.editOptions, .catlinks, .noprint {
-	background-color: #000 !important;
-	border: none !important;
+table.wikitable > tr > th, table.wikitable > * > tr > th
+{
+	background-color: darkslategrey;
 }
 
-div[style*="#FCFCCC;"] {
-	background-color: #303023 !important;
-}
-
-div[style*="#FFE7CC;"] {
-	background-color: #322312 !important;
+.editOptions, 
+#pagehistory li
+{
+	background-color: black !important;
 }
 
 div#editpage-specialchars a {
-	background-color: #000;
+	background-color: black;
+}
+
+.ext-cards-card-list .ext-cards-card, .ext-cards-card-list, .navbox-list {
+	border: none !important;
+}
+
+input[type=submit] {
+	background: darkslategray;
+    border: none;
+    color: lightgray;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+input, select {
+    background: black;
+    border: 1px solid darkslategrey;
+    color: lightgray;
+    font-size: 35px;
 }
 
 #footer {
