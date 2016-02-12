@@ -6,8 +6,10 @@ a:visited {
 	color: purple;
 }
 
-.mw-echo-notifications-badge {
-	background-color: #000 !important;
+.mw-echo-notifications-badge, 
+aside li /* related articles */
+{
+	background: #000 !important;
 }
 
 #mw-fr-reviewnotice {
@@ -16,7 +18,9 @@ a:visited {
 	border: none;
 }
 
-[style*="#CFFF9F;"] {
+[style*="#CFFF9F;"],
+html
+{
     background-color: #000 !important;
 }
 
@@ -107,8 +111,10 @@ tr {
 	border-width: 0;
 }
 
-.mw-body-content {
-	color: lightgray;
+.mw-body-content,
+aside a, aside p /* related articles: titles & second line with desc*/
+{
+	color: lightgray !important;
 }
 
 #mw-panel {
@@ -119,7 +125,8 @@ tr {
 	margin-left: 0;
 }
 
-#toc {
+#toc
+{
 	background: #000;
 	border: 0;
 }
@@ -165,8 +172,14 @@ pre, .mw-code {
  /* keywords: class, extends, private, this, new, return */
 .java5.source-java5 .kw2 { color: white; }
 
-.kw4 { color: lightblue; }
-.java.source-java .kw4 {color: lightblue;} /* return type, ex void */
+/* code */
+.kw4
+.java.source-java,  /* return type, ex void */
+.kw4,
+.nn 
+{
+	color: lightblue !important;
+}
 
 /* constructor call */
 .java5.source-java5 .kw166 {
@@ -236,8 +249,13 @@ div[style*="#FFE7CC;"] {
 	background-color: #322312 !important;
 }
 
-div#editpage-specialchars a {
-	background-color: #000;
+div#editpage-specialchars a
+{
+	background: #000 !important;
+}
+
+aside h3:after { /* related articles: gradient line */
+    background: none !important;
 }
 
 #footer {
