@@ -7,7 +7,8 @@ a:visited {
 }
 
 .mw-echo-notifications-badge, 
-aside li /* related articles */
+aside li, /* related articles */
+.NavHead
 {
 	background: #000 !important;
 }
@@ -88,7 +89,16 @@ caption {
 	color: gray !important;
 }
 
-table, .plainlinks {
+.plainlist {
+	border: none !important;
+}
+
+table, 
+.plainlinks 
+.editOptions, 
+.catlinks, 
+.noprint
+{
 	background: #000 !important;
 	border: none !important;
 }
@@ -234,11 +244,6 @@ table {
 blockquote {
 	background: #000;
 	border: 1px solid darkslategrey !important;
-}
-
-.editOptions, .catlinks, .noprint {
-	background-color: #000 !important;
-	border: none !important;
 }
 
 div[style*="#FCFCCC;"] {
