@@ -6,39 +6,25 @@ a:visited {
 	color: purple;
 }
 
-.mw-echo-notifications-badge, 
-aside li, /* related articles */
-.NavHead
-{
-	background: #000 !important;
-}
-
 #mw-fr-reviewnotice {
 	background-color: #000;
 	color: #8C8C8C;
 	border: none;
 }
 
+html,
 [style*="#CFFF9F;"],
-html
+.mw-echo-notifications-badge, 
+aside li, /* related articles */
+.NavHead,
+[style*="#CFFF9F;"],
+div.vectorTabs,
+div.vectorTabs span,
+div#mw-head div.vectorMenu h3,
+.infobox *,
+div#editpage-specialchars a
 {
-    background-color: #000 !important;
-}
-
-[style*="#CFFF9F;"] {
-    background-color: #000 !important;
-}
-
-div.vectorTabs {
-	background-image: none;
-}
-
-div.vectorTabs span {
-	background-image: none;
-}
-
-div#mw-head div.vectorMenu h3 {
-	background-image: none;
+    background: #000 !important;
 }
 
 div.vectorTabs li.selected {
@@ -73,23 +59,25 @@ div#simpleSearch input {
 .infobox {
 	background: #000;
 	color: lightgray;
-	border: 1px solid lightgray;
+	border: none;
 }
 
-.infobox * {
-	background: #000 !important;
-}
-
-div.thumbinner {
+div.thumbinner,
+.editOptions /* page for editing css - below code */
+{
 	background-color: #000;
-	border: 1px solid gray;
+	border: none !important;
 }
 
 caption {
 	color: gray !important;
 }
 
-.plainlist {
+.plainlist,
+.mw-edittools-wiki-markup, /* page for editing code - below the code */
+.infobox,
+table /* infobox - is the right from the article */
+{
 	border: none !important;
 }
 
@@ -122,7 +110,9 @@ tr {
 }
 
 .mw-body-content,
-aside a, aside p /* related articles: titles & second line with desc*/
+aside a, 
+aside p, /* related articles: titles & second line with desc*/
+.infobox span
 {
 	color: lightgray !important;
 }
@@ -237,10 +227,6 @@ pre, .mw-code {
 	border: 1px solid lightgray;
 }
 
-table {
-	border: 1px solid darkslategrey !important;
-}
-
 blockquote {
 	background: #000;
 	border: 1px solid darkslategrey !important;
@@ -252,11 +238,6 @@ div[style*="#FCFCCC;"] {
 
 div[style*="#FFE7CC;"] {
 	background-color: #322312 !important;
-}
-
-div#editpage-specialchars a
-{
-	background: #000 !important;
 }
 
 aside h3:after { /* related articles: gradient line */
