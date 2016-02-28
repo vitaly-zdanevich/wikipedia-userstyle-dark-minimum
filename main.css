@@ -75,8 +75,9 @@ caption {
 
 .plainlist,
 .mw-edittools-wiki-markup, /* page for editing code - below the code */
-.infobox,
-table /* infobox - is the right from the article */
+.infobox,  /* infobox - is the right from the article */
+table,
+td
 {
 	border: none !important;
 }
@@ -240,7 +241,10 @@ div[style*="#FFE7CC;"] {
 	background-color: #322312 !important;
 }
 
-aside h3:after { /* related articles: gradient line */
+aside h3:after, /* related articles: gradient line */
+th,
+td
+{
     background: none !important;
 }
 
