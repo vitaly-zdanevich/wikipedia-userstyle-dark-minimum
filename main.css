@@ -6,10 +6,20 @@ a:visited {
 	color: purple;
 }
 
-#mw-fr-reviewnotice {
+div#simpleSearch {
+	background: #000;
+	border: 0;
+}
+#searchInput {
+    border: 0;
+}
+
+#mw-fr-reviewnotice,
+.navbox,
+.navbox-group {
 	background-color: #000;
 	color: #8C8C8C;
-	border: none;
+	border: none !important;
 }
 
 html,
@@ -35,11 +45,6 @@ div.vectorTabs li.selected {
 div.vectorTabs ul li{
 	background-image: none;
 	background: #000;
-}
-
-div#simpleSearch {
-	background: #000;
-	border: solid 1px lightgray;
 }
 
 div#simpleSearch input {
@@ -249,5 +254,10 @@ td
 }
 
 #footer {
-	display:none;
+	display: none !important;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #000;
 }
