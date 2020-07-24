@@ -6,6 +6,10 @@ a:visited {
 	color: purple;
 }
 
+hr {
+	background: none;
+}
+
 div#simpleSearch {
 	background: #000;
 	border: 0;
@@ -30,14 +34,14 @@ aside li, /* related articles */
 [style*="#CFFF9F;"],
 div.vectorTabs,
 div.vectorTabs span,
-div#mw-head div.vectorMenu h3,
+#mw-head .vectorMenu h3,
 .infobox *,
-div#editpage-specialchars a
+#editpage-specialchars a
 {
     background: #000 !important;
 }
 
-div.vectorTabs li.selected {
+.vectorTabs .selected {
 	background-image: none;
 	background: gray;
 }
@@ -47,7 +51,7 @@ div.vectorTabs ul li{
 	background: #000;
 }
 
-div#simpleSearch input {
+#simpleSearch input {
 	background: #000;
 	color: lightgray;
 }
@@ -244,6 +248,10 @@ div[style*="#FCFCCC;"] {
 
 div[style*="#FFE7CC;"] {
 	background-color: #322312 !important;
+}
+
+.diffchange {
+	background: #855 !important;
 }
 
 aside h3:after, /* related articles: gradient line */
