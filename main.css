@@ -6,8 +6,9 @@ a:visited {
 	color: purple;
 }
 
-hr {
-	background: none;
+hr,
+#mw-head {
+    display: none !important;
 }
 
 div#simpleSearch {
@@ -36,7 +37,9 @@ div.vectorTabs,
 div.vectorTabs span,
 #mw-head .vectorMenu h3,
 .infobox *,
-#editpage-specialchars a
+#editpage-specialchars a,
+tr,
+.sistersitebox
 {
     background: #000 !important;
 }
