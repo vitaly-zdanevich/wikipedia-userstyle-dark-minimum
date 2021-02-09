@@ -11,12 +11,14 @@ hr,
     display: none !important;
 }
 
-div#simpleSearch {
-	background: #000;
-	border: 0;
+#simpleSearch,
+.documentation {
+	background-color: #000 !important;
+	border: 0 !important;
 }
-#searchInput {
-    border: 0;
+#searchInput,
+.documentation-startbox {
+    border: 0 !important;
 }
 
 #mw-fr-reviewnotice,
@@ -40,8 +42,7 @@ div.vectorTabs span,
 .infobox *,
 #editpage-specialchars a,
 tr,
-.sistersitebox
-{
+.sistersitebox {
     background: #000 !important;
 }
 
@@ -96,7 +97,7 @@ td
 }
 
 table, 
-.plainlinks 
+.plainlinks,
 .editOptions, 
 .catlinks, 
 .noprint
