@@ -42,8 +42,13 @@ div.vectorTabs span,
 .infobox *,
 #editpage-specialchars a,
 tr,
+.quotebox,
 .sistersitebox {
     background: #000 !important;
+}
+
+.quotebox {
+	border-color: #222 !important;
 }
 
 .vectorTabs .selected {
@@ -93,7 +98,7 @@ caption {
 table,
 td
 {
-	border: none !important;
+	border-color: #222 !important;
 }
 
 table, 
@@ -112,6 +117,10 @@ table.wikitable > tr > th, table.wikitable > * > tr > th {
 
 tr {
 	color: wheat;
+}
+
+th {
+	border-color: #222 !important;
 }
 
 #mw-page-base {
