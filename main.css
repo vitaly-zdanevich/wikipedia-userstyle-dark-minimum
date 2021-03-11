@@ -99,7 +99,8 @@ div.thumbinner,
 	border: none !important;
 }
 
-caption {
+caption,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
 	color: gray !important;
 }
 
