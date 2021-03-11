@@ -6,17 +6,22 @@ a:visited {
 	color: purple;
 }
 
+input {
+	background: #000 !important;
+	color: #ddd !important;
+	border-color: #555;
+}
+
 hr,
 #mw-head {
     display: none !important;
 }
 
-#simpleSearch,
-.documentation {
+.documentation,
+.iw-resultset {
 	background-color: #000 !important;
 	border: 0 !important;
 }
-#searchInput,
 .documentation-startbox {
     border: 0 !important;
 }
@@ -25,7 +30,7 @@ hr,
 .navbox,
 .navbox-group {
 	background-color: #000;
-	color: #8C8C8C;
+	color: #888;
 	border: none !important;
 }
 
@@ -43,11 +48,17 @@ div.vectorTabs span,
 #editpage-specialchars a,
 tr,
 .quotebox,
-.sistersitebox {
+.sistersitebox,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
+.mw-advancedSearch-fieldContainer,
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled,
+.mw-advancedSearch-namespace-selection {
     background: #000 !important;
 }
 
-.quotebox {
+.quotebox,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
+.oo-ui-tagMultiselectWidget-handle {
 	border-color: #222 !important;
 }
 
@@ -61,7 +72,7 @@ div.vectorTabs ul li{
 	background: #000;
 }
 
-#simpleSearch input {
+.mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label {
 	background: #000;
 	color: lightgray;
 }
