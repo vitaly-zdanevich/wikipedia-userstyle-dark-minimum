@@ -7,4 +7,4 @@
 
 ![screenshot](/screenshot-prefs.png)
 
-Missing links to Edit, History, Wikidata - use [shortcuts](https://en.wikipedia.org/wiki/Wikipedia:Keyboard_shortcuts).
+Missing links to Edit, History, Wikidata - use [shortcuts](https://en.wikipedia.org/wiki/Wikipedia:Keyboard_shortcuts). Also you can append to an url of an article `&action=edit`, `&action=info`.
