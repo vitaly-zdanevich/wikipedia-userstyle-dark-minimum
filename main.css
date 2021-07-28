@@ -18,7 +18,8 @@ hr,
 }
 
 .documentation,
-.iw-resultset {
+.iw-resultset,
+.mw-parser-output .divbox-gray {
 	background-color: #000 !important;
 	border: 0 !important;
 }
