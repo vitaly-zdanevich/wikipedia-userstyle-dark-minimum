@@ -6,10 +6,11 @@ a:visited {
 	color: #b2b;
 }
 
-input {
+input,
+.unsolved {
 	background: #000 !important;
 	color: #ddd !important;
-	border-color: #555;
+	border-color: #555 !important;
 }
 
 hr,
