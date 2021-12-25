@@ -31,7 +31,7 @@ hr,
 #mw-fr-reviewnotice,
 .navbox,
 .navbox-group {
-	background-color: #000;
+	background-color: #000 !important;
 	color: #888;
 	border: none !important;
 }
