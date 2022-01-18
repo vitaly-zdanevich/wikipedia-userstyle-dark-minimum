@@ -115,7 +115,7 @@ td
 	border-color: #222 !important;
 }
 
-table, 
+table,
 .plainlinks,
 .editOptions, 
 .catlinks, 
@@ -131,6 +131,10 @@ table.wikitable > tr > th, table.wikitable > * > tr > th {
 
 tr {
 	color: wheat;
+}
+tr:before {
+	background: none !important;
+	border: none !important;
 }
 
 th {
