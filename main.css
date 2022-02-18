@@ -58,6 +58,10 @@ tr,
     background: #000 !important;
 }
 
+.mw-highlight .hll {
+	background: #330;
+}
+
 .quotebox,
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
 .oo-ui-tagMultiselectWidget-handle {
@@ -190,6 +194,10 @@ code {
 	color: lightgray;
 	background: #000;
 	border: 1px solid;
+}
+
+.mw-content-ltr.mw-highlight-lines pre {
+	box-shadow: none;
 }
 
 .mw-code {
