@@ -1,4 +1,4 @@
-# Dark and minimum userstyle for Wikipedia (or other Mediawiki site). You can set this style at the admin side of Wiki for your account - for  "vector legacy (2010)" theme.
+# Dark and minimum userstyle for Wikipedia and Wikidata (or other Mediawiki site, Wikibase). You can set this style at the admin side of Wiki for your account - for  "vector legacy (2010)" theme, no browser extension needed.
 
 [Link for editing your Wikipedia CSS](https://meta.wikipedia.org/wiki/Special:MyPage/global.css).
 
