@@ -54,7 +54,8 @@ tr,
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
 .mw-advancedSearch-fieldContainer,
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled,
-.mw-advancedSearch-namespace-selection {
+.mw-advancedSearch-namespace-selection,
+.wikibase-toolbar-wrapper {
     background: #000 !important;
 }
 
@@ -277,9 +278,24 @@ pre, .mw-code {
 	border: 1px solid lightgray;
 }
 
-blockquote {
-	background: #000;
+blockquote,
+.wikibase-statementgroupview-property,
+.wikibase-statementlistview,
+.wikibase-sitelinkgroupview-heading-container {
+	background: #000 !important;
 	border: 1px solid darkslategrey !important;
+}
+
+.wikibase-statementgroupview-property {
+	border-right: 0 !important;
+}
+
+.wikibase-statementview {
+	border-bottom: 1px solid darkslategray;
+}
+
+.valueview-ineditmode .valueview-input {
+	color: #000;
 }
 
 div[style*="#FCFCCC;"] {
@@ -302,7 +318,7 @@ td
 }
 
 #footer {
-	display: none !important;
+    display: none !important;
 }
 
 html {
