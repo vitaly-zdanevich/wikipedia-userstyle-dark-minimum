@@ -294,6 +294,10 @@ blockquote,
 	border-bottom: 1px solid darkslategray;
 }
 
+.wikibase-referenceview {
+	background: #111;
+}
+
 .valueview-ineditmode .valueview-input {
 	color: #000;
 }
