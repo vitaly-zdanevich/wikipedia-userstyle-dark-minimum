@@ -4,6 +4,8 @@
 
 ![screenshot](/screenshot.png)
 
+![screenshot](/screenshot-wikidata.png)
+
 
 ![screenshot](/screenshot-prefs.png)
 
