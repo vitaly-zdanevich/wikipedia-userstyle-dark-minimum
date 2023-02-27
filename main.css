@@ -55,7 +55,8 @@ tr,
 .mw-advancedSearch-fieldContainer,
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled,
 .mw-advancedSearch-namespace-selection,
-.wikibase-toolbar-wrapper {
+.wikibase-toolbar-wrapper,
+.mw-parser-output .responsive-license-cc {
     background: #000 !important;
 }
 
