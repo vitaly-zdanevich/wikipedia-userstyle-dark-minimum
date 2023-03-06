@@ -94,6 +94,11 @@ div.vectorTabs ul li{
 	font-size: 1.5em;
 }
 
+/* Popup in editing mode */
+#mwdw {
+    color: #000;
+}
+
 .infobox {
 	background: #000;
 	color: lightgray;
