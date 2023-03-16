@@ -57,7 +57,8 @@ tr,
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled,
 .mw-advancedSearch-namespace-selection,
 .wikibase-toolbar-wrapper,
-.mw-parser-output .responsive-license-cc {
+.mw-parser-output .responsive-license-cc,
+.wikibase-sitelinklistview .wikibase-sitelinkview .wikibase-sitelinkview-siteid-container {
     background: #000 !important;
 }
 
