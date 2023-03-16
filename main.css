@@ -20,7 +20,8 @@ hr,
 
 .documentation,
 .iw-resultset,
-.mw-parser-output .divbox-gray {
+.mw-parser-output .divbox-gray,
+.mwe-upwiz-license-metadata {
 	background-color: #000 !important;
 	border: 0 !important;
 }
