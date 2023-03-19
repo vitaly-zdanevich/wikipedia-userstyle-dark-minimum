@@ -63,6 +63,11 @@ tr,
     background: #000 !important;
 }
 
+/* background highlight color, like here https://commons.wikimedia.org/wiki/User:Nichalp/Upload_script */
+[style*="#e8ece3"] {
+	background-color: #111 !important;
+}
+
 .mw-highlight .hll {
 	background: #330;
 }
