@@ -58,7 +58,8 @@ tr,
 .mw-advancedSearch-namespace-selection,
 .wikibase-toolbar-wrapper,
 .mw-parser-output .responsive-license-cc,
-.wikibase-sitelinklistview .wikibase-sitelinkview .wikibase-sitelinkview-siteid-container {
+.wikibase-sitelinklistview .wikibase-sitelinkview .wikibase-sitelinkview-siteid-container,
+.flaggedrevs-color-0 /* diff: phrase "Pending revisions" */ {
     background: #000 !important;
 }
 
