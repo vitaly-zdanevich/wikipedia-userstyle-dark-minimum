@@ -62,8 +62,19 @@ tr,
 .mw-parser-output .responsive-license-cc,
 .wikibase-sitelinklistview .wikibase-sitelinkview .wikibase-sitelinkview-siteid-container,
 figure[typeof~="mw:File/Thumb"] > figcaption,
-.flaggedrevs-color-0 /* diff: phrase "Pending revisions" */ {
+.flaggedrevs-color-0 /* diff: phrase "Pending revisions" */,
+#pagehistory li.selected {
     background: #000 !important;
+}
+
+.flaggedrevs-pending {
+	background: #220;
+}
+#pagehistory li.selected {
+	color: #bbb;
+}
+.flaggedrevs-color-1 {
+	background-color: #334;
 }
 
 /* background highlight color, like here https://commons.wikimedia.org/wiki/User:Nichalp/Upload_script */
