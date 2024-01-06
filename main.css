@@ -326,6 +326,9 @@ blockquote,
 .wikibase-referenceview {
 	background: #111;
 }
+.wikibase-labelview-input {
+	color: #ddd;
+}
 
 .valueview-ineditmode .valueview-input {
 	color: #000;
