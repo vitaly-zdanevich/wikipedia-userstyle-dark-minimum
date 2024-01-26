@@ -342,6 +342,10 @@ div[style*="#FFE7CC;"] {
 	background-color: #322312 !important;
 }
 
+span[style*='background:#FFE7FF;'] {
+	background: 0 !important;
+}
+
 .diffchange {
 	background: #855 !important;
 }
