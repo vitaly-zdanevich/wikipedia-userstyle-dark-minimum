@@ -346,6 +346,11 @@ span[style*='background:#FFE7FF;'] {
 	background: 0 !important;
 }
 
+/* Wikisource: top-right download block */
+div[style*='#F3F3F3;'] {
+	background: 0 !important;
+}
+
 .diffchange {
 	background: #855 !important;
 }
