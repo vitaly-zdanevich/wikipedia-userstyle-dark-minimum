@@ -63,7 +63,9 @@ tr,
 .wikibase-sitelinklistview .wikibase-sitelinkview .wikibase-sitelinkview-siteid-container,
 figure[typeof~="mw:File/Thumb"] > figcaption,
 .flaggedrevs-color-0 /* diff: phrase "Pending revisions" */,
-#pagehistory li.selected {
+#pagehistory li.selected,
+.wbmi-item.wbmi-item-read .wbmi-item-container /* Structured data block, on file info page */
+{
     background: #000 !important;
 }
 
@@ -76,9 +78,15 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .flaggedrevs-color-1 {
 	background-color: #334;
 }
+/* "Browse history interactively" botton on file info page */
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+	color: #69f;
+}
 
 /* background highlight color, like here https://commons.wikimedia.org/wiki/User:Nichalp/Upload_script */
-[style*="#e8ece3"] {
+[style*="#e8ece3"],
+.wbmi-entity-header /* File info page: Structured data labels */
+{
 	background-color: #111 !important;
 }
 
@@ -111,6 +119,9 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .mw-revslider-revision {
 	background: #444 !important;
 }
+.wbmi-entityview-captionsPanel {
+	border-color: #333 !important;
+}
 .mw-revslider-revision-border-box {
 	border: 0;
 }
@@ -121,7 +132,12 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 
 .quotebox,
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
-.oo-ui-tagMultiselectWidget-handle {
+.oo-ui-tagMultiselectWidget-handle,
+.wbmi-tabs-container .oo-ui-panelLayout-framed,
+.wbmi-entityview-statementsGroup,
+.wbmi-entityview-statementsGroup,
+.oo-ui-panelLayout-framed
+{
 	border-color: #222 !important;
 }
 
@@ -259,7 +275,9 @@ code {
 	border: 1px solid;
 }
 
-.mw-content-ltr.mw-highlight-lines pre {
+.mw-content-ltr.mw-highlight-lines pre,
+.oo-ui-tabSelectWidget-frameless /* https://commons.wikimedia.org/w/index.php?diff=846250953&oldid=772568011&title=File:Rudna--culture-club.jpg */
+{
 	box-shadow: none;
 }
 
