@@ -445,3 +445,9 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 .mwe-math-mathml-display + .mwe-math-fallback-image-display {
     display: none !important;
 }
+
+
+::selection {
+    background-color: #292;
+    color: #000;
+}
