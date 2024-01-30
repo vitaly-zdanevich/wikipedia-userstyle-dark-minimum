@@ -395,9 +395,12 @@ span[style*='background:#FFE7FF;'] {
 }
 
 /* Wikisource: top-right download block */
-div[style*='#F3F3F3;'] {
+div[style*='#F3F3F3;'],
+#RecuadroPortada /* Wiktionary main page */
+{
 	background: 0 !important;
 }
+
 
 /* H1 https://be.wiktionary.org/wiki/спатканне */
 div[style='background-color:#d4e4f4;'] {
