@@ -59,7 +59,6 @@ tr,
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled,
 .mw-advancedSearch-namespace-selection,
 .wikibase-toolbar-wrapper,
-.mw-parser-output .responsive-license-cc,
 .wikibase-sitelinklistview .wikibase-sitelinkview .wikibase-sitelinkview-siteid-container,
 figure[typeof~="mw:File/Thumb"] > figcaption,
 .flaggedrevs-color-0 /* diff: phrase "Pending revisions" */,
@@ -202,7 +201,8 @@ table,
 .plainlinks,
 .editOptions, 
 .catlinks, 
-.noprint
+.noprint,
+.mw-parser-output .responsive-license-cc /* https://commons.wikimedia.org/w/index.php?title=File:Browser-extension--intelligent-speaker.png&diff=next&oldid=835447881 */
 {
 	background: #000 !important;
 	border: none !important;
