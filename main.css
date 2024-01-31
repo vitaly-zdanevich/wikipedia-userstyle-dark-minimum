@@ -15,7 +15,9 @@ input,
 
 hr,
 #mw-head,
-.mw-specialpage-summary /* Text line "Please visit Commons:Help desk if you need to ask questions about uploading files." */ {
+.mw-specialpage-summary, /* Text line "Please visit Commons:Help desk if you need to ask questions about uploading files." */
+.footer-content /* Mobile pages */
+{
     display: none !important;
 }
 
@@ -23,11 +25,16 @@ hr,
 .iw-resultset,
 .mw-parser-output .divbox-gray,
 .mwe-upwiz-license-metadata,
-figure[typeof~="mw:File/Thumb"] {
+figure[typeof~="mw:File/Thumb"],
+.page-actions-menu,
+footer
+{
 	background-color: #000 !important;
 	border: 0 !important;
 }
-.documentation-startbox {
+.documentation-startbox,
+.last-modified-bar
+{
     border: 0 !important;
 }
 
@@ -63,7 +70,10 @@ tr,
 figure[typeof~="mw:File/Thumb"] > figcaption,
 .flaggedrevs-color-0 /* diff: phrase "Pending revisions" */,
 #pagehistory li.selected,
-.wbmi-item.wbmi-item-read .wbmi-item-container /* Structured data block, on file info page */
+.wbmi-item.wbmi-item-read .wbmi-item-container, /* Structured data block, on file info page */
+.header-container.header-chrome, /* https://be.m.wikisource.org/wiki/Беларускі_правапіс_(1927)/Часьць_другая/32 */
+#mw-mf-page-center,
+.content .mw-index-pager-list-header
 {
     background: #000 !important;
 }
@@ -377,6 +387,11 @@ blockquote,
 
 .wikibase-statementview {
 	border-bottom: 1px solid darkslategray;
+}
+
+/* Here https://be.m.wikisource.org/w/index.php?title=Беларускі_правапіс_(1927)/Часьць_другая/32&action=history */
+.action-history #pagehistory li {
+	border-bottom: 1px solid #222;
 }
 
 .wikibase-referenceview {
