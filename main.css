@@ -15,6 +15,8 @@ input,
 
 hr,
 #coordinates,
+#mw-indicator-mw-helplink, /* Help link on diff */
+#mw-indicator-0-coord,
 #siteNotice, /* Banners with internal ad */
 #p-namespaces, /* View, Talk pages buttons */
 .vector-menu-content-list, /* Edit / Edit source buttons */
@@ -49,6 +51,12 @@ footer
 	background-color: #000 !important;
 	color: #888;
 	border: none !important;
+}
+
+#searchform {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 body,
