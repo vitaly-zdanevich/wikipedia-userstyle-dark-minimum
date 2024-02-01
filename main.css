@@ -14,7 +14,12 @@ input,
 }
 
 hr,
-#mw-head,
+#coordinates,
+#siteNotice, /* Banners with internal ad */
+#p-namespaces, /* View, Talk pages buttons */
+.vector-menu-content-list, /* Edit / Edit source buttons */
+#p-cactions, /* Dropdown menu at the left from input search */
+#p-views, /* Separator vertical line - at the left of search input */
 .mw-specialpage-summary, /* Text line "Please visit Commons:Help desk if you need to ask questions about uploading files." */
 .footer-content /* Mobile pages */
 {
