@@ -24,7 +24,9 @@ hr,
 #p-views, /* Separator vertical line - at the left of search input */
 .mw-specialpage-summary, /* Text line "Please visit Commons:Help desk if you need to ask questions about uploading files." */
 .footer-content, /* Mobile pages */
-#editpage-copywarn
+#editpage-copywarn,
+.oo-ui-icon-reload, /* Because full block is clickable, and with Reload text */
+.mw-preview-loading-elements span:nth-child(2) /* Redundant text */
 {
     display: none !important;
 }
@@ -170,6 +172,15 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
 	background: 0 !important;
 	border: 0 !important;
+}
+
+.ext-WikiEditor-ManualWidget {
+	background: #333;
+	border: 0;
+}
+
+#content {
+	padding: 0;
 }
 
 .quotebox,
