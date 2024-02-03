@@ -482,7 +482,9 @@ div[style*="#FFE7CC;"] {
 	background-color: #322312 !important;
 }
 
-span[style*='background:#FFE7FF;'] {
+span[style*='background:#FFE7FF;'],
+#p-namespaces
+{
 	background: 0 !important;
 }
 
