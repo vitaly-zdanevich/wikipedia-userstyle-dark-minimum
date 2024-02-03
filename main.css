@@ -18,8 +18,7 @@ hr,
 #mw-indicator-mw-helplink, /* Help link on diff */
 #mw-indicator-0-coord,
 #siteNotice, /* Banners with internal ad */
-#p-namespaces, /* View, Talk pages buttons */
-.vector-menu-content-list, /* Edit / Edit source buttons */
+#p-personal, /* View, Talk pages buttons */
 #p-cactions, /* Dropdown menu at the left from input search */
 #p-views, /* Separator vertical line - at the left of search input */
 .mw-specialpage-summary, /* Text line "Please visit Commons:Help desk if you need to ask questions about uploading files." */
@@ -61,6 +60,12 @@ footer,
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+.vector-menu-content-list {
+	position: absolute;
+	right: 0;
+	filter: invert();
 }
 
 /* "Спампацаць" button on Wikisource
@@ -172,7 +177,9 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .mw-revslider-revision-border-box {
 	border: 0;
 }
-.oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button,
+.hlist
+{
 	background: 0 !important;
 	border: 0 !important;
 }
