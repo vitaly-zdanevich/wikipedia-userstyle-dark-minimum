@@ -26,7 +26,8 @@ hr,
 #editpage-copywarn,
 .oo-ui-icon-reload, /* Because full block is clickable, and with Reload text */
 .mw-preview-loading-elements span:nth-child(2), /* Redundant text */
-#ct-popup /* https://be.wikisource.org/wiki/Новая_зямля_(1923)/I when mouse hover on page number, to drop vertical scroll */
+#ct-popup, /* https://be.wikisource.org/wiki/Новая_зямля_(1923)/I when mouse hover on page number, to drop vertical scroll */
+.mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
     display: none !important;
 }
