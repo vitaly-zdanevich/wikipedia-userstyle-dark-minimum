@@ -454,6 +454,11 @@ div[style='background-color:#d4e4f4;'] {
 	background: #855 !important;
 }
 
+/* https://be.wikisource.org/wiki/Новая_зямля_(1923) */
+.licenseContainer * {
+	background: #000 !important;
+}
+
 aside h3:after, /* related articles: gradient line */
 th,
 td
