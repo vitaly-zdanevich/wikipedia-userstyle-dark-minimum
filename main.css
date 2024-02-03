@@ -23,7 +23,8 @@ hr,
 #p-cactions, /* Dropdown menu at the left from input search */
 #p-views, /* Separator vertical line - at the left of search input */
 .mw-specialpage-summary, /* Text line "Please visit Commons:Help desk if you need to ask questions about uploading files." */
-.footer-content /* Mobile pages */
+.footer-content, /* Mobile pages */
+#editpage-copywarn
 {
     display: none !important;
 }
