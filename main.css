@@ -26,7 +26,8 @@ hr,
 .footer-content, /* Mobile pages */
 #editpage-copywarn,
 .oo-ui-icon-reload, /* Because full block is clickable, and with Reload text */
-.mw-preview-loading-elements span:nth-child(2) /* Redundant text */
+.mw-preview-loading-elements span:nth-child(2), /* Redundant text */
+#ct-popup /* https://be.wikisource.org/wiki/Новая_зямля_(1923)/I when mouse hover on page number, to drop vertical scroll */
 {
     display: none !important;
 }
@@ -66,7 +67,7 @@ footer
  * https://be.wikisource.org/wiki/Новая_зямля_(1923)
  */
 .mw-indicators {
-	top: 200px;
+	top: 251px;
 }
 
 body,
@@ -113,7 +114,9 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .flaggedrevs-pending {
 	background: #220;
 }
-#pagehistory li.selected {
+#pagehistory li.selected,
+.oo-ui-fieldLayout-header /* Label for commit message input */
+{
 	color: #bbb;
 }
 .flaggedrevs-color-1 {
@@ -180,7 +183,8 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 }
 
 #content {
-	padding: 0;
+	margin-top: 20px; /* Without this - title is over the search input */
+	padding: 0; /* To save space for the content */
 }
 
 .quotebox,
