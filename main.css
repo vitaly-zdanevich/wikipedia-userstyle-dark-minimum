@@ -100,6 +100,13 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
     background: #000 !important;
 }
 
+/* https://ru.wikisource.org/wiki/Новая_Земля_(1934,_перевод_Сергея_Городецкого)
+ * Download popup: close button X
+ */
+.oo-ui-icon-close {
+	filter: invert();
+}
+
 .flaggedrevs-pending {
 	background: #220;
 }
