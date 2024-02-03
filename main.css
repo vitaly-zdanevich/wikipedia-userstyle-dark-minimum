@@ -59,6 +59,13 @@ footer
 	right: 0;
 }
 
+/* "Спампацаць" button on Wikisource
+ * https://be.wikisource.org/wiki/Новая_зямля_(1923)
+ */
+.mw-indicators {
+	top: 200px;
+}
+
 body,
 [style*="#CFFF9F;"],
 .mw-echo-notifications-badge, 
