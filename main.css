@@ -158,7 +158,8 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 	background: #444 !important;
 }
 .wbmi-entityview-captionsPanel,
-.mw-parser-output .ts-doc-doc
+.mw-parser-output .ts-doc-doc,
+#editpage-specialchars
 {
 	border-color: #333 !important;
 }
