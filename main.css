@@ -189,8 +189,15 @@ div.vectorTabs ul li{
 
 /* Popup in editing mode */
 #mwdw,
-.oo-ui-popupWidget-popup { /* Wikidata: popup with "Potential issue" */
+.oo-ui-popupWidget-popup, /* Wikidata: popup with "Potential issue" */
+.citation
+{ 
     color: #000;
+}
+
+/* https://www.wikidata.org/wiki/Q171976 */
+.wb-deprecated .wikibase-statementview-mainsnak {
+	background: #733;
 }
 
 .infobox {
