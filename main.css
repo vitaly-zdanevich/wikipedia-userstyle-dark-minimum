@@ -38,13 +38,13 @@ hr,
 .mwe-upwiz-license-metadata,
 figure[typeof~="mw:File/Thumb"],
 .page-actions-menu,
-footer
+footer,
+.last-modified-bar
 {
 	background-color: #000 !important;
 	border: 0 !important;
 }
 .documentation-startbox,
-.last-modified-bar
 {
     border: 0 !important;
 }
@@ -294,6 +294,12 @@ th {
 	border-width: 0;
 }
 
+/* For mobile */
+#bodyContent {
+	width: 100%;
+	max-width: 100%;
+}
+
 .mw-body-content,
 aside a, 
 aside p, /* related articles: titles & second line with desc*/
@@ -349,6 +355,7 @@ code {
 .oo-ui-tabSelectWidget-frameless /* https://commons.wikimedia.org/w/index.php?diff=846250953&oldid=772568011&title=File:Rudna--culture-club.jpg */
 {
 	box-shadow: none;
+	border: 0;
 }
 
 .mw-code {
