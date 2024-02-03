@@ -165,7 +165,9 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
  .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
 	color: #555 !important;
  }
-.mw-revslider-revision {
+.mw-revslider-revision,
+span[style='background-color:#EDF0FF'] /* https://be.wiktionary.org/wiki/маркотна#Значэнне */
+{
 	background: #444 !important;
 }
 .wbmi-entityview-captionsPanel,
