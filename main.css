@@ -512,6 +512,7 @@ div[style='background-color:#d4e4f4;'] {
 
 .diffchange {
 	background: 0 !important;
+	border: 15px dashed green;
 }
 
 /* https://be.wikisource.org/wiki/Новая_зямля_(1923) */
