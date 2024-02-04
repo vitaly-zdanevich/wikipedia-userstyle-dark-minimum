@@ -2,10 +2,6 @@ a {
 	color: #37d;
 }
 
-.diffchange a {
-	color: #acf;
-}
-
 a:visited {
 	color: #b2b;
 }
@@ -515,7 +511,7 @@ div[style='background-color:#d4e4f4;'] {
 }
 
 .diffchange {
-	background: #855 !important;
+	background: 0 !important;
 }
 
 /* https://be.wikisource.org/wiki/Новая_зямля_(1923) */
