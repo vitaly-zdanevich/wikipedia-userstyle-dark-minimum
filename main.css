@@ -192,6 +192,11 @@ span[style='background-color:#EDF0FF'] /* https://be.wiktionary.org/wiki/мар�
 	border: 0;
 }
 
+.ext-discussiontools-init-targetcomment {
+	background: 0;
+	border: 5px dashed #4f4;
+}
+
 #content {
 	margin-top: 20px; /* Without this - title is over the search input */
 	padding: 0; /* To save space for the content */
