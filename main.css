@@ -65,7 +65,7 @@ footer,
 
 .vector-menu-content-list {
 	position: absolute;
-	top: 0;
+	top: -16px;
 	left: 0;
 	filter: invert();
 }
