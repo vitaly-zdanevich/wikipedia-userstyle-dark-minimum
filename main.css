@@ -2,6 +2,10 @@ a {
 	color: #37d;
 }
 
+.diffchange a {
+	color: #acf;
+}
+
 a:visited {
 	color: #b2b;
 }
