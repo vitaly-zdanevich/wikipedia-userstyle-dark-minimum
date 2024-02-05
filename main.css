@@ -241,7 +241,7 @@ div.vectorTabs ul li{
 /* Popup in editing mode */
 #mwdw,
 .oo-ui-popupWidget-popup, /* Wikidata: popup with "Potential issue" */
-.citation
+.oo-ui-widget .citation /* Citation in reference edit popup */
 { 
     color: #000;
 }
