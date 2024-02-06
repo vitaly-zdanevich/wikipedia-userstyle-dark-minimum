@@ -511,8 +511,11 @@ div[style*='#F3F3F3;'],
 
 
 /* H1 https://be.wiktionary.org/wiki/спатканне */
-div[style='background-color:#d4e4f4;'] {
+div[style='background-color:#d4e4f4;'],
+.ns-0 #mw-content-text h1 /* https://ru.wiktionary.org/wiki/лозняк */
+{
 	background: #123 !important;
+	border: 0;
 }
 
 .diffchange {
