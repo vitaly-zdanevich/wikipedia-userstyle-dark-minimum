@@ -106,7 +106,8 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 #mw-mf-page-center,
 .content .mw-index-pager-list-header,
 #doc,
-.ts-doc-header
+.ts-doc-header,
+.mw-parser-output .template-documentation /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
 {
     background: #000 !important;
 }
@@ -118,8 +119,11 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 	filter: invert();
 }
 
-.flaggedrevs-pending {
-	background: #220;
+.flaggedrevs-pending,
+.mw-parser-output .templatebox-usagesample, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
+.mw-parser-output .templatebox-languagedependant /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
+{
+	background: #220 !important;
 }
 #pagehistory li.selected,
 .oo-ui-fieldLayout-header /* Label for commit message input */
