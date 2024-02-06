@@ -108,7 +108,8 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .content .mw-index-pager-list-header,
 #doc,
 .ts-doc-header,
-.mw-parser-output .template-documentation /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
+.mw-parser-output .template-documentation, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
+.mw-collapsible [style='background-color:#CCCCFF;'] /* https://ru.wikipedia.org/wiki/%D0%94%D0%A2-75 */
 {
     background: #000 !important;
 }
