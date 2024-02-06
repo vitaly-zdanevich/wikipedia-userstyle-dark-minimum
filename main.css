@@ -272,6 +272,10 @@ div.vectorTabs ul li{
 	border: none;
 }
 
+.mw-parser-output #wdinfobox {
+	width: 40% !important; /* https://commons.wikimedia.org/wiki/Category:Frank_Schulenburg */
+}
+
 div.thumbinner,
 .editOptions /* page for editing css - below code */
 {
