@@ -39,7 +39,8 @@ hr,
 figure[typeof~="mw:File/Thumb"],
 .page-actions-menu,
 footer,
-.last-modified-bar
+.last-modified-bar,
+#filetoc /* https://commons.wikimedia.org/wiki/File:Сердце_смилович.jpg links above image "Download", "Use this file"... */
 {
 	background-color: #000 !important;
 	border: 0 !important;
