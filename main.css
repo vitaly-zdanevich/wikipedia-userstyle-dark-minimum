@@ -251,6 +251,11 @@ div.vectorTabs ul li{
 	background: #733;
 }
 
+/* Wikidata: preferred property name */
+.wb-preferred .wikibase-statementview-mainsnak {
+	background: #131;
+}
+
 .infobox {
 	background: #000;
 	color: lightgray;
