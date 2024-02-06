@@ -256,6 +256,12 @@ div.vectorTabs ul li{
 	background: #131;
 }
 
+.wikibase-sitelinkview-enwiki,
+.wikibase-sitelinkview-bewiki,
+.wikibase-sitelinkview-ruwiki {
+    font-size: 40px;
+}
+
 .infobox {
 	background: #000;
 	color: lightgray;
