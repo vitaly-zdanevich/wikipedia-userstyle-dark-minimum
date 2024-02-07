@@ -497,8 +497,11 @@ blockquote,
 .wikibase-referenceview {
 	background: #111;
 }
-.wikibase-labelview-input {
-	color: #ddd;
+.wikibase-labelview-input,
+.wikipediauserbox *:not(a) /* https://en.wikipedia.org/wiki/User:Vitaly_Zdanevich */
+/* "This user is in the free and open-source software task force" */
+{
+	color: #ddd !important;
 }
 
 .valueview-ineditmode .valueview-input {
