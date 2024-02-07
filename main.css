@@ -40,7 +40,8 @@ figure[typeof~="mw:File/Thumb"],
 .page-actions-menu,
 footer,
 .last-modified-bar,
-#filetoc /* https://commons.wikimedia.org/wiki/File:Сердце_смилович.jpg links above image "Download", "Use this file"... */
+#filetoc, /* https://commons.wikimedia.org/wiki/File:Сердце_смилович.jpg links above image "Download", "Use this file"... */
+li.gallerybox div.thumb /* https://commons.wikimedia.org/wiki/Category:Historical_images_of_Pryłuki */
 {
 	background-color: #000 !important;
 	border: 0 !important;
