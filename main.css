@@ -65,7 +65,7 @@ li.gallerybox div.thumb /* https://commons.wikimedia.org/wiki/Category:Historica
 
 #searchform {
 	position: absolute;
-	top: 0;
+	top: -9px;
 	right: 0;
 }
 
