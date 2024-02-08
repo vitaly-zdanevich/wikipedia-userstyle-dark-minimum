@@ -13,12 +13,16 @@ input,
 	border-color: #555 !important;
 }
 
+#p-personal {
+	top: 15px !important;;
+	left: 180px;
+}
+
 hr,
 #coordinates,
 #mw-indicator-mw-helplink, /* Help link on diff */
 #mw-indicator-0-coord,
 #siteNotice, /* Banners with internal ad */
-#p-personal, /* View, Talk pages buttons */
 #p-cactions, /* Dropdown menu at the left from input search */
 #p-views, /* Separator vertical line - at the left of search input */
 .mw-specialpage-summary, /* Text line "Please visit Commons:Help desk if you need to ask questions about uploading files." */
