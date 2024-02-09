@@ -401,6 +401,11 @@ code {
 	border: 0;
 }
 
+/* Commons: Structured data: map height increase */
+.wbmi-item .wbmi-item__map {
+	height: 400px;
+}
+
 .mw-code {
 	background: #000;
 	color: lightgray;
