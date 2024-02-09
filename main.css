@@ -33,7 +33,7 @@ hr,
 #ct-popup, /* https://be.wikisource.org/wiki/Новая_зямля_(1923)/I when mouse hover on page number, to drop vertical scroll */
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child, /* Help text in Wiktionary edit screen */
 #editpage-copywarn2, /* "Калі ласка, не капіюйце тэксты з крыніц, якія ахоўваюцца аўтарскімі правамі (з кніг, сайтаў і іншых), бо такія матэрыялы будуць выдаленыя */
-.mwe-upwiz-metadata-notice /* EXIF metadata in this file may contain location or other personal data automatically added by your camera */
+.mwe-upwiz-metadata-notice /* "EXIF metadata in this file may contain location or other personal data automatically added by your camera" */
 {
     display: none !important;
 }
