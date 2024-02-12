@@ -116,7 +116,10 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 #doc,
 .ts-doc-header,
 .mw-parser-output .template-documentation, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
-.mw-collapsible [style='background-color:#CCCCFF;'] /* https://ru.wikipedia.org/wiki/%D0%94%D0%A2-75 */
+.mw-collapsible, [style='background-color:#CCCCFF;'], /* https://ru.wikipedia.org/wiki/%D0%94%D0%A2-75 */
+.oo-ui-selectFileInputWidget.oo-ui-widget-enabled.oo-ui-selectFileInputWidget-dropTarget, /* https://commons.wikimedia.org/wiki/Special:UploadWizard */
+#upload-wizard .arrow,
+.mw-parser-output .wst-process-header .wst-header-notes /* https://en.wikisource.org/wiki/Help:Beginner%27s_guide_to_adding_texts */
 {
     background: #000 !important;
 }
@@ -145,6 +148,17 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 /* "Browse history interactively" botton on file info page */
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
 	color: #69f;
+}
+
+#upload-wizard {
+    max-width: 99%
+}
+.arrowSteps li.arrow::before,
+.arrowSteps li.arrow::after {
+    border-left-color: #222 !important;
+}
+#mwe-upwiz-step-thanks {
+    background: #000
 }
 
 /* background highlight color, like here https://commons.wikimedia.org/wiki/User:Nichalp/Upload_script */
