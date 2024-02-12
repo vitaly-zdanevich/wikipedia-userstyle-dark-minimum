@@ -122,7 +122,8 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 #upload-wizard .arrow,
 .mw-parser-output .wst-process-header .wst-header-notes, /* https://en.wikisource.org/wiki/Help:Beginner%27s_guide_to_adding_texts */
 #mwe-upwiz-deeds-thumbnails, /* Commons upload: 'Release rights' step */
-.mwe-upwiz-deed-subgroup /* Commons upload: 'Release rights' step: block about public domain */
+.mwe-upwiz-deed-subgroup, /* Commons upload: 'Release rights' step: block about public domain */
+.ui-suggester-list .ui-state-hover /* Wikidata: property name suggestion */
 {
     background: #000 !important;
 }
