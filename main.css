@@ -287,6 +287,11 @@ div.vectorTabs ul li{
 	background: #131;
 }
 
+/* Wikidata: bottom block with links to articles, Wikibooks, Wikiquote... */
+.wikibase-sitelinkgrouplistview {
+	width: 100%
+}
+
 .wikibase-sitelinkview-enwiki,
 .wikibase-sitelinkview-bewiki,
 .wikibase-sitelinkview-ruwiki {
