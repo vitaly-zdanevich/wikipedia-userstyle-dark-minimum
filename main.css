@@ -293,8 +293,9 @@ div.vectorTabs ul li{
 }
 
 .wikibase-sitelinkview-enwiki,
+.wikibase-sitelinkview-ruwiki
 .wikibase-sitelinkview-bewiki,
-.wikibase-sitelinkview-ruwiki {
+.wikibase-sitelinkview-be_x_oldwiki {
     font-size: 40px;
 }
 
