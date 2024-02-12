@@ -1,5 +1,5 @@
 a {
-	color: #37d;
+	color: #37d !important;
 }
 
 a:visited {
@@ -119,7 +119,9 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .mw-collapsible, [style='background-color:#CCCCFF;'], /* https://ru.wikipedia.org/wiki/%D0%94%D0%A2-75 */
 .oo-ui-selectFileInputWidget.oo-ui-widget-enabled.oo-ui-selectFileInputWidget-dropTarget, /* https://commons.wikimedia.org/wiki/Special:UploadWizard */
 #upload-wizard .arrow,
-.mw-parser-output .wst-process-header .wst-header-notes /* https://en.wikisource.org/wiki/Help:Beginner%27s_guide_to_adding_texts */
+.mw-parser-output .wst-process-header .wst-header-notes, /* https://en.wikisource.org/wiki/Help:Beginner%27s_guide_to_adding_texts */
+#mwe-upwiz-deeds-thumbnails, /* Commons upload: 'Release rights' step */
+.mwe-upwiz-deed-subgroup /* Commons upload: 'Release rights' step: block about public domain */
 {
     background: #000 !important;
 }
