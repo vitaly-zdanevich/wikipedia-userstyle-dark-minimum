@@ -152,7 +152,7 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .mwe-upwiz-label-title a, /* "Do you know what Creative Commons license this work was published under?" */
 .cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header .cdx-tabs__list__item:enabled /* Commons search: top bar buttons */
 {
-	color: #bbb;
+	color: #bbb !important;
 }
 .flaggedrevs-color-1 {
 	background-color: #334;
@@ -286,7 +286,8 @@ div.vectorTabs ul li{
 /* Popup in editing mode */
 #mwdw,
 .oo-ui-popupWidget-popup, /* Wikidata: popup with "Potential issue" */
-.oo-ui-widget .citation /* Citation in reference edit popup */
+.oo-ui-widget .citation, /* Citation in reference edit popup */
+ol.references li:target /* Click to source[1] - highlight the source */
 { 
     color: #000;
 }
