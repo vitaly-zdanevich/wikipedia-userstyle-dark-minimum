@@ -174,6 +174,13 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
     background: #000
 }
 
+/* Commons: Uploading: first step Upload: drag-n-drop reaction */
+.oo-ui-selectFileInputWidget.oo-ui-widget-enabled.oo-ui-selectFileInputWidget-canDrop.oo-ui-selectFileInputWidget-dropTarget {
+	font-size: 50px;
+	border: 9px dashed red;
+}
+
+
 /* background highlight color, like here https://commons.wikimedia.org/wiki/User:Nichalp/Upload_script */
 [style*="#e8ece3"],
 .wbmi-entity-header /* File info page: Structured data labels */
