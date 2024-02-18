@@ -293,7 +293,9 @@ ol.references li:target /* Click to source[1] - highlight the source */
 }
 
 /* https://www.wikidata.org/wiki/Q171976 */
-.wb-deprecated .wikibase-statementview-mainsnak {
+.wb-deprecated .wikibase-statementview-mainsnak,
+.ui-closeable.wb-error /* Wikidata: when Commons category not exists */
+{
 	background: #733;
 }
 
