@@ -86,6 +86,10 @@ li.gallerybox div.thumb /* https://commons.wikimedia.org/wiki/Category:Historica
 	top: 251px;
 }
 
+.mw-special-MediaSearch .mw-indicators {
+	top: 156px;
+}
+
 body,
 [style*="#CFFF9F;"],
 .mw-echo-notifications-badge, 
@@ -123,7 +127,8 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 .mw-parser-output .wst-process-header .wst-header-notes, /* https://en.wikisource.org/wiki/Help:Beginner%27s_guide_to_adding_texts */
 #mwe-upwiz-deeds-thumbnails, /* Commons upload: 'Release rights' step */
 .mwe-upwiz-deed-subgroup, /* Commons upload: 'Release rights' step: block about public domain */
-.ui-suggester-list .ui-state-hover /* Wikidata: property name suggestion */
+.ui-suggester-list .ui-state-hover, /* Wikidata: property name suggestion */
+.sdms-search-results__details--expanded /* Commons search: right preview https://commons.wikimedia.org/w/index.php?search=crispa.uw.edu.pl%2F&title=Special:MediaSearch&go=Go&type=image */
 {
     background: #000 !important;
 }
@@ -137,12 +142,15 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 
 .flaggedrevs-pending,
 .mw-parser-output .templatebox-usagesample, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
-.mw-parser-output .templatebox-languagedependant /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
+.mw-parser-output .templatebox-languagedependant, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
+.sdms-quick-view__cta /* Commons search: button "More Detals" */
 {
 	background: #220 !important;
 }
 #pagehistory li.selected,
-.oo-ui-fieldLayout-header /* Label for commit message input */
+.oo-ui-fieldLayout-header, /* Label for commit message input */
+.mwe-upwiz-label-title a, /* "Do you know what Creative Commons license this work was published under?" */
+.cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header .cdx-tabs__list__item:enabled /* Commons search: top bar buttons */
 {
 	color: #bbb;
 }
@@ -172,7 +180,8 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 	background-color: #111 !important;
 }
 
-.mw-highlight .hll {
+.mw-highlight .hll
+{
 	background: #330;
 }
 
@@ -183,7 +192,9 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 	background: #311;
 }
 
-.licensetpl_wrapper {
+.licensetpl_wrapper,
+.cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header /* Commons search: top bar with buttons */
+{
 	background: #222 !important;
 	border: 0 !important;
 }
@@ -199,7 +210,8 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 	color: #555 !important;
  }
 .mw-revslider-revision,
-span[style='background-color:#EDF0FF'] /* https://be.wiktionary.org/wiki/маркотна#Значэнне */
+span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/маркотна#Значэнне */
+.sdms-search-filters .sd-select__content:hover /* Commons search: buttons "License", "File Type"... */
 {
 	background: #222 !important;
 }
@@ -255,7 +267,9 @@ div.vectorTabs ul li{
 	background: #000;
 }
 
-.mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label {
+.mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label,
+.sdms-search-filters .sd-select__content /* Commons search: buttons "License", "File Type", "Image size", ... */
+{
 	background: #000;
 	color: lightgray;
 }
