@@ -416,9 +416,10 @@ aside p, /* related articles: titles & second line with desc*/
 }
 
 #mw-panel,
-#mw-page-base
+#mw-page-base,
+.mwe-popups-container footer /* Wikipedia: link hover popup: drop bottom part with gear ico */
 {
-	display:none;
+	display: none;
 }
  
 #content {
