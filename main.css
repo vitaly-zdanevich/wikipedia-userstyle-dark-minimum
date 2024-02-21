@@ -162,7 +162,8 @@ tr,
 .mainpage-box-content [style*='#000;'], /* Commons: main page: block with text like "Upload your local culture photos during Wiki Loves Folklore 2024" */
 #xtools_result,
 .wikibase-snakview-value.wikibase-snakview-variation-valuesnak, /* Wikidata text data */
-.hatnote 
+.hatnote,
+#clearprefcache /* Text about caching, for example here https://en.wikipedia.org/wiki/User:Vitaly_Zdanevich/languagesToBottom.js */
 {
 	color: #bbb !important;
 }
