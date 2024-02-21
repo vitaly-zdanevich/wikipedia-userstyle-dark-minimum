@@ -355,7 +355,12 @@ ol.references li:target /* Click to source[1] - highlight the source */
 .wikibase-sitelinkview-enwiki,
 .wikibase-sitelinkview-ruwiki,
 .wikibase-sitelinkview-bewiki,
-.wikibase-sitelinkview-be_x_oldwiki {
+.wikibase-sitelinkview-be_x_oldwiki,
+.interwiki-en,
+.interwiki-ru,
+.interwiki-be,
+.interwiki-be-x-old
+{
     font-size: 40px;
 }
 
@@ -615,6 +620,11 @@ span[style*='background:#FFE7FF;'],
 #p-namespaces
 {
 	background: 0 !important;
+}
+
+/* List of languages from my userscript https://meta.wikimedia.org/wiki/User:Vitaly_Zdanevich/global.js */
+#p-lang {
+	margin-top: 30px;
 }
 
 /* Wikisource: top-right download block */
