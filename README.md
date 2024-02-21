@@ -9,4 +9,4 @@
 
 ![screenshot](/screenshot-prefs.png)
 
-Missing links to Edit, History, Wikidata - use [shortcuts](https://en.wikipedia.org/wiki/Wikipedia:Keyboard_shortcuts). Also you can append to an url of an article `&action=edit`, `&action=info`.
+Missing links to Edit, History, Wikidata - use [shortcuts](https://en.wikipedia.org/wiki/Wikipedia:Keyboard_shortcuts). Also you can append to an url of an article `&action=edit`, `&action=info`. Hotkey for Wikidata: Alt-Shift-G. To Edit source: Alt-Shift-E. Edit visual: Alt-Shift-V.
