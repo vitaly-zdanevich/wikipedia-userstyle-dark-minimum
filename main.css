@@ -36,7 +36,9 @@ hr,
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child, /* Help text in Wiktionary edit screen */
 #editpage-copywarn2, /* "Калі ласка, не капіюйце тэксты з крыніц, якія ахоўваюцца аўтарскімі правамі (з кніг, сайтаў і іншых), бо такія матэрыялы будуць выдаленыя */
 .mwe-upwiz-metadata-notice, /* "EXIF metadata in this file may contain location or other personal data automatically added by your camera" */
-.mwe-upwiz-license-metadata /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
+.mwe-upwiz-license-metadata, /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
+.sister-projects-wmf, /* Commons main page: logo of Wikimedia */
+.sister-projects-family /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
 {
     display: none !important;
 }
@@ -58,6 +60,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	border: 0 !important;
 }
 .documentation-startbox,
+.mw-parser-output .sister-projects /* Commons: main page, near the text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family" */
 {
     border: 0 !important;
 }
@@ -155,7 +158,8 @@ tr,
 #pagehistory li.selected,
 .oo-ui-fieldLayout-header, /* Label for commit message input */
 .mwe-upwiz-label-title a, /* "Do you know what Creative Commons license this work was published under?" */
-.cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header .cdx-tabs__list__item:enabled /* Commons search: top bar buttons */
+.cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header .cdx-tabs__list__item:enabled, /* Commons search: top bar buttons */
+.mainpage-box-content [style*='#000;'] /* Commons: main page: block with text like "Upload your local culture photos during Wiki Loves Folklore 2024" */
 {
 	color: #bbb !important;
 }
@@ -192,9 +196,20 @@ tr,
 	background-color: #111 !important;
 }
 
-.mw-highlight .hll
+.mw-highlight .hll,
+.mainpage-box-orange .mainpage-box-title /* Commons main page: orange titles of blocks */
 {
-	background: #330;
+	background: #330 !important;
+}
+
+.mainpage-box-green .mainpage-box-title /* Commons main page: green titles of blocks */
+{
+	background: #131 !important;
+}
+
+.mainpage-box-blue .mainpage-box-title /* Commons main page: blue titles of blocks */
+{
+	background: #003 !important;
 }
 
 /* Page diff: tag. For example
@@ -265,7 +280,15 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 .wbmi-tabs-container .oo-ui-panelLayout-framed,
 .wbmi-entityview-statementsGroup,
 .wbmi-entityview-statementsGroup,
-.oo-ui-panelLayout-framed
+.mainpage-box-orange, /* Commons main page */
+.mainpage-box-green, /* Commons main page */
+.mainpage-box-blue, /* Commons main page */
+.oo-ui-panelLayout-framed,
+.plainlist,
+.mw-edittools-wiki-markup, /* page for editing code - below the code */
+.infobox,  /* infobox - is the right from the article */
+table,
+td
 {
 	border-color: #222 !important;
 }
@@ -353,15 +376,6 @@ caption,
 	color: gray !important;
 }
 
-.plainlist,
-.mw-edittools-wiki-markup, /* page for editing code - below the code */
-.infobox,  /* infobox - is the right from the article */
-table,
-td
-{
-	border-color: #222 !important;
-}
-
 table,
 .plainlinks,
 .editOptions, 
@@ -392,6 +406,11 @@ th {
 .mw-body {
 	background: #000;
 	border-width: 0;
+}
+
+/* Commons main page */
+.mainpage.mw-content-ltr {
+	max-width: 100% !important;
 }
 
 /* For mobile */
