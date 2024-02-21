@@ -160,7 +160,8 @@ tr,
 .mwe-upwiz-label-title a, /* "Do you know what Creative Commons license this work was published under?" */
 .cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header .cdx-tabs__list__item:enabled, /* Commons search: top bar buttons */
 .mainpage-box-content [style*='#000;'], /* Commons: main page: block with text like "Upload your local culture photos during Wiki Loves Folklore 2024" */
-#xtools_result
+#xtools_result,
+.wikibase-snakview-value.wikibase-snakview-variation-valuesnak /* Wikidata text data */
 {
 	color: #bbb !important;
 }
