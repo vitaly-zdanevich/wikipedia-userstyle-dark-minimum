@@ -79,7 +79,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	right: 0;
 }
 
-.vector-menu-content-list {
+#mw-head .vector-menu-content-list {
 	position: absolute;
 	top: -16px;
 	left: 0;
