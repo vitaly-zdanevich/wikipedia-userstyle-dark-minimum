@@ -1,4 +1,6 @@
-a {
+a,
+.vector-menu-dropdown .mw-list-item a
+{
 	color: #37d;
 }
 
@@ -72,6 +74,11 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	color: #888;
 	border: none !important;
 }
+#p-page {
+	position: absolute;
+	left: 150px;
+	top: -13px;
+}
 
 #searchform {
 	position: absolute;
@@ -83,6 +90,8 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	position: absolute;
 	top: -16px;
 	left: 0;
+}
+#left-navigation .vector-menu-content-list { /* Buttons "Page", "Discussion" */
 	filter: invert();
 }
 
@@ -135,7 +144,8 @@ tr,
 .mwe-upwiz-deed-subgroup, /* Commons upload: 'Release rights' step: block about public domain */
 .ui-suggester-list .ui-state-hover, /* Wikidata: property name suggestion */
 .sdms-search-results__details--expanded, /* Commons search: right preview https://commons.wikimedia.org/w/index.php?search=crispa.uw.edu.pl%2F&title=Special:MediaSearch&go=Go&type=image */
-.mw-mmv-above-fold /* Commons: file preview: bottom block with name and button More */
+.mw-mmv-above-fold, /* Commons: file preview: bottom block with name and button More */
+#p-page-label /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
 {
     background: #000 !important;
 }
@@ -594,7 +604,9 @@ blockquote,
 	border-bottom: 1px solid #222;
 }
 
-.wikibase-referenceview {
+.wikibase-referenceview,
+#p-page .vector-menu-content .vector-menu-content-list /* MoreMenu: "Page" button dropdown */
+{
 	background: #111;
 }
 .wikibase-labelview-input,
