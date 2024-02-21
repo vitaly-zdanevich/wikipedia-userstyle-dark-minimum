@@ -131,7 +131,8 @@ tr,
 #mwe-upwiz-deeds-thumbnails, /* Commons upload: 'Release rights' step */
 .mwe-upwiz-deed-subgroup, /* Commons upload: 'Release rights' step: block about public domain */
 .ui-suggester-list .ui-state-hover, /* Wikidata: property name suggestion */
-.sdms-search-results__details--expanded /* Commons search: right preview https://commons.wikimedia.org/w/index.php?search=crispa.uw.edu.pl%2F&title=Special:MediaSearch&go=Go&type=image */
+.sdms-search-results__details--expanded, /* Commons search: right preview https://commons.wikimedia.org/w/index.php?search=crispa.uw.edu.pl%2F&title=Special:MediaSearch&go=Go&type=image */
+.mw-mmv-above-fold /* Commons: file preview: bottom block with name and button More */
 {
     background: #000 !important;
 }
