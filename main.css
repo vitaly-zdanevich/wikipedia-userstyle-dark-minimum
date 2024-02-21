@@ -7,7 +7,9 @@ a:visited {
 }
 
 input,
-.unsolved {
+.unsolved,
+.summaryButtons button /* Wikipedia: editing source: buttons to set Summary text */
+{
 	background: #000 !important;
 	color: #ddd !important;
 	border-color: #555 !important;
@@ -48,7 +50,9 @@ figure[typeof~="mw:File/Thumb"],
 footer,
 .last-modified-bar,
 #filetoc, /* https://commons.wikimedia.org/wiki/File:Сердце_смилович.jpg links above image "Download", "Use this file"... */
-li.gallerybox div.thumb /* https://commons.wikimedia.org/wiki/Category:Historical_images_of_Pryłuki */
+li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historical_images_of_Pryłuki */
+#mw-content-text .flaggedrevs_editnotice, /* Wikipedia editing source code: texts "The stable version was checked on...", "Notice: Some of the pending changes affect the area of the page you are editing" */
+.mw-editTools div /* Wikipedia editing source code: fast strings at the bottom */
 {
 	background-color: #000 !important;
 	border: 0 !important;
@@ -111,7 +115,6 @@ tr,
 .mw-advancedSearch-namespace-selection,
 .wikibase-toolbar-wrapper,
 .wikibase-sitelinklistview .wikibase-sitelinkview .wikibase-sitelinkview-siteid-container,
-figure[typeof~="mw:File/Thumb"] > figcaption,
 .flaggedrevs-color-0 /* diff: phrase "Pending revisions" */,
 #pagehistory li.selected,
 .wbmi-item.wbmi-item-read .wbmi-item-container, /* Structured data block, on file info page */
@@ -324,8 +327,10 @@ ol.references li:target /* Click to source[1] - highlight the source */
     font-size: 40px;
 }
 
-.infobox {
-	background: #000;
+.infobox,
+figure[typeof~="mw:File/Thumb"] > figcaption
+{
+	background: #000 !important;
 	color: lightgray;
 	border: none;
 }
@@ -393,7 +398,10 @@ th {
 	max-width: 100%;
 }
 
-.mw-body-content,
+p,
+.noprint,
+ul li, /* For example this list https://ru.wikipedia.org/wiki/Рудня_(Червенский_район)#Население  */
+ol li, /* Wikipedia: sources list */
 aside a, 
 aside p, /* related articles: titles & second line with desc*/
 .infobox span
@@ -401,11 +409,9 @@ aside p, /* related articles: titles & second line with desc*/
 	color: lightgray !important;
 }
 
-/* Override previous
- * Here https://be.wikisource.org/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%BD%D0%BA%D0%B0:Novaja_ziamlia_1923.pdf/286
- * color of "Гэта старонка не была вычытаная"
- */
-.prp-page-qualityheader {
+/* Override p */
+.mwe-popups-container p /* Wikipedia: mouse hover on link popup */
+{
 	color: #000 !important;
 }
 
