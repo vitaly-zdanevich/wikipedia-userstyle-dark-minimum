@@ -161,7 +161,8 @@ tr,
 .cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header .cdx-tabs__list__item:enabled, /* Commons search: top bar buttons */
 .mainpage-box-content [style*='#000;'], /* Commons: main page: block with text like "Upload your local culture photos during Wiki Loves Folklore 2024" */
 #xtools_result,
-.wikibase-snakview-value.wikibase-snakview-variation-valuesnak /* Wikidata text data */
+.wikibase-snakview-value.wikibase-snakview-variation-valuesnak, /* Wikidata text data */
+.hatnote 
 {
 	color: #bbb !important;
 }
