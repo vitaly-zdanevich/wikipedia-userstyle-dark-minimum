@@ -205,7 +205,8 @@ tr,
 }
 
 .licensetpl_wrapper,
-.cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header /* Commons search: top bar with buttons */
+.cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header, /* Commons search: top bar with buttons */
+.mw-message-box-warning /* Block with text "Remember that this is only a preview. Your changes have not yet been saved!" */
 {
 	background: #222 !important;
 	border: 0 !important;
