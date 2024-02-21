@@ -166,8 +166,10 @@ tr,
 {
 	color: #bbb !important;
 }
-.flaggedrevs-color-1 {
-	background-color: #334;
+.flaggedrevs-color-1,
+kbd[style*='background:#EEEEEE']
+{
+	background-color: #334 !important;
 }
 /* "Browse history interactively" botton on file info page */
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
