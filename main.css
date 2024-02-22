@@ -1,7 +1,12 @@
 a,
-.vector-menu-dropdown .mw-list-item a
+.vector-menu-dropdown .mw-list-item a,
+#xtools_result a
 {
 	color: #37d;
+}
+
+.mw-parser-output .wmf-navbar-body-row1-links ul li a { /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
+	color: #37d !important;
 }
 
 a:visited {
@@ -187,7 +192,9 @@ h2,
 .mwe-upwiz-stepdiv, /* Commons uploading: main texts */
 .language-lexical-category-widget, /* Wikidata lexeme https://www.wikidata.org/wiki/Lexeme:L152015 */
 .wikibase-lexeme-form-id,
-.wikibase-lexeme-form-grammatical-features-header
+.wikibase-lexeme-form-grammatical-features-header,
+.mw-parser-output .collapse-mobile > .mw-collapsible-toggle, /* Unfoldable titles https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
+.funds-timeline-content /* Text like "Cycle 5" in boxes https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
 {
 	color: #bbb !important;
 }
@@ -354,7 +361,7 @@ div.vectorTabs ul li{
 	font-size: 1.5em;
 }
 
-h3, /* https://be.wikisource.org/wiki/Галоўная_старонка */
+table h3, /* https://be.wikisource.org/wiki/Галоўная_старонка */
 #mwdw, /* Popup in editing mode */
 .oo-ui-popupWidget-popup, /* Wikidata: popup with "Potential issue" */
 .oo-ui-widget .citation, /* Citation in reference edit popup */
@@ -423,7 +430,8 @@ table,
 .editOptions, 
 .catlinks, 
 .noprint,
-.mw-parser-output .responsive-license-cc /* https://commons.wikimedia.org/w/index.php?title=File:Browser-extension--intelligent-speaker.png&diff=next&oldid=835447881 */
+.mw-parser-output .responsive-license-cc, /* https://commons.wikimedia.org/w/index.php?title=File:Browser-extension--intelligent-speaker.png&diff=next&oldid=835447881 */
+.wmf-footer-container /* Footer with links https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
 {
 	background: #000 !important;
 	border: none !important;
@@ -474,7 +482,8 @@ aside p, /* related articles: titles & second line with desc*/
 }
 
 /* Override p */
-.mwe-popups-container p /* Wikipedia: mouse hover on link popup */
+.mwe-popups-container p, /* Wikipedia: mouse hover on link popup */
+.funds-timeline-date /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
 {
 	color: #000 !important;
 }
@@ -640,8 +649,10 @@ blockquote,
 	color: #ddd !important;
 }
 
-.valueview-ineditmode .valueview-input {
-	color: #000;
+.valueview-ineditmode .valueview-input,
+.funds-intro-items p /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
+{
+	color: #000 !important;
 }
 
 div[style*="#FCFCCC;"] {
