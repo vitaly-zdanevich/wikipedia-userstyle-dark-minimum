@@ -21,3 +21,22 @@ $(function() {
 	}
 })
 ```
+
+About Wikimedia Commons uploading: this CSS hides checkbox with text "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc", but this checkbox must be checked in order to continue - so you need to use this JavaScript:
+
+```javascript
+    if (mw.config.get('wgPageName') == 'Special:UploadWizard') {
+        // "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc."
+
+        const parent = document.getElementById('upload-wizard')
+        const config = { attributes: true, childList: false, subtree: true }
+        const observer = new MutationObserver(_ => {
+            const node = document.querySelector('.mwe-upwiz-deed-compliance input')
+            if (node && node.checked == false) {
+                node.click()
+                // I tried node.checked = true but it was not enough
+            }
+        })
+        observer.observe(parent, config)
+    }
+```
