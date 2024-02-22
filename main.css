@@ -57,7 +57,8 @@ footer,
 #filetoc, /* https://commons.wikimedia.org/wiki/File:Сердце_смилович.jpg links above image "Download", "Use this file"... */
 li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historical_images_of_Pryłuki */
 #mw-content-text .flaggedrevs_editnotice, /* Wikipedia editing source code: texts "The stable version was checked on...", "Notice: Some of the pending changes affect the area of the page you are editing" */
-.mw-editTools div /* Wikipedia editing source code: fast strings at the bottom */
+.mw-editTools div, /* Wikipedia editing source code: fast strings at the bottom */
+[style*='white'] /* Talk page, for example https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
 {
 	background-color: #000 !important;
 	border: 0 !important;
