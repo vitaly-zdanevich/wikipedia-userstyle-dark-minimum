@@ -22,7 +22,10 @@ $(function() {
 })
 ```
 
-About Wikimedia Commons uploading: this CSS hides checkbox with text "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc", but this checkbox must be checked in order to continue - so you need to use this JavaScript:
+About Wikimedia Commons uploading: this CSS hides checkbox with text
+> I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc
+> 
+but this checkbox must be checked in order to continue - so you need to use this JavaScript:
 
 ```javascript
     if (mw.config.get('wgPageName') == 'Special:UploadWizard') {
