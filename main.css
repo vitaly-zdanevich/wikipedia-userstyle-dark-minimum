@@ -70,6 +70,11 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
     border: 0 !important;
 }
 
+.mw-diff-table-prefix {
+	/* Diff page: drop horizontal scrollbar https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
+	margin-right: 5px;
+}
+
 #mw-fr-reviewnotice,
 .navbox,
 .navbox-group {
