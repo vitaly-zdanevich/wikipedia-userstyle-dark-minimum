@@ -372,9 +372,11 @@ ol.references li:target /* Click to source[1] - highlight the source */
 .wikibase-sitelinkview-bewiki,
 .wikibase-sitelinkview-be_x_oldwiki,
 .interwiki-en,
+.cx-new-interlanguage-link,
 .interwiki-ru,
 .interwiki-be,
-.interwiki-be-x-old
+.interwiki-be-x-old,
+.interwiki-be-tarask
 {
     font-size: 40px;
 }
