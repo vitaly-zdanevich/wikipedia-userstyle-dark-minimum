@@ -175,7 +175,8 @@ tr,
 .wikibase-snakview-value.wikibase-snakview-variation-valuesnak, /* Wikidata text data */
 .hatnote,
 #clearprefcache, /* Text about caching, for example here https://en.wikipedia.org/wiki/User:Vitaly_Zdanevich/languagesToBottom.js */
-.side-box-text /* Wikipedia: texts like "Wikimedia Commons has media related to Gentoo" */
+.side-box-text, /* Wikipedia: texts like "Wikimedia Commons has media related to Gentoo" */
+.mwe-upwiz-stepdiv /* Commons uploading: main texts */
 {
 	color: #bbb !important;
 }
