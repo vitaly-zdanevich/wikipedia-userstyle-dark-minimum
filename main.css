@@ -63,7 +63,8 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	border: 0 !important;
 }
 .documentation-startbox,
-.mw-parser-output .sister-projects /* Commons: main page, near the text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family" */
+.mw-parser-output .sister-projects, /* Commons: main page, near the text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family" */
+.mw-heading /* Talk page - line between comment title and comment body */
 {
     border: 0 !important;
 }
@@ -166,6 +167,7 @@ tr,
 {
 	background: #220 !important;
 }
+h2,
 #pagehistory li.selected,
 .oo-ui-fieldLayout-header, /* Label for commit message input */
 .mwe-upwiz-label-title a, /* "Do you know what Creative Commons license this work was published under?" */
@@ -449,6 +451,7 @@ th {
 }
 
 p,
+dl, /* Talk page - comment body */
 .noprint,
 ul li, /* For example this list https://ru.wikipedia.org/wiki/Рудня_(Червенский_район)#Население  */
 ol li, /* Wikipedia: sources list */
