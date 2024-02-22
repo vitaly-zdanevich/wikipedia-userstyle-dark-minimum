@@ -40,7 +40,8 @@ hr,
 .mwe-upwiz-metadata-notice, /* "EXIF metadata in this file may contain location or other personal data automatically added by your camera" */
 .mwe-upwiz-license-metadata, /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
 .sister-projects-wmf, /* Commons main page: logo of Wikimedia */
-.sister-projects-family /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
+.sister-projects-family, /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
+.mwe-upwiz-thirdparty-fields:last-child /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
 {
     display: none !important;
 }
