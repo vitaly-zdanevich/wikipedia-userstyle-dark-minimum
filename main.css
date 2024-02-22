@@ -349,13 +349,13 @@ div.vectorTabs ul li{
 	font-size: 1.5em;
 }
 
-/* Popup in editing mode */
-#mwdw,
+h3, /* https://be.wikisource.org/wiki/Галоўная_старонка */
+#mwdw, /* Popup in editing mode */
 .oo-ui-popupWidget-popup, /* Wikidata: popup with "Potential issue" */
 .oo-ui-widget .citation, /* Citation in reference edit popup */
 ol.references li:target /* Click to source[1] - highlight the source */
 { 
-    color: #000;
+    color: #000 !important;
 }
 
 /* https://www.wikidata.org/wiki/Q171976 */
