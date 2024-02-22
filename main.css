@@ -184,7 +184,10 @@ h2,
 .hatnote,
 #clearprefcache, /* Text about caching, for example here https://en.wikipedia.org/wiki/User:Vitaly_Zdanevich/languagesToBottom.js */
 .side-box-text, /* Wikipedia: texts like "Wikimedia Commons has media related to Gentoo" */
-.mwe-upwiz-stepdiv /* Commons uploading: main texts */
+.mwe-upwiz-stepdiv, /* Commons uploading: main texts */
+.language-lexical-category-widget, /* Wikidata lexeme https://www.wikidata.org/wiki/Lexeme:L152015 */
+.wikibase-lexeme-form-id,
+.wikibase-lexeme-form-grammatical-features-header
 {
 	color: #bbb !important;
 }
@@ -260,11 +263,13 @@ kbd[style*='background:#EEEEEE']
 /* Revisions interactive widget, for example here
  * https://commons.wikimedia.org/w/index.php?diff=846250953&oldid=772568011&title=File:Rudna--culture-club.jpg
  */
- .mw-revslider-container,
- .mw-revslider-slider-wrapper {
+.mw-revslider-container,
+.mw-revslider-slider-wrapper,
+.wb-lexeme .lemma-widget_lemma /* Wikidata lexeme */
+{
 	border: 0 !important;
- }
- .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
 	color: #555 !important;
  }
 .mw-revslider-revision,
@@ -607,7 +612,10 @@ blockquote,
 	border: 1px solid darkslategrey !important;
 }
 
-.wikibase-statementgroupview-property {
+.wikibase-statementgroupview-property,
+.wikibase-statementlistview
+{
+	border-left: 0 !important;
 	border-right: 0 !important;
 }
 
