@@ -194,7 +194,8 @@ h2,
 .wikibase-lexeme-form-id,
 .wikibase-lexeme-form-grammatical-features-header,
 .mw-parser-output .collapse-mobile > .mw-collapsible-toggle, /* Unfoldable titles https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
-.funds-timeline-content /* Text like "Cycle 5" in boxes https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
+.funds-timeline-content, /* Text like "Cycle 5" in boxes https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
+.wmf-department-info-title /* Titles here https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
 {
 	color: #bbb !important;
 }
