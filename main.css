@@ -200,6 +200,9 @@ kbd[style*='background:#EEEEEE']
 #mwe-upwiz-step-thanks {
     background: #000
 }
+#mwe-upwiz-steps li.head { /* Commons: uploading: highlight current step */
+	color: green !important;
+}
 
 /* Commons: Uploading: first step Upload: drag-n-drop reaction */
 .oo-ui-selectFileInputWidget.oo-ui-widget-enabled.oo-ui-selectFileInputWidget-canDrop.oo-ui-selectFileInputWidget-dropTarget {
