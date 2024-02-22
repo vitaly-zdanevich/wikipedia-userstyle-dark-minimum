@@ -141,7 +141,7 @@ tr,
 #upload-wizard .arrow,
 .mw-parser-output .wst-process-header .wst-header-notes, /* https://en.wikisource.org/wiki/Help:Beginner%27s_guide_to_adding_texts */
 #mwe-upwiz-deeds-thumbnails, /* Commons upload: 'Release rights' step */
-.mwe-upwiz-deed-subgroup, /* Commons upload: 'Release rights' step: block about public domain */
+.mwe-upwiz-deed-subgroup, /* Commons upload: 'Release rights' step: node about public domain info */
 .ui-suggester-list .ui-state-hover, /* Wikidata: property name suggestion */
 .sdms-search-results__details--expanded, /* Commons search: right preview https://commons.wikimedia.org/w/index.php?search=crispa.uw.edu.pl%2F&title=Special:MediaSearch&go=Go&type=image */
 .mw-mmv-above-fold, /* Commons: file preview: bottom block with name and button More */
@@ -161,7 +161,7 @@ tr,
 .mw-parser-output .templatebox-usagesample, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
 .mw-parser-output .templatebox-languagedependant, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
 .sdms-quick-view__cta, /* Commons search: button "More Detals" */
-.mwe-upwiz-file:hover .mwe-upwiz-visible-file /* Commons: step Upload: block hover of uploaded */
+.mwe-upwiz-file:hover .mwe-upwiz-visible-file /* Commons: step Upload: node hover of uploaded */
 {
 	background: #220 !important;
 }
