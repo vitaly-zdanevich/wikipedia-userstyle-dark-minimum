@@ -226,9 +226,10 @@ h2,
 .funds-timeline-content, /* Text like "Cycle 5" in boxes https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
 .wmf-department-info-title, /* Titles here https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
 cite, /* Wikipedia quote */
-.wbmi-entityview-caption, /* Commons: "File information": "Captions" block */
 .mw-filepage-resolutioninfo, /* Commons: "Size of this preview:", "Other resolutions:" */
-.oo-ui-labelElement-label, /* Commons: "Structured data" */
+#ooui-php-7 .oo-ui-labelElement-label, /* Commons: "File information" */
+#ooui-php-8 .oo-ui-labelElement-label, /* Commons: "Structured data" */
+.wbmi-entityview-caption, /* Commons: "File information": names of languages */
 #mw-hidden-catlinks, /* Commons: "Hidden categories" */
 #p-page-label, /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
 #p-user-label /* "User" button at the top: vertical line at the right */
@@ -525,7 +526,8 @@ aside p, /* related articles: titles & second line with desc*/
 
 /* Override p */
 .mwe-popups-container p, /* Wikipedia: mouse hover on link popup */
-.funds-timeline-date /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
+.funds-timeline-date, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
+#mw-mwoauth-authorize-form p
 {
 	color: #000 !important;
 }
