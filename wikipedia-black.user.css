@@ -6,6 +6,7 @@
 @author         Vitaly Zdanevich
 ==/UserStyle== */
 
+/* For use with Wikimedia backend, without brawse extension - remove these lines */
 @-moz-document domain("wikisource.org"),
 domain("wikimedia.org"),
 domain("wikipedia.org")
@@ -785,6 +786,8 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
     color: #000;
 }
 
+
+/* For use with Wikimedia backend, without brawse extension - remove these line */
 }
 
 /* vim: set filetype=css: */

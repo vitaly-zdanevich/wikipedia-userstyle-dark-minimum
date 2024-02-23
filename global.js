@@ -14,24 +14,25 @@ $(function() {
 		const config = { attributes: true, childList: false, subtree: true }
 		const observer = new MutationObserver(_ => {
 			const node = document.querySelector('.mwe-upwiz-deed-compliance input')
-			if (node) {
+			if (node && node.checked == false) {
 				node.click()
 				// I tried node.checked = true but it was not enough
 			}
 
 			// "This work provides knowledge, instructions, or information to others."
 			const knowledge = document.querySelector('[value="knowledge"]')
-			if (knowledge) {
+			if (knowledge && knowledge.checked == false) {
 				//knowledge.click() do nothing :(
 				knowledge.dispatchEvent(new MouseEvent('click'))
 			}
 
-			const cc = document.querySelector('[value="cc-by-sa-4.0"]')
-			if (cc) {
+			// "What license do you want to publish this work under? All media on Commons should be published under a free license."
+			const cc = document.querySelector('.mwe-upwiz-ownwork-license [value="cc-by-sa-4.0"]')
+			if (cc && cc.checked == false) {
 				cc.click()
 			}
 
-			observer.disconnect()
+			// observer.disconnect() is not needed here - because of many DOM updates
 		})
 		observer.observe(parent, config)
 	}
