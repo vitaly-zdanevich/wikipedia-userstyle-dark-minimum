@@ -694,6 +694,13 @@ div[style='background-color:#d4e4f4;'],
 	border: 0;
 }
 
+/* Here https://be.wiktionary.org/w/index.php?fulltext=1&search=верашчака&title=Адмысловае%3ASearch&ns0=1 labels "Сартаваць паводле рэлевантнасці" */
+.oo-ui-tagItemWidget.oo-ui-widget-disabled,
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) {
+	background: 0;
+	text-shadow: none;
+}
+
 .diffchange {
 	background: 0 !important;
 	border: 15px dashed green;
