@@ -111,6 +111,11 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	left: 150px;
 	top: -13px;
 }
+#p-user {
+	position: absolute;
+	left: 230px;
+	top: -13px;
+}
 
 #searchform {
 	position: absolute;
@@ -181,7 +186,8 @@ tr,
 .ui-suggester-list .ui-state-hover, /* Wikidata: property name suggestion */
 .sdms-search-results__details--expanded, /* Commons search: right preview https://commons.wikimedia.org/w/index.php?search=crispa.uw.edu.pl%2F&title=Special:MediaSearch&go=Go&type=image */
 .mw-mmv-above-fold, /* Commons: file preview: bottom block with name and button More */
-#p-page-label /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
+#p-page-label, /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
+#p-user-label /* "User" button at the top: vertical line at the right */
 {
     background: #000 !important;
 }
@@ -223,7 +229,9 @@ cite, /* Wikipedia quote */
 .wbmi-entityview-caption, /* Commons: "File information": "Captions" block */
 .mw-filepage-resolutioninfo, /* Commons: "Size of this preview:", "Other resolutions:" */
 .oo-ui-labelElement-label, /* Commons: "Structured data" */
-#mw-hidden-catlinks /* Commons: "Hidden categories" */
+#mw-hidden-catlinks, /* Commons: "Hidden categories" */
+#p-page-label, /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
+#p-user-label /* "User" button at the top: vertical line at the right */
 {
 	color: #bbb !important;
 }
@@ -672,7 +680,8 @@ blockquote,
 }
 
 .wikibase-referenceview,
-#p-page .vector-menu-content .vector-menu-content-list /* MoreMenu: "Page" button dropdown */
+#p-page .vector-menu-content .vector-menu-content-list, /* MoreMenu: "Page" button dropdown */
+#p-user .vector-menu-content .vector-menu-content-list /* MoreMenu: "User" button dropdown */
 {
 	background: #111;
 }
