@@ -107,6 +107,10 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	top: -16px;
 	left: 0;
 }
+.vector-menu-tabs-legacy li {
+	/* Without this - on pages like https://meta.wikimedia.org/wiki/User:Vitaly_Zdanevich/global.js "User Page", "Discussion" will use more space */
+	height: initial;
+}
 #left-navigation .vector-menu-content-list { /* Buttons "Page", "Discussion" */
 	filter: invert();
 }
