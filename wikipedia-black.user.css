@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.0
+@version        1.0.1
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -11,6 +11,7 @@
 domain("wikimedia.org"),
 domain("wikipedia.org")
 {
+/* End of lines for removing, also remove "}" at the end of this file */
 
 a,
 .vector-menu-dropdown .mw-list-item a,
@@ -787,7 +788,7 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 }
 
 
-/* For use with Wikimedia backend, without brawse extension - remove these line */
+/* For use with Wikimedia backend, without brawse extension - remove this line */
 }
 
 /* vim: set filetype=css: */
