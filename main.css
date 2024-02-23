@@ -5,7 +5,10 @@ a,
 	color: #37d;
 }
 
-.mw-parser-output .wmf-navbar-body-row1-links ul li a { /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
+.mw-parser-output .wmf-navbar-body-row1-links ul li a, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
+.term a, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
+.cr-learn-link a /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Eligibility_requirements */
+{
 	color: #37d !important;
 }
 
