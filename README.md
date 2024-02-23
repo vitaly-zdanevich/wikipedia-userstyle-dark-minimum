@@ -1,6 +1,8 @@
 # Dark and minimum userstyle for Wikipedia and Wikidata (or other Mediawiki site, Wikibase). You can set this style at the admin side of Wiki for your account - for  "vector legacy (2010)" theme, no browser extension needed.
 
-[Link for editing your Wikipedia CSS](https://meta.wikipedia.org/wiki/Special:MyPage/global.css).
+[[https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum/raw/master/wikipedia-black.user.css][https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat]]
+
+[Link for editing your Wikipedia CSS](https://meta.wikipedia.org/wiki/Special:MyPage/global.css) (remove @-moz-document block, with open and closing brackets.
 
 ![screenshot](/screenshot.png)
 
