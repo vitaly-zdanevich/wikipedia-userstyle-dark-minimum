@@ -212,7 +212,8 @@ cite, /* Wikipedia quote */
 	color: #bbb !important;
 }
 .flaggedrevs-color-1,
-kbd[style*='background:#EEEEEE']
+kbd[style*='background:#EEEEEE'],
+.sd-select-menu__list-item--selected /* Commons: search: dropdowns with "File Type", "Image size": selected element */
 {
 	background-color: #334 !important;
 }
@@ -289,7 +290,9 @@ kbd[style*='background:#EEEEEE']
 {
 	border: 0 !important;
 }
-.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover,
+.sd-select-menu__list-item--active /* Commons: search: dropdown of "File Type", "Image size" */
+{
 	color: #555 !important;
  }
 .mw-revslider-revision,
@@ -716,7 +719,9 @@ div[style='background-color:#d4e4f4;'],
 }
 
 /* https://be.wikisource.org/wiki/Новая_зямля_(1923) */
-.licenseContainer * {
+.licenseContainer *,
+.sd-select-menu /* Commons search: dropdowns with "File Type", "Image size"... */
+{
 	background: #000 !important;
 }
 
