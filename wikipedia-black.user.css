@@ -384,8 +384,10 @@ div.vectorTabs ul li{
 	color: lightgray;
 }
 
-#siteSub {
-	display:none;
+#siteSub,
+#mw-usercssyoucanpreview
+{
+	display: none;
 }
 
 /* main font */
