@@ -59,7 +59,6 @@ hr,
 .oo-ui-icon-reload, /* Because full block is clickable, and with Reload text */
 .mw-preview-loading-elements span:nth-child(2), /* Redundant text */
 #ct-popup, /* https://be.wikisource.org/wiki/Новая_зямля_(1923)/I when mouse hover on page number, to drop vertical scroll */
-.mw-newarticletext div[style*='background:#F8FFFF']:first-child, /* Help text in Wiktionary edit screen */
 #editpage-copywarn2, /* "Калі ласка, не капіюйце тэксты з крыніц, якія ахоўваюцца аўтарскімі правамі (з кніг, сайтаў і іншых), бо такія матэрыялы будуць выдаленыя */
 .mwe-upwiz-metadata-notice, /* "EXIF metadata in this file may contain location or other personal data automatically added by your camera" */
 .mwe-upwiz-license-metadata, /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
@@ -68,6 +67,7 @@ hr,
 .mwe-upwiz-thirdparty-fields:last-child, /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
 [src='//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
 [src='//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png']
+.mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 /* .mwe-upwiz-ownwork-purpose /1* "This work provides knowledge, instructions, or information to others." that checked by my JS *1/ */
 {
     display: none !important;
