@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.1
+@version        1.0.2
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -9,7 +9,8 @@
 /* For use with Wikimedia backend, without brawse extension - remove these lines */
 @-moz-document domain("wikisource.org"),
 domain("wikimedia.org"),
-domain("wikipedia.org")
+domain("wikipedia.org"),
+domain("wiktionary.org")
 {
 /* End of lines for removing, also remove "}" at the end of this file */
 
