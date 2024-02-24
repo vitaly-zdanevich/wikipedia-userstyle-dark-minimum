@@ -65,7 +65,9 @@ hr,
 .mwe-upwiz-license-metadata, /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
 .sister-projects-wmf, /* Commons main page: logo of Wikimedia */
 .sister-projects-family, /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
-.mwe-upwiz-thirdparty-fields:last-child /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
+.mwe-upwiz-thirdparty-fields:last-child, /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
+[src='//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
+[src='//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png']
 /* .mwe-upwiz-ownwork-purpose /1* "This work provides knowledge, instructions, or information to others." that checked by my JS *1/ */
 {
     display: none !important;
@@ -98,6 +100,13 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 .mw-diff-table-prefix {
 	/* Diff page: drop horizontal scrollbar https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
 	margin-right: 5px;
+}
+
+/* https://be.wikipedia.org/wiki/Галоўная_старонка */
+.MainPageBG [style="padding:0.2em 0.6em; font-size:95%; overflow: hidden;"],
+[style="padding:0.2em 0.6em;; font-size:95%;"]
+{
+	padding-top: 50px !important;
 }
 
 #mw-fr-reviewnotice,
@@ -233,7 +242,8 @@ cite, /* Wikipedia quote */
 .wbmi-entityview-caption, /* Commons: "File information": names of languages */
 #mw-hidden-catlinks, /* Commons: "Hidden categories" */
 #p-page-label, /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
-#p-user-label /* "User" button at the top: vertical line at the right */
+#p-user-label, /* "User" button at the top: vertical line at the right */
+.sub /* https://be.wikipedia.org/wiki/Галоўная_старонка -> Вікіпраекты */
 {
 	color: #bbb !important;
 }
@@ -475,7 +485,8 @@ table,
 .catlinks, 
 .noprint,
 .mw-parser-output .responsive-license-cc, /* https://commons.wikimedia.org/w/index.php?title=File:Browser-extension--intelligent-speaker.png&diff=next&oldid=835447881 */
-.wmf-footer-container /* Footer with links https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
+.wmf-footer-container, /* Footer with links https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
+[style='margin:0.5em; background:#eeeeee; border:1px solid #ddd; color:#222; padding:0.2em 0.4em; font-size:120%; font-weight:bold; font-family:inherit;']
 {
 	background: #000 !important;
 	border: none !important;
