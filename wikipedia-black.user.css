@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.3
+@version        1.0.4
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -486,7 +486,8 @@ table,
 .noprint,
 .mw-parser-output .responsive-license-cc, /* https://commons.wikimedia.org/w/index.php?title=File:Browser-extension--intelligent-speaker.png&diff=next&oldid=835447881 */
 .wmf-footer-container, /* Footer with links https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
-[style='margin:0.5em; background:#eeeeee; border:1px solid #ddd; color:#222; padding:0.2em 0.4em; font-size:120%; font-weight:bold; font-family:inherit;']
+[style='margin:0.5em; background:#eeeeee; border:1px solid #ddd; color:#222; padding:0.2em 0.4em; font-size:120%; font-weight:bold; font-family:inherit;'],
+[style='background: #f9f9f9; border: 1px solid #aaaaaa; float: right; clear: right; margin: .5em 0em .8em 1.4em; font-size: 90%; padding: .5em 1em; width: 230px; height: auto;'] /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
 {
 	background: #000 !important;
 	border: none !important;
@@ -496,8 +497,10 @@ table.wikitable > tr > th, table.wikitable > * > tr > th {
 	background-color: gray;
 }
 
-tr {
-	color: wheat;
+tr,
+[style='border-bottom: 1px solid #aaaaaa; padding-bottom: .4em; font-weight: bold; font-size: 120%;'] /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
+{
+	color: wheat !important;
 }
 tr:before {
 	background: none !important;
