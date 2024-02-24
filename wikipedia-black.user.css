@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.2
+@version        1.0.3
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -526,6 +526,7 @@ th {
 
 p,
 dl, /* Talk page - comment body */
+center /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы  */,
 .noprint,
 ul li, /* For example this list https://ru.wikipedia.org/wiki/Рудня_(Червенский_район)#Население  */
 ol li, /* Wikipedia: sources list */
