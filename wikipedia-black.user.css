@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.17
+@version        1.0.18
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -36,7 +36,9 @@ a:visited {
 
 input,
 .unsolved,
-.summaryButtons button /* Wikipedia: editing source: buttons to set Summary text */
+.summaryButtons button, /* Wikipedia: editing source: buttons to set Summary text */
+[style='border-bottom:1px solid #fad67d; background-color:#faecc8; padding:0.2em 0.5em 0.2em 0.5em; font-size:100%; font-weight: ;'], /* Titles at https://be.wikipedia.org/wiki/Вікіпедыя:Даведка  */
+[style='border-bottom:1px solid #abd5f5; background-color:#d0e5f5; padding:0.2em 0.5em 0.2em 0.5em; font-size:100%; font-weight: ;'] /* Titles at https://be.wikipedia.org/wiki/Вікіпедыя:Даведка  */
 {
 	background: #000 !important;
 	color: #ddd !important;
