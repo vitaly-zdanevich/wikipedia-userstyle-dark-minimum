@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.18
+@version        1.0.19
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -203,7 +203,8 @@ tr,
 .mw-mmv-above-fold, /* Commons: file preview: bottom block with name and button More */
 #p-page-label, /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
 #p-user-label, /* "User" button at the top: vertical line at the right */
-.mw-htmlform-submit-buttons /* Preferences: bottom panel with Save button */
+.mw-htmlform-submit-buttons, /* Preferences: bottom panel with Save button */
+.oo-ui-tagMultiselectWidget-handle /* History page: node with "Active filters" buttons */
 {
     background: #000 !important;
 }
@@ -444,7 +445,8 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 .mw-mmv-filename-prefix,
 .mw-mmv-filename,
 .mw-mmv-datetime,
-.popupPreview .popupDiff /* Gadget */
+.popupPreview .popupDiff, /* Gadget */
+.guider_description /* Popup with messages like "Welcome to improved Recent Changes filtering" */
 { 
     color: #000 !important;
 }
