@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.13
+@version        1.0.14
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -251,7 +251,8 @@ cite, /* Wikipedia quote */
 .sub, /* https://be.wikipedia.org/wiki/Галоўная_старонка -> Вікіпраекты */
 .oo-ui-fieldsetLayout-header, /* Preferences: subtitles of group of prefs */
 .oo-ui-fieldLayout-field, /* Preferences: labels */
-.popupData /* Gadget */
+.popupData, /* Gadget */
+.navpopup .reference-text .citation /* Gadget */
 {
 	color: #bbb !important;
 }
