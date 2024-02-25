@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.16
+@version        1.0.17
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -607,7 +607,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mw-body h2 {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 code {
