@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.19
+@version        1.0.20
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -89,7 +89,8 @@ footer,
 li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historical_images_of_Pryłuki */
 #mw-content-text .flaggedrevs_editnotice, /* Wikipedia editing source code: texts "The stable version was checked on...", "Notice: Some of the pending changes affect the area of the page you are editing" */
 .mw-editTools div, /* Wikipedia editing source code: fast strings at the bottom */
-[style*='white'] /* Talk page, for example https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
+[style*='white'], /* Talk page, for example https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
+[style='height: 16pt; background-color: #D2D2F0; border: 0px; border-bottom: 1px #AAAAC8; border-style: solid; font: 11pt; font-weight: bolder; position: relative;']
 {
 	background-color: #000 !important;
 	border: 0 !important;
@@ -256,7 +257,9 @@ cite, /* Wikipedia quote */
 .oo-ui-fieldLayout-field, /* Preferences: labels */
 .popupData, /* Gadget */
 .navpopup .reference-text .citation, /* Gadget */
-.popupPreview /* Gadget */
+.popupPreview, /* Gadget */
+[style='padding-left: 51px; color:#333;'], /* Titles at https://be.wikipedia.org/wiki/Вікіпедыя:Што_рабіць */
+[style='padding-left: 38px; color:#333;']
 {
 	color: #bbb !important;
 }
@@ -514,7 +517,8 @@ table,
 .mw-parser-output .responsive-license-cc, /* https://commons.wikimedia.org/w/index.php?title=File:Browser-extension--intelligent-speaker.png&diff=next&oldid=835447881 */
 .wmf-footer-container, /* Footer with links https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
 [style='margin:0.5em; background:#eeeeee; border:1px solid #ddd; color:#222; padding:0.2em 0.4em; font-size:120%; font-weight:bold; font-family:inherit;'],
-[style='background: #f9f9f9; border: 1px solid #aaaaaa; float: right; clear: right; margin: .5em 0em .8em 1.4em; font-size: 90%; padding: .5em 1em; width: 230px; height: auto;'] /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
+[style='background: #f9f9f9; border: 1px solid #aaaaaa; float: right; clear: right; margin: .5em 0em .8em 1.4em; font-size: 90%; padding: .5em 1em; width: 230px; height: auto;'], /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
+[style='background-color: #E3E3F5; border-top: #D2D2F0 1px solid; text-align: right; font-size: 90%; padding-right: 0.5em']
 {
 	background: #000 !important;
 	border: none !important;
@@ -704,15 +708,18 @@ pre, .mw-code {
 .sy3 { color: #444488; }
 .nc,.nf{color: #9090DB !important;}
 
-.ambox {
-	background: #000;
+.ambox
+{
+	background: #000 !important;
 	border: 1px solid lightgray;
 }
 
 blockquote,
 .wikibase-statementgroupview-property,
 .wikibase-statementlistview,
-.wikibase-sitelinkgroupview-heading-container {
+.wikibase-sitelinkgroupview-heading-container,
+[style='background-color: #FAFAFF; width: 100%; border: 1px #D2D2F0 solid; margin-bottom: 5px;margin-left:-1px'] /* https://be.wikipedia.org/wiki/Вікіпедыя:Што_рабіць  */
+{
 	background: #000 !important;
 	border: 1px solid darkslategrey !important;
 }
