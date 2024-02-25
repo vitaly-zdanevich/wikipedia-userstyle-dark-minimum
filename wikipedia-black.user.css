@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.9
+@version        1.0.10
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -93,7 +93,8 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 }
 .documentation-startbox,
 .mw-parser-output .sister-projects, /* Commons: main page, near the text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family" */
-.mw-heading /* Talk page - line between comment title and comment body */
+.mw-heading, /* Talk page - line between comment title and comment body */
+.oo-ui-panelLayout-framed /* Preferences */
 {
     border: 0 !important;
 }
@@ -198,7 +199,8 @@ tr,
 .sdms-search-results__details--expanded, /* Commons search: right preview https://commons.wikimedia.org/w/index.php?search=crispa.uw.edu.pl%2F&title=Special:MediaSearch&go=Go&type=image */
 .mw-mmv-above-fold, /* Commons: file preview: bottom block with name and button More */
 #p-page-label, /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
-#p-user-label /* "User" button at the top: vertical line at the right */
+#p-user-label, /* "User" button at the top: vertical line at the right */
+.mw-htmlform-submit-buttons /* Preferences: bottom panel with Save button */
 {
     background: #000 !important;
 }
@@ -214,7 +216,8 @@ tr,
 .mw-parser-output .templatebox-usagesample, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
 .mw-parser-output .templatebox-languagedependant, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
 .sdms-quick-view__cta, /* Commons search: button "More Details" */
-.mwe-upwiz-file:hover .mwe-upwiz-visible-file /* Commons: step Upload: node hover of uploaded */
+.mwe-upwiz-file:hover .mwe-upwiz-visible-file, /* Commons: step Upload: node hover of uploaded */
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected /* Preferences: panel with buttons like "User profile", "Appearance", "Editing"...: active button */
 {
 	background: #220 !important;
 }
@@ -244,7 +247,9 @@ cite, /* Wikipedia quote */
 #mw-hidden-catlinks, /* Commons: "Hidden categories" */
 #p-page-label, /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
 #p-user-label, /* "User" button at the top: vertical line at the right */
-.sub /* https://be.wikipedia.org/wiki/Галоўная_старонка -> Вікіпраекты */
+.sub, /* https://be.wikipedia.org/wiki/Галоўная_старонка -> Вікіпраекты */
+.oo-ui-fieldsetLayout-header, /* Preferences: subtitles of group of prefs */
+.oo-ui-fieldLayout-field /* Preferences: labels */
 {
 	color: #bbb !important;
 }
@@ -509,7 +514,8 @@ span[style='background-color:yellow'] /* [крыніца?] /* https://be.wikiped
 }
 
 tr,
-[style='border-bottom: 1px solid #aaaaaa; padding-bottom: .4em; font-weight: bold; font-size: 120%;'] /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
+[style='border-bottom: 1px solid #aaaaaa; padding-bottom: .4em; font-weight: bold; font-size: 120%;'], /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
+#ooui-php-382 span /* Preferences: panel with subpages like "User profile", "Appearance", "Editing"... */
 {
 	color: wheat !important;
 }
@@ -555,7 +561,8 @@ aside p, /* related articles: titles & second line with desc*/
 /* Override p */
 .mwe-popups-container p, /* Wikipedia: mouse hover on link popup */
 .funds-timeline-date, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
-#mw-mwoauth-authorize-form p
+#mw-mwoauth-authorize-form p,
+#prefcontrol[aria-disabled='true'] span /* Preferences: Save button when no changes and nothing to save */
 {
 	color: #000 !important;
 }
@@ -777,7 +784,8 @@ div[style='background-color:#d4e4f4;'],
 
 /* https://be.wikisource.org/wiki/Новая_зямля_(1923) */
 .licenseContainer *,
-.sd-select-menu /* Commons search: dropdowns with "File Type", "Image size"... */
+.sd-select-menu, /* Commons search: dropdowns with "File Type", "Image size"... */
+#ooui-php-382 /* Preferences: panel with subpages like "User profile", "Appearance", "Editing"... */
 {
 	background: #000 !important;
 }
