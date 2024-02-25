@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.22
+@version        1.0.23
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -206,7 +206,8 @@ tr,
 #p-page-label, /* "Page" button at the top (from gadget MoreMenu): vertical line at the right */
 #p-user-label, /* "User" button at the top: vertical line at the right */
 .mw-htmlform-submit-buttons, /* Preferences: bottom panel with Save button */
-.oo-ui-tagMultiselectWidget-handle /* History page: node with "Active filters" buttons */
+.oo-ui-tagMultiselectWidget-handle, /* History page: node with "Active filters" buttons */
+.mw-parser-output .category-redirect-content
 {
     background: #000 !important;
 }
@@ -260,7 +261,10 @@ cite, /* Wikipedia quote */
 .navpopup .reference-text .citation, /* Gadget */
 .popupPreview, /* Gadget */
 [style='padding-left: 51px; color:#333;'], /* Titles at https://be.wikipedia.org/wiki/Вікіпедыя:Што_рабіць */
-[style='padding-left: 38px; color:#333;']
+[style='padding-left: 38px; color:#333;'],
+.category-redirect-header, /* https://commons.wikimedia.org/wiki/Category:Rakaw */
+.category-redirect-header + div, /* https://commons.wikimedia.org/wiki/Category:Rakaw */
+#mw-category-empty /* https://commons.wikimedia.org/wiki/Category:Rakaw */
 {
 	color: #bbb !important;
 }
