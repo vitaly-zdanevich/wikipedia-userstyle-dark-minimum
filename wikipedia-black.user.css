@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.12
+@version        1.0.13
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -513,7 +513,8 @@ table.wikitable > tr > th, table.wikitable > * > tr > th {
 	background-color: gray;
 }
 
-span[style='background-color:yellow'] /* [крыніца?] /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
+span[style='background-color:yellow'], /* [крыніца?] /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
+span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools/Navigation_popups#Options */
 {
 	background: #742 !important;
 }
