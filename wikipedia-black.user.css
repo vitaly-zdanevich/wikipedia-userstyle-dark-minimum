@@ -71,9 +71,14 @@ hr,
 .sister-projects-family, /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
 .mwe-upwiz-thirdparty-fields:last-child, /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
 [src$='Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
-[src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png']
+[src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png'],
+.mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
     display: none !important;
+}
+
+.mwe-upwiz-ownwork-purpose { /* Commons: uploading: "This work provides knowledge, instructions, or information to others." that checked by my JS */
+	opacity: 0;
 }
 
 .documentation,
