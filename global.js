@@ -34,7 +34,8 @@ $(function() {
 			if (knowledge && knowledge.checked == false) {
 				knowledge.parentNode.nextSibling.click()
 			}
-			// I tried to hide this node by CSS - but in such case no click happen :(
+			// I tried to hide this node by display:none - but in such case no click happen :(
+			// opacity:0 works
 
 			// observer.disconnect() is not needed here - because of many DOM updates
 		})
