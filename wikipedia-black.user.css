@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.26
+@version        1.0.27
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -458,7 +458,10 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 .mw-mmv-filename,
 .mw-mmv-datetime,
 .popupPreview .popupDiff, /* Gadget */
-.guider_description /* Popup with messages like "Welcome to improved Recent Changes filtering" */
+.guider_description, /* Popup with messages like "Welcome to improved Recent Changes filtering" */
+.rt-tooltip cite, /* Popup tooltip on English Wikipedia */
+#ooui-11, /* Popup tooltip on English Wikipedia: preferences */
+.oo-ui-window-frame .oo-ui-labelElement
 { 
     color: #000 !important;
 }
