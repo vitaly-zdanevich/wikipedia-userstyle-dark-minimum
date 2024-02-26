@@ -1,3 +1,7 @@
+// https://en.wikipedia.org/wiki/Wikipedia:Tools/Navigation_popups#Options
+window.popupDelay = 0;
+window.popupModifier = 'ctrl' // Other options: 'alt', 'shift', 'meta'
+
 $(function() {
 	// Languages to the buttom of the page.
 	// This is useful when the left sidebar is not visiable,
@@ -19,18 +23,18 @@ $(function() {
 				// I tried node.checked = true but it was not enough
 			}
 
-			// "This work provides knowledge, instructions, or information to others."
-			const knowledge = document.querySelector('[value="knowledge"]')
-			if (knowledge && knowledge.checked == false) {
-				//knowledge.click() do nothing :(
-				knowledge.dispatchEvent(new MouseEvent('click'))
-			}
-
 			// "What license do you want to publish this work under? All media on Commons should be published under a free license."
 			const cc = document.querySelector('.mwe-upwiz-ownwork-license [value="cc-by-sa-4.0"]')
 			if (cc && cc.checked == false) {
-				cc.click()
+				cc.parentElement.nextSibling.click()
 			}
+
+			// "This work provides knowledge, instructions, or information to others."
+			const knowledge = document.querySelector('[value="knowledge"]')
+			if (knowledge && knowledge.checked == false) {
+				knowledge.parentNode.nextSibling.click()
+			}
+			// I tried to hide this node by CSS - but in such case no click happen :(
 
 			// observer.disconnect() is not needed here - because of many DOM updates
 		})
