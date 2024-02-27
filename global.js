@@ -12,11 +12,11 @@ $(function() {
 	}
 
 	if (mw.config.get('wgPageName') == 'Special:UploadWizard') {
-		// "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc."
 
 		const parent = document.getElementById('upload-wizard')
 		const config = { attributes: true, childList: false, subtree: true }
 		const observer = new MutationObserver(_ => {
+			// "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc."
 			const node = document.querySelector('.mwe-upwiz-deed-compliance input')
 			if (node && node.checked == false) {
 				node.click()
