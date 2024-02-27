@@ -37,7 +37,8 @@ $(function() {
 			// I tried to hide this node by display:none - but in such case no click happen :(
 			// opacity:0 works
 
-			// observer.disconnect() is not needed here - because of many DOM updates
+			// observer.disconnect() is not needed here - because of many DOM updates -
+			// on the first screen it will not find a checkbox and unsubscribe (I tried).
 		})
 		observer.observe(parent, config)
 	}
