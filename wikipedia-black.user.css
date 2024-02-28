@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.28
+@version        1.0.29
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -69,6 +69,7 @@ hr,
 .mwe-upwiz-license-metadata, /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
 .sister-projects-wmf, /* Commons main page: logo of Wikimedia */
 .sister-projects-family, /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
+#mwe-upwiz-detailsform0 div:nth-child(2), /* Commons: Caption field */
 .mwe-upwiz-thirdparty-fields:last-child, /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
 [src$='Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
 [src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png'],
