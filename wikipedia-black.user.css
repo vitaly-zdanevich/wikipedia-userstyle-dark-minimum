@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.31
+@version        1.0.32
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -467,6 +467,11 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 .oo-ui-window-frame .oo-ui-fieldLayout-header .oo-ui-labelElement-label /* "Save your changes" popup with Summary - color of "This is a minor edit" and "Watch this page" */
 { 
     color: #000 !important;
+}
+
+/* Commons uploading: Category chip on step "Describe": increase distance between a category name and "X" of removing */
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) {
+	padding-right: 30px;
 }
 
 /* https://www.wikidata.org/wiki/Q171976 */
