@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.30
+@version        1.0.31
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -451,7 +451,8 @@ div.vectorTabs ul li{
 
 table h3, /* https://be.wikisource.org/wiki/Галоўная_старонка */
 #mwdw, /* Popup in editing mode */
-.oo-ui-popupWidget-popup, /* Wikidata: popup with "Potential issue" */
+.oo-ui-popupWidget-popup p, /* Wikidata: popup with "Potential issue" */
+.oo-ui-popupWidget-popup h3, /* Commons: mouse hover on "application/pdf": "Privacy considerations" and text after https://commons.wikimedia.org/wiki/File:Minskij_Listok_1886_03.pdf */
 .oo-ui-widget .citation, /* Citation in reference edit popup */
 ol.references li:target, /* Click to source[1] - highlight the source */
 .mw-mmv-source, /* Media Viewer: bottom panel with description */
