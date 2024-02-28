@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.32
+@version        1.0.33
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -269,7 +269,8 @@ cite, /* Wikipedia quote */
 .category-redirect-header, /* https://commons.wikimedia.org/wiki/Category:Rakaw */
 .category-redirect-header + div, /* https://commons.wikimedia.org/wiki/Category:Rakaw */
 #mw-category-empty, /* https://commons.wikimedia.org/wiki/Category:Rakaw */
-#wdinfobox + .multilingual /* Top text at https://commons.wikimedia.org/wiki/Category:Rakaŭ */
+#wdinfobox + .multilingual, /* Top text at https://commons.wikimedia.org/wiki/Category:Rakaŭ */
+[style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 {
 	color: #bbb !important;
 }
