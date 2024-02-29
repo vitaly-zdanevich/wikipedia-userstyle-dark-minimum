@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.38
+@version        1.0.39
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -71,6 +71,7 @@ hr,
 .sister-projects-family, /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
 #mwe-upwiz-detailsform0 > div:nth-child(2), /* Commons: Caption field */
 .mwe-upwiz-thirdparty-fields:last-child, /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
+[style='background:#f0f8ff; border:1px dotted #8bcbff; padding:10px; margin-top:10px'], /* Каб пазбегнуць паломак старонак, дзе ўжыты гэты шаблон, пажадана эксперыментаваць у сваёй асабістай прасторы. https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
 [src$='Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
 [src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png'],
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
@@ -159,9 +160,11 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 
 /* "Спампацаць" button on Wikisource
  * https://be.wikisource.org/wiki/Новая_зямля_(1923)
+ *
+ * https://en.wikisource.org/wiki/Alice's_Adventures_in_Wonderland_(1907)/Chapter_8
  */
 .mw-indicators {
-	top: 251px;
+	top: 223px;
 }
 
 .mw-special-MediaSearch .mw-indicators {
@@ -322,9 +325,17 @@ kbd[style*='background:#EEEEEE'],
 	background: #330 !important;
 }
 
-.mainpage-box-green .mainpage-box-title /* Commons main page: green titles of blocks */
+.mainpage-box-green .mainpage-box-title, /* Commons main page: green titles of blocks */
+.wb-preferred .wikibase-statementview-mainsnak /* Wikidata: preferred property name */
+
 {
-	background: #131 !important;
+	background: #131 !important;  /* Darkgreen */
+}
+
+.mw-parser-output .wst-header .wst-header-mainblock /* https://en.wikisource.org/wiki/Alice%27s_Adventures_in_Wonderland_(1907)/Chapter_8 */
+{
+	background: #131 !important;  /* Darkgreen */
+	border: none;
 }
 
 .mainpage-box-blue .mainpage-box-title /* Commons main page: blue titles of blocks */
@@ -434,9 +445,10 @@ div.vectorTabs ul li{
 }
 
 .mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label,
-.sdms-search-filters .sd-select__content /* Commons search: buttons "License", "File Type", "Image size", ... */
+.sdms-search-filters .sd-select__content, /* Commons search: buttons "License", "File Type", "Image size", ... */
+[style='background:#F0F8FF;border:1px dotted #8BCBFF;padding:10px;margin-top:10px;clear:both;'] /* https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
 {
-	background: #000;
+	background: #000 !important;
 	color: lightgray;
 }
 
@@ -483,11 +495,6 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 .ui-closeable.wb-error /* Wikidata: when Commons category not exists */
 {
 	background: #733;
-}
-
-/* Wikidata: preferred property name */
-.wb-preferred .wikibase-statementview-mainsnak {
-	background: #131;
 }
 
 /* Wikidata: bottom block with links to articles, Wikibooks, Wikiquote... */
@@ -542,7 +549,8 @@ table,
 .wmf-footer-container, /* Footer with links https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
 [style='margin:0.5em; background:#eeeeee; border:1px solid #ddd; color:#222; padding:0.2em 0.4em; font-size:120%; font-weight:bold; font-family:inherit;'],
 [style='background: #f9f9f9; border: 1px solid #aaaaaa; float: right; clear: right; margin: .5em 0em .8em 1.4em; font-size: 90%; padding: .5em 1em; width: 230px; height: auto;'], /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
-[style='background-color: #E3E3F5; border-top: #D2D2F0 1px solid; text-align: right; font-size: 90%; padding-right: 0.5em']
+[style='background-color: #E3E3F5; border-top: #D2D2F0 1px solid; text-align: right; font-size: 90%; padding-right: 0.5em'],
+.mw-parser-output .wst-header .wst-header-notes /* https://en.wikisource.org/wiki/Alice%27s_Adventures_in_Wonderland_(1907)/Chapter_8 */
 {
 	background: #000 !important;
 	border: none !important;
