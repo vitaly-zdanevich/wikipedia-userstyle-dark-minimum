@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.34
+@version        1.0.35
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -828,13 +828,12 @@ div[style='background-color:#d4e4f4;'],
 {
 	background: #411 !important;
 }
-.diffchange {
-	background: #242 !important;
-}
+.diffchange,
+.mw-diff-inline-added ins,
 .mw-diff-inline-changed ins
 {
 	/* https://be.wikipedia.org/w/index.php?title=Новая_зямля_(паэма)&diff=prev&oldid=4680402 */
-	background: #242;
+	background: #242 !important;
 }
 .mw-diff-table-prefix .mw-diff-inline-legend .mw-diff-inline-legend-ins {
 	color: #bbb;
