@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.44
+@version        1.0.45
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -72,6 +72,9 @@ hr,
 #mwe-upwiz-detailsform0 > div:nth-child(2), /* Commons: Caption field */
 .mwe-upwiz-thirdparty-fields:last-child, /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
 #histlegend span[style="white-space:nowrap;"]:first-child, /* History page: "араўнаньне: адзначце пунктамі дзьве вэрсіі для параўнаньня і націсьніце «ўвод» альбо кнопку ўнізе." https://be-tarask.wikipedia.org/w/index.php?title=Шаблён:Беларускія_пэрыядычныя_выданьні&action=history */
+#histlegend li:first-child, /* History page: drop help texts */
+#histlegend li:nth-child(2),
+#histlegend li:nth-child(3),
 [style='background:#f0f8ff; border:1px dotted #8bcbff; padding:10px; margin-top:10px'], /* Каб пазбегнуць паломак старонак, дзе ўжыты гэты шаблон, пажадана эксперыментаваць у сваёй асабістай прасторы. https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
 [src$='Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
 [src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png'],
@@ -277,7 +280,6 @@ cite, /* Wikipedia quote */
 .mw-rcfilters-ui-cell.mw-rcfilters-ui-watchlistTopSectionWidget-watchlistDetails, /* Watchlist description at https://be.wikipedia.org/wiki/Адмысловае:Watchlist?hidepreviousrevisions=1&hidecategorization=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 #mw-fr-revisiontag-edit, /* History page: text like "The stable version was checked on 21 February 2024. There is 1 pending change awaiting review." https://be.wikipedia.org/w/index.php?title=Новая_зямля_(паэма)&action=history  */
 .mw-pager-navigation-bar, /* History page: nav like (newest | oldest) View (newer 50 | older 50) (20 | 50 | 100 | 250 | 500) https://be.wikipedia.org/w/index.php?title=Новая_зямля_(паэма)&action=history */
-#histlegend, /* "Вонкавыя прылады: статыстыка правак · пошук праўкі · статыстыка наведваньняў. Тлумачэньне: (цяп) = адрозьненьні ад цяперашняй вэрсіі, (папярэдняя) = адрозьненьні ад папярэдняй вэрсіі, д = дробная праўка." History page: description of stat links https://be-tarask.wikipedia.org/w/index.php?title=Шаблён:Беларускія_пэрыядычныя_выданьні&action=history */
 .wikibase-entitytermsview-heading-description, /* https://www.wikidata.org/wiki/Property:P9001 */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
@@ -525,7 +527,8 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 }
 
 .infobox,
-figure[typeof~="mw:File/Thumb"] > figcaption
+figure[typeof~="mw:File/Thumb"] > figcaption,
+#histlegend /* "Вонкавыя прылады: статыстыка правак · пошук праўкі · статыстыка наведваньняў. Тлумачэньне: (цяп) = адрозьненьні ад цяперашняй вэрсіі, (папярэдняя) = адрозьненьні ад папярэдняй вэрсіі, д = дробная праўка." History page: description of stat links https://be-tarask.wikipedia.org/w/index.php?title=Шаблён:Беларускія_пэрыядычныя_выданьні&action=history */
 {
 	background: #000 !important;
 	color: lightgray;
