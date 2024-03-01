@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.41
+@version        1.0.42
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -372,7 +372,8 @@ kbd[style*='background:#EEEEEE'],
 	border: 0 !important;
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover,
-.sd-select-menu__list-item--active /* Commons: search: dropdown of "File Type", "Image size" */
+.sd-select-menu__list-item--active, /* Commons: search: dropdown of "File Type", "Image size" */
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-widget-enabled:hover
 {
 	color: #555 !important;
  }
@@ -449,7 +450,8 @@ div.vectorTabs ul li{
 
 .mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label,
 .sdms-search-filters .sd-select__content, /* Commons search: buttons "License", "File Type", "Image size", ... */
-[style='background:#F0F8FF;border:1px dotted #8BCBFF;padding:10px;margin-top:10px;clear:both;'] /* https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
+[style='background:#F0F8FF;border:1px dotted #8BCBFF;padding:10px;margin-top:10px;clear:both;'], /* https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
+.oo-ui-tabOptionWidget
 {
 	background: #000 !important;
 	color: lightgray;
@@ -571,7 +573,7 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 
 tr,
 [style='border-bottom: 1px solid #aaaaaa; padding-bottom: .4em; font-weight: bold; font-size: 120%;'], /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
-#ooui-php-382 span, /* Preferences: panel with subpages like "User profile", "Appearance", "Editing"... */
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected, /* Preferences: panel with subpages like "User profile", "Appearance", "Editing"... */
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
 	color: wheat !important;
@@ -860,7 +862,7 @@ div[style='background-color:#d4e4f4;'],
 /* https://be.wikisource.org/wiki/Новая_зямля_(1923) */
 .licenseContainer *,
 .sd-select-menu, /* Commons search: dropdowns with "File Type", "Image size"... */
-#ooui-php-382 /* Preferences: panel with subpages like "User profile", "Appearance", "Editing"... */
+.oo-ui-tabSelectWidget-framed /* Preferences: panel with subpages like "User profile", "Appearance", "Editing"... */
 {
 	background: #000 !important;
 }
