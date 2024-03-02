@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.45
+@version        1.0.46
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -923,6 +923,13 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 
 
 /* For use with Wikimedia backend, without brawse extension - remove this line */
+}
+
+@-moz-document url("https://www.wikidata.org/wiki/Special:NewItem") {
+	/* "By clicking "Create", you agree to the terms of use, and you irrevocably agree to release your contribution under the Creative Commons CC0 License. */
+	#mw-content-text > div:nth-child(2) {
+		display: none;
+	}
 }
 
 /* vim: set filetype=css: */
