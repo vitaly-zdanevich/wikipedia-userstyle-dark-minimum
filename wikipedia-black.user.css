@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.48
+@version        1.0.49
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -166,9 +166,11 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
  * https://be.wikisource.org/wiki/Новая_зямля_(1923)
  *
  * https://en.wikisource.org/wiki/Alice's_Adventures_in_Wonderland_(1907)/Chapter_8
+ *
+ * https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_54/December_1898/General_Notices
  */
 .mw-indicators {
-	top: 223px;
+	top: 100px;
 }
 
 .mw-special-MediaSearch .mw-indicators {
