@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.50
+@version        1.0.51
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -632,6 +632,7 @@ aside p, /* related articles: titles & second line with desc*/
 .funds-timeline-date, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
 #mw-mwoauth-authorize-form p,
 .ui-dialog .oo-ui-fieldLayout-header, /* Popup about link https://be.wiktionary.org/w/index.php?title=%D0%BB%D1%8D%D0%BC%D0%B1%D1%83%D1%81&action=submit */
+.ui-dialog .oo-ui-labelElement-label,
 #prefcontrol[aria-disabled='true'] span /* Preferences: Save button when no changes and nothing to save */
 {
 	color: #000 !important;
