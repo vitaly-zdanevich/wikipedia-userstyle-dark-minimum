@@ -34,6 +34,13 @@ $(function() {
 			if (knowledge && knowledge.checked == false) {
 				knowledge.parentNode.nextSibling.click()
 			}
+
+			// "I do not know who the author is"
+			const anon = document.querySelector('[name="authorUnknown"]')
+			if (anon && anon.checked == false) {
+				anon.click()
+			}
+
 			// I tried to hide this node by display:none - but in such case no click happen :(
 			// opacity:0 works
 
