@@ -108,6 +108,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 .documentation-startbox,
 .mw-parser-output .sister-projects, /* Commons: main page, near the text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family" */
 .mw-heading, /* Talk page - line between comment title and comment body */
+.sdms-page-result, /* Commons SERP */
 .oo-ui-panelLayout-framed /* Preferences */
 {
     border: 0 !important;
@@ -287,6 +288,8 @@ cite, /* Wikipedia quote */
 .catlinks, /* https://commons.wikimedia.org/wiki/Category:Historical_images_of_Belarus */
 .catlinks + .description,
 .sdms-did-you-mean, /* Commons search "Did you mean: ..." */
+.sdms-page-result div:nth-child(2), /* Commons search: found */
+.sdms-search-filters__namespace, /* Commons search: button "Namespace: All" */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
 [style='width:45px; height:45px; background:#dddddd; text-align:center; font-size:14pt; font-weight:bold; color:#000000;'], /* Right https://be.wikipedia.org/wiki/Удзельнік:Lš-k. */
