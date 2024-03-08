@@ -109,6 +109,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 .mw-parser-output .sister-projects, /* Commons: main page, near the text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family" */
 .mw-heading, /* Talk page - line between comment title and comment body */
 .sdms-page-result, /* Commons SERP */
+.filled + .filled, /* Commons: uploading: separation between files */
 .oo-ui-panelLayout-framed /* Preferences */
 {
     border: 0 !important;
@@ -568,6 +569,7 @@ table,
 .noprint,
 .mw-parser-output .responsive-license-cc, /* https://commons.wikimedia.org/w/index.php?title=File:Browser-extension--intelligent-speaker.png&diff=next&oldid=835447881 */
 .wmf-footer-container, /* Footer with links https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
+.mwe-upwiz-file.odd .mwe-upwiz-visible-file, /* Commons: when uploading multiple files */
 [style='margin:0.5em; background:#eeeeee; border:1px solid #ddd; color:#222; padding:0.2em 0.4em; font-size:120%; font-weight:bold; font-family:inherit;'],
 [style='background: #f9f9f9; border: 1px solid #aaaaaa; float: right; clear: right; margin: .5em 0em .8em 1.4em; font-size: 90%; padding: .5em 1em; width: 230px; height: auto;'], /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
 [style='background-color: #E3E3F5; border-top: #D2D2F0 1px solid; text-align: right; font-size: 90%; padding-right: 0.5em'],
