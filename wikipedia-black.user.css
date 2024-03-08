@@ -284,6 +284,8 @@ cite, /* Wikipedia quote */
 .mw-pager-navigation-bar, /* History page: nav like (newest | oldest) View (newer 50 | older 50) (20 | 50 | 100 | 250 | 500) https://be.wikipedia.org/w/index.php?title=Новая_зямля_(паэма)&action=history */
 .wikibase-entitytermsview-heading-description, /* https://www.wikidata.org/wiki/Property:P9001 */
 .prp-pages-output div:nth-child(3), /* Title at https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_54/December_1898/General_Notices */
+.catlinks, /* https://commons.wikimedia.org/wiki/Category:Historical_images_of_Belarus */
+.catlinks + .description,
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
 [style='width:45px; height:45px; background:#dddddd; text-align:center; font-size:14pt; font-weight:bold; color:#000000;'], /* Right https://be.wikipedia.org/wiki/Удзельнік:Lš-k. */
