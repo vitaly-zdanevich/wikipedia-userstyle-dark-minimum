@@ -17,6 +17,8 @@ domain("wikidata.org")
 
 a,
 .vector-menu-dropdown .mw-list-item a,
+.mw-parser-output .main-box:not(:hover) .main-box-header a:not(:focus), /* https://ru.wikipedia.org/wiki/Заглавная_страница */
+.mw-parser-output .module-clickable-button-3.module-clickable-button-quiet a, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 #xtools_result a,
 .popup_mainlink a, /* Gadget */
 .contributing a
@@ -185,6 +187,7 @@ body,
 .mw-highlight,
 aside li, /* related articles */
 .NavHead,
+.mw-parser-output .main-top-left, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 [style*="#CFFF9F;"],
 div.vectorTabs,
 div.vectorTabs span,
@@ -291,6 +294,7 @@ cite, /* Wikipedia quote */
 .sdms-did-you-mean, /* Commons search "Did you mean: ..." */
 .sdms-page-result div:nth-child(2), /* Commons search: found */
 .sdms-search-filters__namespace, /* Commons search: button "Namespace: All" */
+#main-wotw, /* Work-Of-The-Week https://ru.wikipedia.org/wiki/Заглавная_страница */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
 [style='width:45px; height:45px; background:#dddddd; text-align:center; font-size:14pt; font-weight:bold; color:#000000;'], /* Right https://be.wikipedia.org/wiki/Удзельнік:Lš-k. */
@@ -317,7 +321,7 @@ kbd[style*='background:#EEEEEE'],
     border-left-color: #222 !important;
 }
 #mwe-upwiz-step-thanks {
-    background: #000
+	background: #000
 }
 #mwe-upwiz-steps li.head { /* Commons: uploading: highlight current step */
 	color: green !important;
@@ -408,6 +412,7 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 	border: 0;
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button,
+.mw-parser-output .main-box, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 .hlist
 {
 	background: 0 !important;
@@ -605,7 +610,9 @@ th {
 	border-color: #222 !important;
 }
 
-.mw-body {
+.mw-body,
+.main-block.main-top /* https://ru.wikipedia.org/wiki/Заглавная_страница top "Добро пожаловать в Википедию" */
+{
 	background: #000;
 	border-width: 0;
 }
