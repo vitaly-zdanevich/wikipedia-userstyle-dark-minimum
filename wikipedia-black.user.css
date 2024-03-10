@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.52
+@version        1.0.53
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -40,6 +40,7 @@ a:visited {
 input,
 .unsolved,
 .summaryButtons button, /* Wikipedia: editing source: buttons to set Summary text */
+[style='margin-bottom: 1em; border: 1px solid #AAA; background-color: ivory; padding: 0.5em; display: flex; align-items: center;'],
 [style='border-bottom:1px solid #fad67d; background-color:#faecc8; padding:0.2em 0.5em 0.2em 0.5em; font-size:100%; font-weight: ;'], /* Titles at https://be.wikipedia.org/wiki/Вікіпедыя:Даведка  */
 [style='border-bottom:1px solid #abd5f5; background-color:#d0e5f5; padding:0.2em 0.5em 0.2em 0.5em; font-size:100%; font-weight: ;'] /* Titles at https://be.wikipedia.org/wiki/Вікіпедыя:Даведка  */
 {
@@ -296,6 +297,8 @@ cite, /* Wikipedia quote */
 .sdms-search-filters__namespace, /* Commons search: button "Namespace: All" */
 #main-wotw, /* Work-Of-The-Week https://ru.wikipedia.org/wiki/Заглавная_страница */
 .description.mw-content-ltr, /* Top https://commons.wikimedia.org/wiki/Category:Receipts */
+.afd-notice, /* Talk page https://en.wikipedia.org/wiki/User_talk:Vitaly_Zdanevich */
+.metadata.divbox.divbox-gray, /* Talk page https://en.wikipedia.org/wiki/User_talk:Vitaly_Zdanevich */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
 [style='width:45px; height:45px; background:#dddddd; text-align:center; font-size:14pt; font-weight:bold; color:#000000;'], /* Right https://be.wikipedia.org/wiki/Удзельнік:Lš-k. */
@@ -649,6 +652,7 @@ aside p, /* related articles: titles & second line with desc*/
 #mw-mwoauth-authorize-form p,
 .ui-dialog .oo-ui-fieldLayout-header, /* Popup about link https://be.wiktionary.org/w/index.php?title=%D0%BB%D1%8D%D0%BC%D0%B1%D1%83%D1%81&action=submit */
 .ui-dialog .oo-ui-labelElement-label,
+[style='border: solid 1px #FCC; background-color: #F8EEBC; padding: 0.5em 1em; color: #000; margin: 1.5em; width: 90%;'] ul li,
 #prefcontrol[aria-disabled='true'] span /* Preferences: Save button when no changes and nothing to save */
 {
 	color: #000 !important;
