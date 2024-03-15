@@ -83,7 +83,7 @@ hr,
 [src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png'],
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
-    display: none !important;
+	display: none !important;
 }
 
 .mwe-upwiz-ownwork-purpose { /* Commons: uploading: "This work provides knowledge, instructions, or information to others." that checked by my JS */
