@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.55
+@version        1.0.56
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -304,6 +304,9 @@ cite, /* Wikipedia quote */
 .afd-notice, /* Talk page https://en.wikipedia.org/wiki/User_talk:Vitaly_Zdanevich */
 .metadata.divbox.divbox-gray, /* Talk page https://en.wikipedia.org/wiki/User_talk:Vitaly_Zdanevich */
 .mp-frame-body, /* Wikidata main page: label in block "Discover" */
+.wpImageAnnotatorHasNotesMsg, /* "This file has annotations. Move the mouse pointer over the image to see them." https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
+.stockphoto_buttonrow_text, /* Commons: image page: links at the right "Download", "Use this file", ... https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
+.rlicense-declaration, /* Commons file page: "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license." https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
 [style='width:45px; height:45px; background:#dddddd; text-align:center; font-size:14pt; font-weight:bold; color:#000000;'], /* Right https://be.wikipedia.org/wiki/Удзельнік:Lš-k. */
@@ -658,6 +661,7 @@ aside p, /* related articles: titles & second line with desc*/
 .ui-dialog .oo-ui-fieldLayout-header, /* Popup about link https://be.wiktionary.org/w/index.php?title=%D0%BB%D1%8D%D0%BC%D0%B1%D1%83%D1%81&action=submit */
 .ui-dialog .oo-ui-labelElement-label,
 [style='border: solid 1px #FCC; background-color: #F8EEBC; padding: 0.5em 1em; color: #000; margin: 1.5em; width: 90%;'] ul li,
+[id^='image_annotation_content'] p, /* Image mouse hover tooltips https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
 #prefcontrol[aria-disabled='true'] span /* Preferences: Save button when no changes and nothing to save */
 {
 	color: #000 !important;
