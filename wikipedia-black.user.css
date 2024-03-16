@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.57
+@version        1.0.58
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -107,6 +107,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 .mw-editTools div, /* Wikipedia editing source code: fast strings at the bottom */
 [style*='white'], /* Talk page, for example https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
 .mw-mmv-image-metadata, /* Commons media viewer: bottom part with description, after scroll too https://commons.wikimedia.org/wiki/Category:Complex_Numbers_(musical_group):_%D0%A0%D1%83%D1%81%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0#/media/File:The-little-mermaid--info.tif */
+.mw-newarticletext [style='border:1px solid #CCC; padding:7px;'], /* Commons: creating new category */
 [style='height: 16pt; background-color: #D2D2F0; border: 0px; border-bottom: 1px #AAAAC8; border-style: solid; font: 11pt; font-weight: bolder; position: relative;']
 {
 	background-color: #000 !important;
@@ -308,6 +309,7 @@ cite, /* Wikipedia quote */
 .wpImageAnnotatorHasNotesMsg, /* "This file has annotations. Move the mouse pointer over the image to see them." https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
 .stockphoto_buttonrow_text, /* Commons: image page: links at the right "Download", "Use this file", ... https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
 .rlicense-declaration, /* Commons file page: "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license." https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
+.mw-newarticletext, /* Commons: creating new category: help page title "Wikimedia Commons does not currently have a category called..." */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
 [style='width:45px; height:45px; background:#dddddd; text-align:center; font-size:14pt; font-weight:bold; color:#000000;'], /* Right https://be.wikipedia.org/wiki/Удзельнік:Lš-k. */
