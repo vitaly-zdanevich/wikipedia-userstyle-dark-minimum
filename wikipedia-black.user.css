@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.56
+@version        1.0.57
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -106,6 +106,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 #mw-content-text .flaggedrevs_editnotice, /* Wikipedia editing source code: texts "The stable version was checked on...", "Notice: Some of the pending changes affect the area of the page you are editing" */
 .mw-editTools div, /* Wikipedia editing source code: fast strings at the bottom */
 [style*='white'], /* Talk page, for example https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
+.mw-mmv-image-metadata, /* Commons media viewer: bottom part with description, after scroll too https://commons.wikimedia.org/wiki/Category:Complex_Numbers_(musical_group):_%D0%A0%D1%83%D1%81%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0#/media/File:The-little-mermaid--info.tif */
 [style='height: 16pt; background-color: #D2D2F0; border: 0px; border-bottom: 1px #AAAAC8; border-style: solid; font: 11pt; font-weight: bolder; position: relative;']
 {
 	background-color: #000 !important;
@@ -508,10 +509,6 @@ table h3, /* https://be.wikisource.org/wiki/Галоўная_старонка */
 .oo-ui-popupWidget-popup h3, /* Commons: mouse hover on "application/pdf": "Privacy considerations" and text after https://commons.wikimedia.org/wiki/File:Minskij_Listok_1886_03.pdf */
 .oo-ui-widget .citation, /* Citation in reference edit popup */
 ol.references li:target, /* Click to source[1] - highlight the source */
-.mw-mmv-source, /* Media Viewer: bottom panel with description */
-.mw-mmv-filename-prefix,
-.mw-mmv-filename,
-.mw-mmv-datetime,
 .popupPreview .popupDiff, /* Gadget */
 .guider_description, /* Popup with messages like "Welcome to improved Recent Changes filtering" */
 .rt-tooltip cite, /* Popup tooltip on English Wikipedia */
