@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.54
+@version        1.0.55
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -79,6 +79,8 @@ a[title='Log out'],
 #histlegend li:first-child, /* History page: drop help texts */
 #histlegend li:nth-child(2),
 #histlegend li:nth-child(3),
+.wd-mp-headerimage img, /* Wikidata main page: remove big white image */
+[style='margin: 20px auto; clear:both; padding-top: 15px; border-top:3px double #CCC; color:#222; line-height:120%; width: 80%;'], /* Wikidata main page: bottom block about the project */
 [style='background:#f0f8ff; border:1px dotted #8bcbff; padding:10px; margin-top:10px'], /* Каб пазбегнуць паломак старонак, дзе ўжыты гэты шаблон, пажадана эксперыментаваць у сваёй асабістай прасторы. https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
 [src$='Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
 [src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png'],
@@ -227,6 +229,7 @@ tr,
 #p-user-label, /* "User" button at the top: vertical line at the right */
 .mw-htmlform-submit-buttons, /* Preferences: bottom panel with Save button */
 .oo-ui-tagMultiselectWidget-handle, /* History page: node with "Active filters" buttons */
+.mw-parser-output .wd-mp-overlay, /* Wikidata main page: top block with "Welcome to Wikidata" */
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
@@ -300,6 +303,7 @@ cite, /* Wikipedia quote */
 .description.mw-content-ltr, /* Top https://commons.wikimedia.org/wiki/Category:Receipts */
 .afd-notice, /* Talk page https://en.wikipedia.org/wiki/User_talk:Vitaly_Zdanevich */
 .metadata.divbox.divbox-gray, /* Talk page https://en.wikipedia.org/wiki/User_talk:Vitaly_Zdanevich */
+.mp-frame-body, /* Wikidata main page: label in block "Discover" */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
 [style='width:45px; height:45px; background:#dddddd; text-align:center; font-size:14pt; font-weight:bold; color:#000000;'], /* Right https://be.wikipedia.org/wiki/Удзельнік:Lš-k. */
