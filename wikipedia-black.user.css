@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.60
+@version        1.0.61
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -84,6 +84,8 @@ a[title='Log out'],
 [style='background:#f0f8ff; border:1px dotted #8bcbff; padding:10px; margin-top:10px'], /* Каб пазбегнуць паломак старонак, дзе ўжыты гэты шаблон, пажадана эксперыментаваць у сваёй асабістай прасторы. https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
 [src$='Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
 [src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png'],
+[style='background:#d0f5e5; border:1px solid #a6c4b5; text-align:left; margin:1px; margin-bottom: 1px; padding:3px;'], /* Bottom https://be.wikisource.org/wiki/Галоўная_старонка */
+[style='background:#ffe9a6; border:1px solid #dcbe73; text-align:left; margin:1px; margin-bottom: 1px; padding:3px;'], /* Bottom https://be.wikisource.org/wiki/Галоўная_старонка */
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
 	display: none !important;
@@ -401,6 +403,7 @@ kbd[style*='background:#EEEEEE'],
  */
 .mw-revslider-container,
 .mw-revslider-slider-wrapper,
+[style='margin-top: 16px; border:1px solid #d0f5e5; background:transparent; vertical-align:top; padding: 5px'], /* Bottom https://be.wikisource.org/wiki/Галоўная_старонка */
 .wb-lexeme .lemma-widget_lemma /* Wikidata lexeme */
 {
 	border: 0 !important;
