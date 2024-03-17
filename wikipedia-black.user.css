@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.59
+@version        1.0.60
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -505,7 +505,6 @@ div.vectorTabs ul li{
 	font-size: 1.5em;
 }
 
-table h3, /* https://be.wikisource.org/wiki/Галоўная_старонка */
 #mwdw, /* Popup in editing mode */
 .oo-ui-popupWidget-popup p, /* Wikidata: popup with "Potential issue" */
 .oo-ui-popupWidget-popup h3, /* Commons: mouse hover on "application/pdf": "Privacy considerations" and text after https://commons.wikimedia.org/wiki/File:Minskij_Listok_1886_03.pdf */
@@ -963,6 +962,20 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 
 
 /* For use with Wikimedia backend, without brawse extension - remove this line */
+}
+
+@-moz-document domain("wikisource.org") {
+	table h3 /* https://be.wikisource.org/wiki/Галоўная_старонка */
+	{
+		color: #000 !important;
+	}
+}
+
+@-moz-document domain("wikimedia.org") {
+	[style='margin:2em auto; padding:1em; max-width:70em;'] /* Header with text "Grantee Portal" https://meta.wikimedia.org/wiki/Grants:Processing/Grantee_Portal */
+	{
+		display: none !important;
+	}
 }
 
 @-moz-document url("https://www.wikidata.org/wiki/Special:NewItem") {
