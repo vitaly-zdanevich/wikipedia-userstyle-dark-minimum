@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.62
+@version        1.0.63
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -313,6 +313,7 @@ cite, /* Wikipedia quote */
 .rlicense-declaration, /* Commons file page: "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license." https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
 .mw-newarticletext, /* Commons: creating new category: help page title "Wikimedia Commons does not currently have a category called..." */
 .mw-parser-output .funds-title, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid/Browse_applications_and_reports */
+#linkstoimage, /* "The following pages on the English Wikipedia use this file (pages on other projects are not listed):" https://en.wikipedia.org/wiki/File:Wikimedia-external-dark-and-minimal-style.png */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
 [style='width:45px; height:45px; background:#dddddd; text-align:center; font-size:14pt; font-weight:bold; color:#000000;'], /* Right https://be.wikipedia.org/wiki/Удзельнік:Lš-k. */
