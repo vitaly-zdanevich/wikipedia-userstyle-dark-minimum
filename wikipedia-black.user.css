@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.68
+@version        1.0.69
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -663,6 +663,7 @@ aside p, /* related articles: titles & second line with desc*/
 }
 
 /* Override p */
+.ext-discussiontools-ui-replyWidget-bodyWrapper p, /* Reply "textarea" on talk pages, for example https://ru.wikipedia.org/wiki/Обсуждение_участника:Vitaly_Zdanevich */
 .mwe-popups-container p, /* Wikipedia: mouse hover on link popup */
 .funds-timeline-date, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
 #mw-mwoauth-authorize-form p,
