@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.70
+@version        1.0.71
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -320,6 +320,7 @@ table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedi
 .infobox td[style='text-align:center;'],
 .infobox-above,
 .infobox th.plainlist,
+.infobox th.wikidatainfobox-lcell, /* https://commons.wikimedia.org/wiki/Category:1995_in_Lithuania */
 .infobox td.plainlist:not(:has(div)),
 .infobox .infobox-header,
 [style='max-width:800px;padding-top:10px;'] [style='position:relative;min-height:320px;min-width:800px;max-width:800px;'], /* Graph at https://ru.wikipedia.org/wiki/Ханты-Мансийский_автономный_округ_—_Югра#Население */
