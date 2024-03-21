@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.78
+@version        1.0.79
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -335,6 +335,7 @@ table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedi
 .infobox-label,
 .infobox-data,
 .thumbcaption, /* https://en.wikipedia.org/wiki/Vilnius#Early_history_and_Grand_Duchy_of_Lithuania */
+.switcher-container, /* https://commons.wikimedia.org/wiki/Category:Vilnius */
 [style='max-width:800px;padding-top:10px;'] [style='position:relative;min-height:320px;min-width:800px;max-width:800px;'], /* Graph at https://ru.wikipedia.org/wiki/Ханты-Мансийский_автономный_округ_—_Югра#Население */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
