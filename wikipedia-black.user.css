@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.69
+@version        1.0.70
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -34,7 +34,7 @@ a,
 }
 
 a:visited {
-	color: #b2b;
+	color: #b2b !important;
 }
 
 input,
@@ -200,7 +200,7 @@ aside li, /* related articles */
 div.vectorTabs,
 div.vectorTabs span,
 #mw-head .vectorMenu h3,
-.infobox *,
+#wdinfoboxcaption, /* Infobox category https://commons.wikimedia.org/wiki/Category:1995_in_Lithuania */
 #editpage-specialchars a,
 tr,
 .quotebox,
@@ -317,6 +317,11 @@ cite, /* Wikipedia quote */
 #linkstoimage, /* "The following pages on the English Wikipedia use this file (pages on other projects are not listed):" https://en.wikipedia.org/wiki/File:Wikimedia-external-dark-and-minimal-style.png */
 #page-count, /* Commons search, for example https://commons.wikimedia.org/w/index.php?search=kaunas&title=Special:MediaSearch&go=Go&type=page */
 table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedia.org/wiki/Памятные_монеты_Кыргызстана  */
+.infobox td[style='text-align:center;'],
+.infobox-above,
+.infobox th.plainlist,
+.infobox td.plainlist:not(:has(div)),
+.infobox .infobox-header,
 [style='max-width:800px;padding-top:10px;'] [style='position:relative;min-height:320px;min-width:800px;max-width:800px;'], /* Graph at https://ru.wikipedia.org/wiki/Ханты-Мансийский_автономный_округ_—_Югра#Население */
 [style='float:right; margin: 0 0 1em 4%; min-width: 22em; width: 28%;'] span, /* Right "infobox" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Wwwyzzerdd_user_experience_improvements_and_critical_maintenance_(ID:_22024892) */
 [style='text-align:center; font-size:8pt; padding:4pt; line-height:1.25em; color:#000000;'],
@@ -561,7 +566,6 @@ ol.references li:target, /* Click to source[1] - highlight the source */
     font-size: 40px;
 }
 
-.infobox,
 figure[typeof~="mw:File/Thumb"] > figcaption,
 #histlegend /* "Вонкавыя прылады: статыстыка правак · пошук праўкі · статыстыка наведваньняў. Тлумачэньне: (цяп) = адрозьненьні ад цяперашняй вэрсіі, (папярэдняя) = адрозьненьні ад папярэдняй вэрсіі, д = дробная праўка." History page: description of stat links https://be-tarask.wikipedia.org/w/index.php?title=Шаблён:Беларускія_пэрыядычныя_выданьні&action=history */
 {
@@ -613,7 +617,6 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 	background: #742 !important;
 }
 
-tr,
 [style='border-bottom: 1px solid #aaaaaa; padding-bottom: .4em; font-weight: bold; font-size: 120%;'], /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
 .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected, /* Preferences: panel with subpages like "User profile", "Appearance", "Editing"... */
 .excerpt, /* Excerpt from more detailed article https://en.wikipedia.org/wiki/Kyrgyzstan#Glaciers_and_climate_change */
