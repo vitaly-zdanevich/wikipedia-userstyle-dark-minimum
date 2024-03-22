@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.84
+@version        1.0.85
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -586,6 +586,7 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 
 figure[typeof~="mw:File/Thumb"] > figcaption,
 .video-game-reviews caption, /* https://en.wikipedia.org/wiki/Project_Snowblind#Reception */
+#ruwiki-ku-header, /* https://ru.wikipedia.org/wiki/Википедия:К_удалению/14_апреля_2021#Complex_Numbers_(музыкальная_группа) */
 #histlegend /* "Вонкавыя прылады: статыстыка правак · пошук праўкі · статыстыка наведваньняў. Тлумачэньне: (цяп) = адрозьненьні ад цяперашняй вэрсіі, (папярэдняя) = адрозьненьні ад папярэдняй вэрсіі, д = дробная праўка." History page: description of stat links https://be-tarask.wikipedia.org/w/index.php?title=Шаблён:Беларускія_пэрыядычныя_выданьні&action=history */
 {
 	background: #000 !important;
