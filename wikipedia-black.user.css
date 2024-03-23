@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.88
+@version        1.0.89
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -465,6 +465,7 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button,
 .mw-parser-output .main-box, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 .toccolours, /* Top years at https://en.wikipedia.org/wiki/Category:2004_video_games */
+.Reception, /* https://ru.wikipedia.org/wiki/Warhammer_40,000:_Dawn_of_War#Рецензии */
 .hlist
 {
 	background: 0 !important;
