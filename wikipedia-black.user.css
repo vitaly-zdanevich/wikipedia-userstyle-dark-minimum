@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.87
+@version        1.0.88
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -317,6 +317,7 @@ cite, /* Wikipedia quote */
 #linkstoimage, /* "The following pages on the English Wikipedia use this file (pages on other projects are not listed):" https://en.wikipedia.org/wiki/File:Wikimedia-external-dark-and-minimal-style.png */
 #page-count, /* Commons search, for example https://commons.wikimedia.org/w/index.php?search=kaunas&title=Special:MediaSearch&go=Go&type=page */
 table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedia.org/wiki/Памятные_монеты_Кыргызстана  */
+#toc ~ .wikitable caption, /* Table title https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Upload_~120_GB_of_photos_from_glubinka.by_-_photos_of_Belarus,_with_appropriate_meta-data_(Wikidata,_Categories,_add_to_articles_on_Wikipedia)_(ID:_22495955) */
 .infobox td[style='text-align:center;'],
 .infobox-above,
 .infobox th.plainlist,
