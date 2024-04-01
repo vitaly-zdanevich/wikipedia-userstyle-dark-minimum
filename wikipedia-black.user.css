@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.92
+@version        1.0.93
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -658,6 +658,7 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 .excerpt, /* Excerpt from more detailed article https://en.wikipedia.org/wiki/Kyrgyzstan#Glaciers_and_climate_change */
 .wikitable tr:not(td), /* https://ru.wikipedia.org/wiki/Памятные_монеты_Литвы#Статистика */
 tr.bright,
+.wikitable.sortable th, /* https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best */
 [style='position:absolute;top:162.75px;left:100px;width:145px;'], /* Население at https://ru.wikipedia.org/wiki/Тыпкысыр */
 [style='position:absolute;height:162.75px;min-width:100px;max-width:100px;top:0px;left:0px;'], /* Население at https://ru.wikipedia.org/wiki/Тыпкысыр */
 td[width='50%'] [style='margin-left: 1.6em; font-style: italic;'], /* Text "No major discussions" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
