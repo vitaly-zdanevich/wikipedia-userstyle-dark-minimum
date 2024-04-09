@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.94
+@version        1.0.95
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -346,6 +346,7 @@ tr.bright + *,
 .wikibase-entitytermsview-entitytermsforlanguagelistview, /* Wikidata: top block with labels */
 .searchdidyoumean, /* Commons search: "Did you mean" */
 .mw-selflink, /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
+table.standard tr:not(:first-child), /* https://ru.wikipedia.org/wiki/Солнечное_затмение_8_апреля_2024_года */
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='max-width: 40%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
@@ -664,6 +665,7 @@ tr.bright,
 td[width='50%'] [style='margin-left: 1.6em; font-style: italic;'], /* Text "No major discussions" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 td[width='50%'] .hlist [style='font-style: italic;'], /* Text "No did you know nominations" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 h3[data-mw-thread-id] + table.wikitable th, /* https://ru.wikipedia.org/wiki/Википедия%3AЧто_делать%2C_если_Википедия_заблокирована#Сравнительная_таблица_вариантов */
+table.standard tr:first-child, /* https://ru.wikipedia.org/wiki/Солнечное_затмение_8_апреля_2024_года */
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
 	color: wheat !important;
