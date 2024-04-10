@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.95
+@version        1.0.96
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -666,6 +666,10 @@ td[width='50%'] [style='margin-left: 1.6em; font-style: italic;'], /* Text "No m
 td[width='50%'] .hlist [style='font-style: italic;'], /* Text "No did you know nominations" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 h3[data-mw-thread-id] + table.wikitable th, /* https://ru.wikipedia.org/wiki/Википедия%3AЧто_делать%2C_если_Википедия_заблокирована#Сравнительная_таблица_вариантов */
 table.standard tr:first-child, /* https://ru.wikipedia.org/wiki/Солнечное_затмение_8_апреля_2024_года */
+table.vgr-aggregators.wikitable tr th, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
+table.vgr-aggregators.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
+table.vgr-reviews.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
+.vgr-hrow th, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
 	color: wheat !important;
