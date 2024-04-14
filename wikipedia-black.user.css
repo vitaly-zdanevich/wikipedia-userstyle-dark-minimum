@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.97
+@version        1.0.98
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -237,6 +237,7 @@ tr,
 .oo-ui-tagMultiselectWidget-handle, /* History page: node with "Active filters" buttons */
 .mw-parser-output .wd-mp-overlay, /* Wikidata main page: top block with "Welcome to Wikidata" */
 .mwe-upwiz-info-file .mwe-upwiz-thumbnail, /* Commons: was white square at the left of "Copy information to all uploads following..." when uploading multiple images */
+.ext-discussiontools-ui-replyWidget-preview, /* Talk page: preview */
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
