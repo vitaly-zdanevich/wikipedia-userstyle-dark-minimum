@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.98
+@version        1.0.99
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -81,6 +81,8 @@ a[title='Log out'],
 #histlegend li:nth-child(2),
 #histlegend li:nth-child(3),
 .wd-mp-headerimage img, /* Wikidata main page: remove big white image */
+#talkheader tr:first-child, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
+.talkheader-policies, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 [style='margin: 20px auto; clear:both; padding-top: 15px; border-top:3px double #CCC; color:#222; line-height:120%; width: 80%;'], /* Wikidata main page: bottom block about the project */
 [style='background:#f0f8ff; border:1px dotted #8bcbff; padding:10px; margin-top:10px'], /* Каб пазбегнуць паломак старонак, дзе ўжыты гэты шаблон, пажадана эксперыментаваць у сваёй асабістай прасторы. https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
 [src$='Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
@@ -238,6 +240,7 @@ tr,
 .mw-parser-output .wd-mp-overlay, /* Wikidata main page: top block with "Welcome to Wikidata" */
 .mwe-upwiz-info-file .mwe-upwiz-thumbnail, /* Commons: was white square at the left of "Copy information to all uploads following..." when uploading multiple images */
 .ext-discussiontools-ui-replyWidget-preview, /* Talk page: preview */
+.talkheader-help, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
@@ -349,6 +352,8 @@ tr.bright + *,
 .mw-selflink, /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 table.standard tr:not(:first-child), /* https://ru.wikipedia.org/wiki/Солнечное_затмение_8_апреля_2024_года */
 .property-navibox-main tr, /* https://www.wikidata.org/wiki/Wikidata:Property_proposal/myabandonware.com_game_id */
+#talkheader td[style='border-bottom: 1px solid #c0c090; font-weight: bold;'],
+.banner-shell-header, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='max-width: 40%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
@@ -672,6 +677,9 @@ table.vgr-aggregators.wikitable tr th, /* https://en.wikipedia.org/wiki/S.W.I.N.
 table.vgr-aggregators.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 table.vgr-reviews.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 .vgr-hrow th, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
+.plainlinks i, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
+.article-history-milestones, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
+.ext-discussiontools-init-pageframe-latestcomment, /* Top after page title, text like "Latest comment: 54 minutes ago by Sgt.McHale in topic "Native American-sounding music for the Night Elves" at https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
 	color: wheat !important;
