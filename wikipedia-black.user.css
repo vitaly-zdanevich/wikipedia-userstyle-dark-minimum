@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.0.99
+@version        1.1.0
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -676,6 +676,7 @@ table.standard tr:first-child, /* https://ru.wikipedia.org/wiki/Солнечно
 table.vgr-aggregators.wikitable tr th, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 table.vgr-aggregators.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 table.vgr-reviews.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
+table.wikitable.filehistory th, /* https://commons.wikimedia.org/wiki/File:LT-1996-50lit%C5%B3-Gediminas-b.png */
 .vgr-hrow th, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 .plainlinks i, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .article-history-milestones, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
