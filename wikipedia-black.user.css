@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.1
+@version        1.1.2
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -965,6 +965,11 @@ div[style='background-color:#d4e4f4;'],
 {
 	/* https://be.wikipedia.org/w/index.php?title=Новая_зямля_(паэма)&diff=prev&oldid=4680402 */
 	background: #242 !important;
+}
+
+/* https://be-tarask.wikipedia.org/wiki/Вязынь#Гісторыя */
+.localmap-basket span[typeof='mw:File'] .mw-file-element {
+	background: grey;
 }
 
 [style='clear:both; margin:0.5em auto; background-color:#e8f8e8; border:2px solid #80d080; padding:8px;'] /* Licence block at https://commons.wikimedia.org/w/index.php?title=File:Bmon-on-gentoo-with-default-settings.png&diff=next&oldid=851116877 */
