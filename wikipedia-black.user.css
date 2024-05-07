@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.5
+@version        1.1.6
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -356,6 +356,7 @@ td[style='text-align:center; font-style: italic;'], /* Infobox: "Онлайн-ф
 .property-navibox-main tr, /* https://www.wikidata.org/wiki/Wikidata:Property_proposal/myabandonware.com_game_id */
 #talkheader td[style='border-bottom: 1px solid #c0c090; font-weight: bold;'],
 .banner-shell-header, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
+.wikibase-entitytermsforlanguagelistview .wikibase-entitytermsforlanguagelistview-listview .wikibase-entitytermsforlanguageview .wikibase-entitytermsforlanguageview-description textarea,
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='max-width: 40%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
