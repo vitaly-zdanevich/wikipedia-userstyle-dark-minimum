@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.9
+@version        1.1.10
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -70,6 +70,7 @@ a[title='Log out'],
 .mw-preview-loading-elements span:nth-child(2), /* Redundant text */
 #ct-popup, /* https://be.wikisource.org/wiki/Новая_зямля_(1923)/I when mouse hover on page number, to drop vertical scroll */
 #editpage-copywarn2, /* "Калі ласка, не капіюйце тэксты з крыніц, якія ахоўваюцца аўтарскімі правамі (з кніг, сайтаў і іншых), бо такія матэрыялы будуць выдаленыя */
+#editpage-copywarn3, /* Editing page: "Do not copy text from other websites without permission. It will be deleted. */
 .mwe-upwiz-metadata-notice, /* "EXIF metadata in this file may contain location or other personal data automatically added by your camera" */
 .mwe-upwiz-license-metadata, /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
 .sister-projects-wmf, /* Commons main page: logo of Wikimedia */
