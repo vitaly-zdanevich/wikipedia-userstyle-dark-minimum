@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.10
+@version        1.1.11
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -333,6 +333,7 @@ table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedi
 .infobox .infobox-header,
 .description, /* https://commons.wikimedia.org/wiki/File:LT-1997-50lit%C5%B3-First_book-b.png */
 .commons-file-information-table, /* https://commons.wikimedia.org/wiki/File:LT-1997-50lit%C5%B3-First_book-b.png */
+#mw-imagepage-content table, /* Commons: file page: description https://ru.wikipedia.org/wiki/Файл:Закладная_дворянского_земельного_банка_часть_1.jpg */
 .wikitable.filehistory, /* https://commons.wikimedia.org/wiki/File:LT-1997-50lit%C5%B3-First_book-b.png */
 .mw-datatable.listfiles, /* Commons: list of uploaded files */
 #mw_metadata, /* Bottom of the page https://commons.wikimedia.org/wiki/File:Монета_5_лет_Независимости_50_литов_back.jpg */
