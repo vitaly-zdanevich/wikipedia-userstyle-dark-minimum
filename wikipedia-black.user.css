@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.12
+@version        1.1.13
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -75,7 +75,6 @@ a[title='Log out'],
 .mwe-upwiz-license-metadata, /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
 .sister-projects-wmf, /* Commons main page: logo of Wikimedia */
 .sister-projects-family, /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
-.detailsForm > div:nth-child(2), /* Commons: Caption field */
 .mwe-upwiz-thirdparty-fields:last-child, /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
 #histlegend span[style="white-space:nowrap;"]:first-child, /* History page: "араўнаньне: адзначце пунктамі дзьве вэрсіі для параўнаньня і націсьніце «ўвод» альбо кнопку ўнізе." https://be-tarask.wikipedia.org/w/index.php?title=Шаблён:Беларускія_пэрыядычныя_выданьні&action=history */
 #histlegend li:first-child, /* History page: drop help texts */
