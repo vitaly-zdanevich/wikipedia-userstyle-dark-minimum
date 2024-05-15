@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.11
+@version        1.1.12
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -226,6 +226,7 @@ tr,
 .ts-doc-header,
 .mw-parser-output .template-documentation, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
 .mw-collapsible, [style='background-color:#CCCCFF;'], /* https://ru.wikipedia.org/wiki/%D0%94%D0%A2-75 */
+.mw-collapsible caption[style='background:#eaecf0; border:1px solid #a2a9b1'], /* https://ru.wikipedia.org/wiki/Речицкий_уезд */
 .oo-ui-selectFileInputWidget.oo-ui-widget-enabled.oo-ui-selectFileInputWidget-dropTarget, /* https://commons.wikimedia.org/wiki/Special:UploadWizard */
 #upload-wizard .arrow,
 .mw-parser-output .wst-process-header .wst-header-notes, /* https://en.wikisource.org/wiki/Help:Beginner%27s_guide_to_adding_texts */
@@ -324,7 +325,7 @@ cite, /* Wikipedia quote */
 #linkstoimage, /* "The following pages on the English Wikipedia use this file (pages on other projects are not listed):" https://en.wikipedia.org/wiki/File:Wikimedia-external-dark-and-minimal-style.png */
 #page-count, /* Commons search, for example https://commons.wikimedia.org/w/index.php?search=kaunas&title=Special:MediaSearch&go=Go&type=page */
 table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedia.org/wiki/Памятные_монеты_Кыргызстана  */
-#toc ~ .wikitable caption, /* Table title https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Upload_~120_GB_of_photos_from_glubinka.by_-_photos_of_Belarus,_with_appropriate_meta-data_(Wikidata,_Categories,_add_to_articles_on_Wikipedia)_(ID:_22495955) */
+.wikitable caption, /* Table title https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund/Upload_~120_GB_of_photos_from_glubinka.by_-_photos_of_Belarus,_with_appropriate_meta-data_(Wikidata,_Categories,_add_to_articles_on_Wikipedia)_(ID:_22495955) */
 .infobox td[style='text-align:center;'],
 .infobox-above,
 .infobox th.plainlist,
@@ -692,6 +693,7 @@ table.vgr-aggregators.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.
 table.vgr-reviews.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 table.wikitable.filehistory th, /* https://commons.wikimedia.org/wiki/File:LT-1996-50lit%C5%B3-Gediminas-b.png */
 table.wikitable > tbody > tr > th, /* https://en.wikipedia.org/wiki/Russian_language#Vocabulary */
+table caption b, /* https://ru.wikipedia.org/wiki/Речицкий_уезд */
 .vgr-hrow th, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 .plainlinks i, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .metadata.plainlinks, /* https://ru.wikipedia.org/wiki/Проект:Кино/Списки/Список_фильмов_студии_«Беларусьфильм» */
