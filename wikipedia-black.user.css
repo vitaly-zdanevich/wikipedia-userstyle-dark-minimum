@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.14
+@version        1.1.15
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -429,6 +429,11 @@ kbd[style*='background:#EEEEEE'],
 .mainpage-box-orange .mainpage-box-title /* Commons main page: orange titles of blocks */
 {
 	background: #330 !important;
+}
+
+/* https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/example */
+.mw-highlight .nv {
+	color: #36f;
 }
 
 .mainpage-box-green .mainpage-box-title, /* Commons main page: green titles of blocks */
