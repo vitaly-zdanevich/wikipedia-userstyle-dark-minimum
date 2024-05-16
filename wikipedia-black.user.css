@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.15
+@version        1.1.16
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -750,7 +750,9 @@ aside p, /* related articles: titles & second line with desc*/
 	color: lightgray !important;
 }
 
-/* Override p */
+/* Override */
+ul#embed-right-menu .popover-content,
+li[role='option'],
 .ext-discussiontools-ui-replyWidget-bodyWrapper p, /* Reply "textarea" on talk pages, for example https://ru.wikipedia.org/wiki/Обсуждение_участника:Vitaly_Zdanevich */
 .mwe-popups-container p, /* Wikipedia: mouse hover on link popup */
 .funds-timeline-date, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
@@ -764,11 +766,12 @@ aside p, /* related articles: titles & second line with desc*/
 	color: #000 !important;
 }
 
+.select2-results__group, /* Wikidata query dropdown: "Suggestions" label */
 #mw-panel,
 #mw-page-base,
 .mwe-popups-container footer /* Wikipedia: link hover popup: drop bottom part with gear ico */
 {
-	display: none;
+	display: none !important;
 }
  
 #content {
