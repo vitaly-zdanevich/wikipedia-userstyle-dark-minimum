@@ -16,6 +16,9 @@ $(function() {
 		const parent = document.getElementById('upload-wizard')
 		const config = { attributes: true, childList: false, subtree: true }
 		const observer = new MutationObserver(_ => {
+
+			setPreviousCategories()
+
 			// "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc."
 			const node = document.querySelector('.mwe-upwiz-deed-compliance input')
 			if (node && node.checked == false) {
@@ -50,5 +53,23 @@ $(function() {
 		observer.observe(parent, config)
 	}
 })
+
+function setPreviousCategories() {
+	fetch(`https://commons.wikimedia.org/w/api.php?action=query&list=usercontribs&uclimit=1&ucuser=${mw.user.getName()}&format=json`)
+		.then(resp => resp.json())
+		.then(j => {
+			const filename = j['query']['usercontribs'][0]['title']
+			fetch(`https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=categories&list=&meta=&titles=${filename}&formatversion=2&clprop=&clshow=!hidden`)
+				.then(resp => resp.json())
+				.then(j => {
+					const cats = j['query']['pages'][0]['categories']
+						.reduce(reducer, '')
+					document.querySelector('#ooui-29').innerText = 'Previous categories: \n' + cats
+				})
+		})
+}
+function reducer(acc, cur) {
+	return acc += '\n'+cur['title'].replace('Category:', '')
+}
 
 /* vim: set filetype=javascript: */
