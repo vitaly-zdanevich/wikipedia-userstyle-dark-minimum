@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.13
+@version        1.1.14
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -353,6 +353,7 @@ tr.bright + *,
 .searchdidyoumean, /* Commons search: "Did you mean" */
 .mw-selflink, /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 table.standard tr:not(:first-child), /* https://ru.wikipedia.org/wiki/Солнечное_затмение_8_апреля_2024_года */
+#query-result td, /* Wikidata query service */
 [style='width:100%; clear:both; margin:0.5em auto; background-color:#f7f8ff; border:2px solid #8888aa; direction: ltr; border-spacing: 8px; padding: 0px;'], /* Licensing table https://commons.wikimedia.org/wiki/File:Catholic_Christianity_(silver)_rv.png */
 td[style='text-align:center; font-style: italic;'], /* Infobox: "Онлайн-фестиваль белорусского документального кино" https://ru.wikipedia.org/wiki/BelarusDocs */
 .sidebar-collapse, /* https://en.wikipedia.org/wiki/Culture_of_Belarus#Music */
@@ -693,6 +694,7 @@ table.vgr-reviews.wikitable caption, /* https://en.wikipedia.org/wiki/S.W.I.N.E.
 table.wikitable.filehistory th, /* https://commons.wikimedia.org/wiki/File:LT-1996-50lit%C5%B3-Gediminas-b.png */
 table.wikitable > tbody > tr > th, /* https://en.wikipedia.org/wiki/Russian_language#Vocabulary */
 table caption b, /* https://ru.wikipedia.org/wiki/Речицкий_уезд */
+#query-result th, /* Wikidata query service */
 .vgr-hrow th, /* https://en.wikipedia.org/wiki/S.W.I.N.E. */
 .plainlinks i, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .metadata.plainlinks, /* https://ru.wikipedia.org/wiki/Проект:Кино/Списки/Список_фильмов_студии_«Беларусьфильм» */
