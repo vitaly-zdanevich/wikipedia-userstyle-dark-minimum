@@ -17,7 +17,8 @@ $(function() {
 		const config = { attributes: true, childList: false, subtree: true }
 		const observer = new MutationObserver(_ => {
 
-			setPreviousCategories()
+			if (!setPreviousCategories.isStarted && document.querySelector('.oo-ui-draggableGroupElement') && !document.querySelector('#prevCats'))
+				setPreviousCategories()
 
 			// "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc."
 			const node = document.querySelector('.mwe-upwiz-deed-compliance input')
@@ -55,6 +56,8 @@ $(function() {
 })
 
 function setPreviousCategories() {
+	setPreviousCategories.isStarted = true
+
 	fetch(`https://commons.wikimedia.org/w/api.php?action=query&list=usercontribs&uclimit=1&ucuser=${mw.user.getName()}&format=json`)
 		.then(resp => resp.json())
 		.then(j => {
@@ -64,7 +67,10 @@ function setPreviousCategories() {
 				.then(j => {
 					const cats = j['query']['pages'][0]['categories']
 						.reduce(reducer, '')
-					document.querySelector('#ooui-29').innerText = 'Previous categories: \n' + cats
+					const p = document.createElement('p')
+					p.id = 'prevCats'
+					p.innerText = 'Previous categories: \n' + cats
+					document.querySelector('.oo-ui-draggableGroupElement').append(p)
 				})
 		})
 }
