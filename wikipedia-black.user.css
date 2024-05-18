@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.17
+@version        1.1.18
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1096,13 +1096,15 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 
 @-moz-document url-prefix("https://commons.wikimedia.org/w/index.php?title=Special%3AUploadWizard") {
 	h1,
+	.mwe-upwiz-info-file.filled .oo-ui-fieldLayout-header, /* Hide labels from fields */
 	#contentSub,
 	#mwe-upwiz-steps,
 	.mwe-upwiz-deed-license-group .mwe-upwiz-deed-license-group-subhead.mwe-upwiz-deed-title,
 	#ooui-27, /* "Description" label */
+	.mwe-upwiz-fieldLayout-indicator.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-labelElement-label,oo-ui-labelWidget, /* Categories: "Optional" */
 	.mwe-upwiz-details-help
 	{
-		display: none;
+		display: none !important;
 	}
 
 	#mwe-upwiz-deeds-thumbnails,
