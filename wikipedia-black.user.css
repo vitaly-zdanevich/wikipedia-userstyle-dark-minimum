@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.19
+@version        1.1.21
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -362,6 +362,7 @@ td[style='text-align:center; font-style: italic;'], /* Infobox: "Онлайн-ф
 #talkheader td[style='border-bottom: 1px solid #c0c090; font-weight: bold;'],
 .banner-shell-header, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .wikibase-entitytermsforlanguagelistview .wikibase-entitytermsforlanguagelistview-listview .wikibase-entitytermsforlanguageview .wikibase-entitytermsforlanguageview-description textarea,
+.infobox-caption,
 
 /* Infobox https://be-tarask.wikipedia.org/wiki/Царква_Сьвятых_Барыса_і_Глеба_(Горадня) */
 td[style='font-size:100%; line-height: 130%;'],
