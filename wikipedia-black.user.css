@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.26
+@version        1.1.27
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -41,6 +41,7 @@ input,
 .unsolved,
 .summaryButtons button, /* Wikipedia: editing source: buttons to set Summary text */
 .ts-Врезка, /* Quote at the right https://ru.wikipedia.org/wiki/Калибр_(игра) */
+[style='float:right; border:1px solid #abd5f5; background:#f1f5fc; margin-left:0.5em; padding:0.5em;'], /* https://commons.wikimedia.org/wiki/Commons:User_scripts */
 [style='margin-bottom: 1em; border: 1px solid #AAA; background-color: ivory; padding: 0.5em; display: flex; align-items: center;'],
 [style='border-bottom:1px solid #fad67d; background-color:#faecc8; padding:0.2em 0.5em 0.2em 0.5em; font-size:100%; font-weight: ;'], /* Titles at https://be.wikipedia.org/wiki/Вікіпедыя:Даведка  */
 [style='border-bottom:1px solid #abd5f5; background-color:#d0e5f5; padding:0.2em 0.5em 0.2em 0.5em; font-size:100%; font-weight: ;'] /* Titles at https://be.wikipedia.org/wiki/Вікіпедыя:Даведка  */
