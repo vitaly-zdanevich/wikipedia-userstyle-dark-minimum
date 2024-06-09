@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.22
+@version        1.1.23
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1120,6 +1120,17 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	.mwe-upwiz-deed-forms .mwe-upwiz-deed-thirdparty
 	{
 		border: none;
+	}
+
+	.mwe-upwiz-info-file.filled {
+		display: block;
+	}
+
+	/* Previews: full width */
+	.mwe-upwiz-info-file .mwe-upwiz-thumbnail a.mwe-upwiz-thumbnail-link img {
+		max-width: 100vw !important;
+		max-height: unset !important;
+		height: auto !important;
 	}
 }
 
