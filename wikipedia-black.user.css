@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.30
+@version        1.1.31
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -834,9 +834,11 @@ code {
 	border: 0;
 }
 
-pre, .mw-code {
-	background: #000;
-	color: lightgray;
+pre, /* Code pages like https://commons.wikimedia.org/wiki/User:Redditor098/vector.js */
+.mw-code
+{
+	background-color: #000 !important;
+	color: lightgray !important;
 	border: 0;
 }
 
