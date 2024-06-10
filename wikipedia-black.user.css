@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.29
+@version        1.1.30
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -85,6 +85,7 @@ a[title='Log out'],
 .wd-mp-headerimage img, /* Wikidata main page: remove big white image */
 #talkheader tr:first-child, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .talkheader-policies, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
+#mw-clearyourcache, /* "Note: After saving, you have to bypass your browser's cache to see the changes. Internet Explorer: press... */
 [style='margin: 20px auto; clear:both; padding-top: 15px; border-top:3px double #CCC; color:#222; line-height:120%; width: 80%;'], /* Wikidata main page: bottom block about the project */
 [style='background:#f0f8ff; border:1px dotted #8bcbff; padding:10px; margin-top:10px'], /* Каб пазбегнуць паломак старонак, дзе ўжыты гэты шаблон, пажадана эксперыментаваць у сваёй асабістай прасторы. https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
 [src$='Blue-bg_rounded.svg/350px-Blue-bg_rounded.svg.png'], /* be.wikipedia.org main page */
