@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.31
+@version        1.1.32
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -718,6 +718,7 @@ table[style='text-align:center; border:1px solid black; background:#fafafa'] th,
 .metadata.plainlinks, /* https://ru.wikipedia.org/wiki/Проект:Кино/Списки/Список_фильмов_студии_«Беларусьфильм» */
 .article-history-milestones, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .ext-discussiontools-init-pageframe-latestcomment, /* Top after page title, text like "Latest comment: 54 minutes ago by Sgt.McHale in topic "Native American-sounding music for the Night Elves" at https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
+.quotebox-title, /* https://en.wikipedia.org/wiki/Llama_(language_model)#Architecture_and_training */
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
 	color: wheat !important;

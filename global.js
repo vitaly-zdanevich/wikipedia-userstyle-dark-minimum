@@ -55,6 +55,7 @@ $(function() {
 	}
 })
 
+// TODO to userscript - publish to greasyfork and Commons userscript (userscript of another type)
 function setPreviousCategories() {
 	setPreviousCategories.isStarted = true
 
