@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.32
+@version        1.1.33
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1085,6 +1085,17 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 
 
 /* For use with Wikimedia backend, without brawse extension - remove this line */
+}
+
+@-moz-document domain("commons.wikimedia.org") {
+	#filehistory,
+	#mw-imagepage-section-filehistory > p,
+	#metadata,
+	.mw-imagepage-section-metadata > p,
+	#filelinks
+	{
+		display: none;
+	}
 }
 
 @-moz-document domain("wikisource.org") {
