@@ -17,9 +17,6 @@ $(function() {
 		const config = { attributes: true, childList: false, subtree: true }
 		const observer = new MutationObserver(_ => {
 
-			if (!setPreviousCategories.isStarted && document.querySelector('.oo-ui-draggableGroupElement') && !document.querySelector('#prevCats'))
-				setPreviousCategories()
-
 			// "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc."
 			const node = document.querySelector('.mwe-upwiz-deed-compliance input')
 			if (node && node.checked == false) {
@@ -54,38 +51,5 @@ $(function() {
 		observer.observe(parent, config)
 	}
 })
-
-// TODO to userscript - publish to greasyfork and Commons userscript (userscript of another type)
-function setPreviousCategories() {
-	setPreviousCategories.isStarted = true
-
-	// https://www.mediawiki.org/wiki/API:Usercontribs
-	fetch(`https://commons.wikimedia.org/w/api.php?action=query&list=usercontribs&uclimit=1&ucuser=${mw.user.getName()}&format=json`)
-		.then(resp => resp.json())
-		.then(j => {
-			const filename = j['query']['usercontribs'][0]['title']
-			// https://www.mediawiki.org/w/api.php?action=help&modules=query:categories
-			fetch(`https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=categories&meta=&titles=${filename}&formatversion=2&clshow=!hidden`)
-				.then(resp => resp.json())
-				.then(j => {
-					const cats = j['query']['pages'][0]['categories']
-						.reduce(reducer, [])
-					const div = document.createElement('div')
-					div.id = 'prevCats'
-					const a = document.createElement('a')
-					a.innerText = 'Previous:\n'
-					a.href = '//commons.wikimedia.org/wiki/' + filename
-					document.querySelector('.oo-ui-draggableGroupElement').append(a, ...cats)
-				})
-		})
-}
-function reducer(acc, cur) {
-	const a = document.createElement('a')
-	a.innerText = cur['title'].replace('Category:', '')
-	a.href = '//commons.wikimedia.org/wiki/' + cur['title']
-	a.style = 'display: block'
-	acc.push(a)
-	return acc
-}
 
 /* vim: set filetype=javascript: */
