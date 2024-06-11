@@ -1127,6 +1127,11 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	#mwe-upwiz-steps,
 	.mwe-upwiz-deed-license-group .mwe-upwiz-deed-license-group-subhead.mwe-upwiz-deed-title,
 	.mwe-upwiz-fieldLayout-indicator.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-labelElement-label,oo-ui-labelWidget, /* Categories: "Optional" */
+
+	/* Description of the field for categories */
+	fieldset.mwe-upwiz-fieldsetLayout.oo-ui-layout.oo-ui-labelElement.oo-ui-fieldsetLayout legend,
+	fieldset.mwe-upwiz-fieldsetLayout.oo-ui-layout.oo-ui-labelElement.oo-ui-fieldsetLayout label,
+
 	.mwe-upwiz-details-help
 	{
 		display: none !important;
