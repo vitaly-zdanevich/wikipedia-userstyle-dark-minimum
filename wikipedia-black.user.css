@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.35
+@version        1.1.36
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1091,6 +1091,11 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	.infobox.vcard [style='padding-left: 2px; padding-right: 2px; line-height: 1.45em; background-color: #DDE9F6;'] /* https://be-tarask.wikipedia.org/wiki/Gazeta_Literacka_Wile%C5%84ska_(1806) */
 	{
 		color: wheat;
+	}
+
+	table[style='border-collapse:collapse; border-style:none; background-color:transparent; color:inherit; max-width:60em; width:auto; margin:auto;'] /* Quote https://be-tarask.wikipedia.org/wiki/Минскій_листокъ */
+	{
+		color: #bbb !important;
 	}
 }
 
