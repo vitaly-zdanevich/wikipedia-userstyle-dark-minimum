@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.34
+@version        1.1.35
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1085,6 +1085,13 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 
 
 /* For use with Wikimedia backend, without brawse extension - remove this line */
+}
+
+@-moz-document domain("be-tarask.wikipedia.org") {
+	.infobox.vcard [style='padding-left: 2px; padding-right: 2px; line-height: 1.45em; background-color: #DDE9F6;'] /* https://be-tarask.wikipedia.org/wiki/Gazeta_Literacka_Wile%C5%84ska_(1806) */
+	{
+		color: wheat;
+	}
 }
 
 @-moz-document domain("commons.wikimedia.org") {
