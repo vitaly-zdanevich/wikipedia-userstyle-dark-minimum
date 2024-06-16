@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.39
+@version        1.1.34
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -590,7 +590,7 @@ div.vectorTabs ul li{
 .mw-body-content,
 .popupPreview /* Gadget */
 {
-	font-size: 1.5em;
+	font-size: 120%;
 }
 
 #mwdw, /* Popup in editing mode */
@@ -1190,6 +1190,23 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	/* Remove last column "Current version" */
 	{
 		display: none;
+	}
+}
+
+@-moz-document url("https://commons.wikimedia.org/wiki/Special:ApiSandbox") {
+	.mw-apisandbox-toolbar {
+		background: #000
+	}
+
+	[role='listbox'] [role='option'] /* Left block with options, for example "format=json" */
+	{
+		background: #000;
+		color: #bbb;
+	}
+
+	[role='listbox'] [role='option'] .oo-ui-labelElement-label
+	{
+		background: #000;
 	}
 }
 
