@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.38
+@version        1.1.39
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1146,6 +1146,8 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	/* Description of the field for categories */
 	fieldset.mwe-upwiz-fieldsetLayout.oo-ui-layout.oo-ui-labelElement.oo-ui-fieldsetLayout legend,
 	fieldset.mwe-upwiz-fieldsetLayout.oo-ui-layout.oo-ui-labelElement.oo-ui-fieldsetLayout label,
+
+	[href="/wiki/"], /* Last step bottom button "Go to wiki home page" */
 
 	/* "The category shown in red does not exist and lacks a description page. If a similar category exists, we recommend you use that. If not, please go to the new category page and add a description."*/
 	fieldset .oo-ui-fieldLayout-messages,
