@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.42
+@version        1.1.43
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -377,6 +377,8 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 .tool2-userscript, /* https://www.wikidata.org/wiki/Wikidata:Tools/Enhance_user_interface */
 .tool2-external,
 .tool2-gadget,
+
+.track-listing, /* https://en.wikipedia.org/wiki/13_Reasons_Why */
 
 [style='bwidth: 100%; margin: 2px 0; border: 2px ridge #CAE1FF; background-color: #DFEFFF; padding: 2px;'] [style='padding: 10px 0 5px 10px;'] [style='width:100%;vertical-align:top;'], /* https://en.wikipedia.org/wiki/Wikipedia:User_scripts/List */
 
