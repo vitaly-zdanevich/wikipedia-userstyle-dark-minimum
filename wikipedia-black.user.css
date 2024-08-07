@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.45
+@version        1.1.46
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1130,6 +1130,12 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	/* Fix top color at https://be.wikisource.org/wiki/Лявон_Бушмар_(1930) */
 	.mw-body {
 		color: #bbb;
+	}
+
+	/* Red background: "Гэта старонка не была вычытаная"
+	 * https://be.wikisource.org/wiki/Старонка:Hołas_dušy_(1926).pdf/72 */
+	.quality1 {
+		color: #000;
 	}
 }
 
