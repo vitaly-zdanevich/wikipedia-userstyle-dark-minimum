@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.47
+@version        1.1.48
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1134,6 +1134,19 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	.header-mainblock {
 		/* Override https://be.wikisource.org/wiki/Вікікрыніцы:Пра_Вікікрыніцы */
 		color: #000;
+	}
+
+	/* https://be.wikisource.org/wiki/Вікікрыніцы:Пра_Вікікрыніцы */
+	.header_notes.searchaux.process_notes {
+		border: 0 !important;
+		background: #000 !important;
+	}
+
+	/* "Зьвязаныя праекты.зьвязаныя праекты: падручнік, навучаньне, зьвесткі, Мэта"
+	 * https://be.wikisource.org/wiki/Вікікрыніцы:Пра_Вікікрыніцы */
+	.plainSister {
+		border: 0 !important;
+		background: #000 !important;
 	}
 
 	/* Red background: "Гэта старонка не была вычытаная"
