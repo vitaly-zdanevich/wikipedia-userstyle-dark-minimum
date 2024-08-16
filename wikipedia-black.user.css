@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.49
+@version        1.1.50
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1196,6 +1196,12 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	/* "The category shown in red does not exist and lacks a description page. If a similar category exists, we recommend you use that. If not, please go to the new category page and add a description."*/
 	fieldset .oo-ui-fieldLayout-messages,
 
+	/* Last step: "Thanks for contributing to freely available media and knowledge worldwide" */
+	.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-success,
+
+	/* Last step: "To use the file in a wiki, copy this text into a page:" */
+	.oo-ui-labelElement-label[for='ooui-45'],
+
 	.mwe-upwiz-details-help
 	{
 		display: none !important;
@@ -1229,6 +1235,13 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	.mwe-upwiz-thumbnail-side a.red {
 		color: red !important
 	}
+
+	/* Last step: width of the resulting URLs */
+	.oo-ui-copyTextLayout > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field,
+	#mwe-upwiz-stepdiv-thanks .oo-ui-actionFieldLayout.oo-ui-fieldLayout-align-top {
+		max-width: 100%;
+	}
+
 }
 
 @-moz-document url-prefix("https://commons.wikimedia.org/w/index.php?title=Special:ListFiles") {
