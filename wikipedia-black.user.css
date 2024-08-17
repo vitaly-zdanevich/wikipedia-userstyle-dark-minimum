@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.54
+@version        1.1.55
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -132,6 +132,11 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
     border: 0 !important;
 }
 
+.mw-parser-output .community-page-wrapper /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
+{
+	border: 0;
+}
+
 .mw-diff-table-prefix {
 	/* Diff page: drop horizontal scrollbar https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
 	margin-right: 5px;
@@ -225,6 +230,8 @@ tr,
 #mw-mf-page-center,
 .content .mw-index-pager-list-header,
 #doc,
+.mw-parser-output .community-tabs > ul > li.active, /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
+.mw-parser-output .shortcut2,
 .ts-doc-header,
 .mw-parser-output .template-documentation, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
 .mw-collapsible, [style='background-color:#CCCCFF;'], /* https://ru.wikipedia.org/wiki/%D0%94%D0%A2-75 */
@@ -475,6 +482,9 @@ kbd[style*='background:#EEEEEE'],
 	background: #311;
 }
 
+.mw-parser-output .community-tabs > ul > li, /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
+.mw-parser-output .discussion-menu,
+
 .licensetpl_wrapper,
 .cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header, /* Commons search: top bar with buttons */
 .mw-message-box-warning, /* Block with text "Remember that this is only a preview. Your changes have not yet been saved!" */
@@ -652,6 +662,7 @@ ol.references li:target, /* Click to source[1] - highlight the source */
     font-size: 40px;
 }
 
+#helpdeskheader, /* Top big block "How to use Commons" https://commons.wikimedia.org/wiki/Commons:Help_desk */
 figure[typeof~="mw:File/Thumb"] > figcaption,
 .video-game-reviews caption, /* https://en.wikipedia.org/wiki/Project_Snowblind#Reception */
 #ruwiki-ku-header, /* https://ru.wikipedia.org/wiki/Википедия:К_удалению/14_апреля_2021#Complex_Numbers_(музыкальная_группа) */
@@ -677,6 +688,7 @@ div.thumbinner,
 	color: gray !important;
 }
 
+.mw-parser-output .shortcut2, /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
 table,
 .plainlinks,
 .editOptions, 
