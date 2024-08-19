@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.60
+@version        1.1.61
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -78,6 +78,9 @@ a[title='Log out'],
 .mwe-upwiz-license-metadata, /* Commons uploading: step Describe: bottom of the page - block about captions license (always the same text) */
 .sister-projects-wmf, /* Commons main page: logo of Wikimedia */
 .sister-projects-family, /* Commons main page: text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family */
+.oo-ui-processDialog-actions-primary, /* Wikipedia image editing popup: "Apply changes" */
+.oo-ui-fieldsetLayout-help, /* Wikipedia image editing popup: help ico */
+.oo-ui-fieldLayout-help,
 .mwe-upwiz-thirdparty-fields:last-child, /* "I confirm that this work does not include material restricted by copyright, such as logos, posters, album covers, etc" */
 #histlegend span[style="white-space:nowrap;"]:first-child, /* History page: "араўнаньне: адзначце пунктамі дзьве вэрсіі для параўнаньня і націсьніце «ўвод» альбо кнопку ўнізе." https://be-tarask.wikipedia.org/w/index.php?title=Шаблён:Беларускія_пэрыядычныя_выданьні&action=history */
 #histlegend li:first-child, /* History page: drop help texts */
@@ -639,7 +642,20 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 }
 .oo-ui-windowManager-modal > .oo-ui-dialog > .oo-ui-window-frame {
 	background: 0;
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(5px);
+}
+
+.oo-ui-windowManager-modal > .oo-ui-dialog {
+	/* Wikipedia: editing: popup for images inserting */
+	background: #1119;
+}
+.oo-ui-windowManager-modal:not(.oo-ui-windowManager-size-full) > .oo-ui-dialog > .oo-ui-window-frame {
+	border-color: #111;
+}
+.oo-ui-processDialog-content > .oo-ui-window-head,
+.oo-ui-processDialog-content > .oo-ui-window-foot
+{
+	outline: 0;
 }
 
 /* Commons uploading: Category chip on step "Describe": increase distance between a category name and "X" of removing */
