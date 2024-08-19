@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.59
+@version        1.1.60
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -732,6 +732,9 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 #fileinfotpl_date,
 #fileinfotpl_src,
 #fileinfotpl_aut,
+
+#rationale_desc, /* https://en.wikipedia.org/wiki/File:Gc_squad_config.PNG */
+#rationale_src,
 
 .mw-heading, /* h1, h2, h3... */
 [style='border-bottom: 1px solid #aaaaaa; padding-bottom: .4em; font-weight: bold; font-size: 120%;'], /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы */
