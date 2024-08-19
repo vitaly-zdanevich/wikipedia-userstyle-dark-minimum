@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.57
+@version        1.1.58
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -56,6 +56,7 @@ input,
 	left: 180px;
 }
 
+#mw-uploadtext, /* https://en.wikipedia.org/wiki/Special:Upload */
 #siteSub, /* "From Wikipedia, the free encyclopedia" */
 hr,
 a[title='Log out'],
@@ -290,7 +291,11 @@ h2,
 .hatnote,
 #clearprefcache, /* Text about caching, for example here https://en.wikipedia.org/wiki/User:Vitaly_Zdanevich/languagesToBottom.js */
 .side-box-text, /* Wikipedia: texts like "Wikimedia Commons has media related to Gentoo" */
+
 .mwe-upwiz-stepdiv, /* Commons uploading: main texts */
+
+#mw-upload-form, /* https://en.wikipedia.org/wiki/Special:Upload */
+
 .language-lexical-category-widget, /* Wikidata lexeme https://www.wikidata.org/wiki/Lexeme:L152015 */
 .wikibase-lexeme-form-id,
 .wikibase-lexeme-form-grammatical-features-header,
