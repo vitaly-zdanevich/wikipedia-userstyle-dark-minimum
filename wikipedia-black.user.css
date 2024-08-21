@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.64
+@version        1.1.65
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -380,6 +380,9 @@ table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedi
 tr.bright + *,
 .wikibase-entitytermsview-entitytermsforlanguagelistview, /* Wikidata: top block with labels */
 .searchdidyoumean, /* Commons search: "Did you mean" */
+
+.oo-ui-window-frame label,
+
 .mw-selflink, /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 table.standard tr:not(:first-child), /* https://ru.wikipedia.org/wiki/Солнечное_затмение_8_апреля_2024_года */
 table[style='text-align:center; border:1px solid black; background:#fafafa'] tr, /* https://en.wikipedia.org/wiki/Batumi#Demographics */
@@ -640,7 +643,6 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 .guider_description, /* Popup with messages like "Welcome to improved Recent Changes filtering" */
 .rt-tooltip cite, /* Popup tooltip on English Wikipedia */
 #ooui-11, /* Popup tooltip on English Wikipedia: preferences */
-.oo-ui-window-frame .oo-ui-labelElement p, /* Commons popup with text "We recommend that you properly fill in all the fields. Do you want to continue without correcting these warnings?" */
 .oo-ui-window-frame .oo-ui-labelElement li, /* ..."One of the categories lacks a description page. Are you sure you typed the name correctly?" */
 .oo-ui-window-frame .oo-ui-fieldLayout-header .oo-ui-labelElement-label /* "Save your changes" popup with Summary - color of "This is a minor edit" and "Watch this page" */
 { 
@@ -664,9 +666,9 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 	border-color: #111;
 }
 .oo-ui-processDialog-content > .oo-ui-window-head,
-.oo-ui-processDialog-content > .oo-ui-window-foot
+.oo-ui-window-foot /* Commons: uploading popup error: "This wiki requires that files have an extension — like ".JPG" at the end of the filename. The allowed extensions are: ..." */
 {
-	outline: 0;
+	outline: 0 !important;
 }
 
 /* Commons uploading: Category chip on step "Describe": increase distance between a category name and "X" of removing */
