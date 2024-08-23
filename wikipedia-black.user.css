@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.66
+@version        1.1.67
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -135,6 +135,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
     border: 0 !important;
 }
 
+.oo-ui-searchWidget-query, /* Wikipedia: "Media settings" popup about inserting/uploading an image: separator horizontal line between search and images */
 .mw-parser-output .community-page-wrapper /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
 {
 	border: 0;
@@ -902,6 +903,11 @@ code {
 {
 	box-shadow: none;
 	border: 0;
+}
+
+.mw-widget-mediaResultWidget-overlay /* Wikipedia: "Media settings" popup about inserting/uploading an image: border around every image */
+{
+	box-shadow: none;
 }
 
 /* Commons: Structured data: map height increase */
