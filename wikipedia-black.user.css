@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.72
+@version        1.1.73
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -429,6 +429,9 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 
 /* Commons: uploading: license text for {{PD-BY-exempt}}: "This work is not an object of copyright according to the Law of the Belarus No. 370-XIII of May 16, 1996 on Copyright and Neighbouring Rights. ....." */
 [style='width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-neutral-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;'],
+
+/* Commons: file page: bottom text "No pages on the English Wikipedia use this file (pages on other projects are not listed)" */
+#nolinkstoimage,
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
