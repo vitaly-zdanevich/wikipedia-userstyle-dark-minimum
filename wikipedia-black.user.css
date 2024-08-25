@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.73
+@version        1.1.74
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -677,6 +677,10 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 .oo-ui-windowManager-modal > .oo-ui-dialog > .oo-ui-window-frame {
 	background: 0;
 	backdrop-filter: blur(5px);
+}
+.oo-ui-windowManager-modal > .oo-ui-dialog > .oo-ui-window-frame label /* Wikipedia: "Media settings" popup: labels for checkboxes "Wrap text around this item" and "Border" */
+{
+	color: #bbb !important;
 }
 
 .oo-ui-processDialog > .oo-ui-window-frame /* Wikipedia: UI for media Search and Upload */
