@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.71
+@version        1.1.72
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -668,12 +668,17 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 }
 
 /* Commons: file uploading: popup with custom license text */
-.oo-ui-window-frame {
+#mw-teleport-target ~ .oo-ui-window-frame {
 	height: 80vh !important;
 }
 .oo-ui-windowManager-modal > .oo-ui-dialog > .oo-ui-window-frame {
 	background: 0;
 	backdrop-filter: blur(5px);
+}
+
+.oo-ui-processDialog > .oo-ui-window-frame /* Wikipedia: UI for media Search and Upload */
+{
+	height: 100% !important;
 }
 
 .oo-ui-windowManager-modal > .oo-ui-dialog {
