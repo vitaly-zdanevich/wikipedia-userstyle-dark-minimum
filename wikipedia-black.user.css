@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.70
+@version        1.1.71
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -733,6 +733,11 @@ figure[typeof~="mw:File/Thumb"] > figcaption,
 
 .mw-parser-output #wdinfobox {
 	width: 40% !important; /* https://commons.wikimedia.org/wiki/Category:Frank_Schulenburg */
+}
+
+.gallery.mw-gallery-traditional.center /* Without this in Firefox I have horizontal scrollbar https://be-tarask.wikipedia.org/wiki/Дашкаўка */
+{
+	width: 99%;
 }
 
 div.thumbinner,
