@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.68
+@version        1.1.69
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -231,6 +231,7 @@ div.vectorTabs span,
 #wdinfoboxcaption, /* Infobox category https://commons.wikimedia.org/wiki/Category:1995_in_Lithuania */
 #editpage-specialchars a,
 tr,
+.infobox [style='background:#ddddff;line-height: 1.5em;margin: 0.0em 0.1em 0.1em 0.1em; text-align:center'], /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .quotebox,
 .sistersitebox,
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
@@ -367,6 +368,9 @@ table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedi
 .infobox th.wikidatainfobox-lcell, /* https://commons.wikimedia.org/wiki/Category:1995_in_Lithuania */
 .infobox td.plainlist:not(:has(div)),
 .infobox .infobox-header,
+.infobox [style='text-align:center'], /* Infobox: first line https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
+.infobox [style='background:inherit;width:100%'] [style='white-space:nowrap'],
+.infobox table[style='background:inherit;width:100%'] td, /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .description, /* https://commons.wikimedia.org/wiki/File:LT-1997-50lit%C5%B3-First_book-b.png */
 .commons-file-information-table, /* https://commons.wikimedia.org/wiki/File:LT-1997-50lit%C5%B3-First_book-b.png */
 #mw-imagepage-content table, /* Commons: file page: description https://ru.wikipedia.org/wiki/Файл:Закладная_дворянского_земельного_банка_часть_1.jpg */
@@ -623,6 +627,7 @@ div.vectorTabs ul li{
 	background: #000;
 }
 
+.infobox [style='width:100%;background:#ccccff'], /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label,
 .sdms-search-filters .sd-select__content, /* Commons search: buttons "License", "File Type", "Image size", ... */
 [style='background:#F0F8FF;border:1px dotted #8BCBFF;padding:10px;margin-top:10px;clear:both;'], /* https://be.wikipedia.org/wiki/Шаблон:Картка/Вікісховішча */
@@ -738,6 +743,7 @@ div.thumbinner,
 	color: gray !important;
 }
 
+.infobox [style='border:solid #bbb; border-width:1px 0;width:100%;background:#ccccff;font-weight:800; text-align:center'], /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .mw-parser-output .shortcut2, /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
 table,
 .plainlinks,
