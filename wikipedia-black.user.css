@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.69
+@version        1.1.70
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -141,10 +141,12 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
     border: 0 !important;
 }
 
+.infobox td[style='text-align: right; vertical-align: top; border-top: 1px solid #d0e1e0; padding: 1px 5px 1px 5px;'], /* https://be-tarask.wikipedia.org/wiki/Дашкаўка */
+.infobox td[style='border-top:1px solid #d0e1e0; padding: 1px 1px 1px 9px;'], /* https://be-tarask.wikipedia.org/wiki/Дашкаўка */
 .oo-ui-searchWidget-query, /* Wikipedia: "Media settings" popup about inserting/uploading an image: separator horizontal line between search and images */
 .mw-parser-output .community-page-wrapper /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
 {
-	border: 0;
+	border: 0 !important;
 }
 
 .mw-diff-table-prefix {
@@ -371,6 +373,7 @@ table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedi
 .infobox [style='text-align:center'], /* Infobox: first line https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .infobox [style='background:inherit;width:100%'] [style='white-space:nowrap'],
 .infobox table[style='background:inherit;width:100%'] td, /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
+.infobox td[style='font-size: 130%; text-align: center; vertical-align: top; background:#d0e1e0'], /* https://be-tarask.wikipedia.org/wiki/Дашкаўка */
 .description, /* https://commons.wikimedia.org/wiki/File:LT-1997-50lit%C5%B3-First_book-b.png */
 .commons-file-information-table, /* https://commons.wikimedia.org/wiki/File:LT-1997-50lit%C5%B3-First_book-b.png */
 #mw-imagepage-content table, /* Commons: file page: description https://ru.wikipedia.org/wiki/Файл:Закладная_дворянского_земельного_банка_часть_1.jpg */
