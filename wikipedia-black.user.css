@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.74
+@version        1.1.75
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1203,6 +1203,14 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 
 
 /* For use with Wikimedia backend, without brawse extension - remove this line */
+}
+
+
+@-moz-document domain("wikipedia.org") {
+	/* File page: hide useless navigation https://en.wikipedia.org/wiki/File:Armies-of-exigo--main-menu.png */
+	#filetoc {
+		display: none;
+	}
 }
 
 @-moz-document domain("be-tarask.wikipedia.org") {
