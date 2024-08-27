@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.80
+@version        1.1.81
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -56,6 +56,7 @@ input,
 	left: 180px;
 }
 
+.ext-discussiontools-ui-replyWidget-footer, /* After comment textarea: "By clicking "Reply", you agree to our Terms of Use and agree to irrevocably release your text under the CC BY-SA 4.0 License and GFDL. You agree that a hyperlink or URL is sufficient attribution under the Creative Commons license" */
 #mw-uploadtext, /* https://en.wikipedia.org/wiki/Special:Upload */
 #siteSub, /* "From Wikipedia, the free encyclopedia" */
 hr,
