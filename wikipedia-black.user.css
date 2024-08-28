@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.82
+@version        1.1.83
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -880,6 +880,9 @@ aside p, /* related articles: titles & second line with desc*/
 /* Override */
 /* Wikidata: popup with "Potential issues" */
 .oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-floatableElement-floatable.oo-ui-popupWidget-anchored.oo-ui-popupWidget.oo-ui-popupButtonWidget-popup.oo-ui-popupButtonWidget-frameless-popup.oo-ui-popupWidget-anchored-bottom p,
+
+/* Wikidata: popup with "Suggestions" */
+.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-floatableElement-floatable.oo-ui-popupWidget-anchored.oo-ui-popupWidget.oo-ui-popupButtonWidget-popup.oo-ui-popupButtonWidget-frameless-popup.oo-ui-popupWidget-anchored-top p,
 
 ul#embed-right-menu .popover-content,
 li[role='option'],
