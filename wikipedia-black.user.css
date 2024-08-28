@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.83
+@version        1.1.84
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -432,6 +432,9 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 
 /* Commons: file page: bottom text "No pages on the English Wikipedia use this file (pages on other projects are not listed)" */
 #nolinkstoimage,
+
+/* Wikipedia: source editing */
+.ve-ce-branchNode.ve-ce-documentNode.ve-ce-attachedRootNode.ve-ce-rootNode.mw-content-ltr.mw-parser-output.mw-show-empty-elt p,
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
