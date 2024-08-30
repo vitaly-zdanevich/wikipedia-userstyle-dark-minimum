@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.87
+@version        1.1.88
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -768,6 +768,7 @@ div.thumbinner,
 	color: gray !important;
 }
 
+.ve-ui-targetWidget:not(.oo-ui-pendingElement-pending), /* Wikipedia: popup "Media settings" when embedding an image: textarea */
 .infobox [style='border:solid #bbb; border-width:1px 0;width:100%;background:#ccccff;font-weight:800; text-align:center'], /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .mw-parser-output .shortcut2, /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
 table,
