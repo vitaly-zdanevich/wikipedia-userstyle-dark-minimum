@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.86
+@version        1.1.87
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -278,6 +278,7 @@ tr,
 	background: #000 !important;
 }
 
+.oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon:not(.oo-ui-image-invert), /* Wikipedia: popup "Media settings" when embedding an image: back button: make visible */
 .oo-ui-icon-close, /* Download popup: close button X https://ru.wikisource.org/wiki/Новая_Земля_(1934,_перевод_Сергея_Городецкого) */
 .ve-ui-mwMediaInfoFieldWidget.oo-ui-iconElement .ve-ui-mwMediaInfoFieldWidget-icon /* Wikipedia: "Media settings" popup: icons */
 {
