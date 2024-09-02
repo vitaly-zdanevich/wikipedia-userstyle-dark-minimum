@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.88
+@version        1.1.89
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -676,7 +676,11 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 }
 
 /* Commons: file uploading: popup with custom license text */
-#mw-teleport-target ~ .oo-ui-window-frame {
+#mw-teleport-target ~ .oo-ui-window-frame,
+
+/* Wikipedia: Ctrl-K "Add a link" popup: without this - height is broken (too small); by my another CSS but I do not know what */
+.oo-ui-widget.oo-ui-widget-enabled.oo-ui-floatableElement-floatable.oo-ui-popupWidget-anchored.oo-ui-popupWidget.oo-ui-popupWidget-anchored-top .oo-ui-popupWidget-popup
+{
 	height: 80vh !important;
 }
 .oo-ui-windowManager-modal > .oo-ui-dialog > .oo-ui-window-frame {
