@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.89
+@version        1.1.90
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -396,7 +396,8 @@ tr.bright + *,
 .wikibase-entitytermsview-entitytermsforlanguagelistview, /* Wikidata: top block with labels */
 .searchdidyoumean, /* Commons search: "Did you mean" */
 
-.oo-ui-window-frame label,
+/* Ctrl-K "Add a link" popup menu */
+.oo-ui-window-frame label:not(.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement-label.oo-ui-labelWidget.oo-ui-processDialog-title.oo-ui-labelElement),
 
 .mw-selflink, /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 table.standard tr:not(:first-child), /* https://ru.wikipedia.org/wiki/Солнечное_затмение_8_апреля_2024_года */
