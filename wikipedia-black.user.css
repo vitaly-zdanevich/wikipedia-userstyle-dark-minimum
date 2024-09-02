@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.1.90
+@version        1.1.91
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -669,7 +669,10 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 .popupPreview .popupDiff, /* Gadget */
 .guider_description, /* Popup with messages like "Welcome to improved Recent Changes filtering" */
 .rt-tooltip cite, /* Popup tooltip on English Wikipedia */
-#ooui-11, /* Popup tooltip on English Wikipedia: preferences */
+
+/* #ooui-11, /1* Popup tooltip on English Wikipedia: preferences *1/ */ 
+/* Commented to fix "External site" on "Add a link" Wikipedia popup */
+
 .oo-ui-window-frame .oo-ui-labelElement li, /* ..."One of the categories lacks a description page. Are you sure you typed the name correctly?" */
 .oo-ui-window-frame .oo-ui-fieldLayout-header .oo-ui-labelElement-label /* "Save your changes" popup with Summary - color of "This is a minor edit" and "Watch this page" */
 { 
