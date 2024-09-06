@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.2.2
+@version        1.2.3
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -758,13 +758,18 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 
 /* https://www.wikidata.org/wiki/Q171976 */
 .wb-deprecated .wikibase-statementview-mainsnak,
-
-/* Dropdown element onhover highlight https://commons.wikimedia.org/w/index.php?title=Category:50_rubles_banknotes&action=edit */
-.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-optionWidget.oo-ui-decoratedOptionWidget.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted,
-
 .ui-closeable.wb-error /* Wikidata: when Commons category not exists */
 {
 	background: #733;
+}
+
+/* "Insert link" popup: dropdown */
+/* Dropdown element onhover highlight https://commons.wikimedia.org/w/index.php?title=Category:50_rubles_banknotes&action=edit */
+.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-optionWidget.oo-ui-decoratedOptionWidget.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted {
+	background: #733;
+}
+.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-optionWidget.oo-ui-decoratedOptionWidget.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted * {
+	color: #fff !important;
 }
 
 /* Wikidata: bottom block with links to articles, Wikibooks, Wikiquote... */
