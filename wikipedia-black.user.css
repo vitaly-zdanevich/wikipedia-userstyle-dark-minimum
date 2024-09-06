@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.2.1
+@version        1.2.2
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -49,6 +49,15 @@ input,
 	background: #000 !important;
 	color: #ddd !important;
 	border-color: #555 !important;
+}
+
+button {
+	color: #ddd;
+	background: #222;
+	border: 0;
+	padding: 5px;
+	margin: 10px !important;
+	cursor: pointer;
 }
 
 #p-personal {
@@ -287,6 +296,7 @@ tr,
 .ext-discussiontools-ui-replyWidget-preview, /* Talk page: preview */
 .talkheader-help, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 #wikiEditor-ui-toolbar,
+.oo-ui-menuSelectWidget, /* Dropdown at the right of "Watch this page" https://commons.wikimedia.org/w/index.php?title=Category:50_rubles_banknotes&action=edit */
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
@@ -469,6 +479,7 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 }
 .flaggedrevs-color-1,
 kbd[style*='background:#EEEEEE'],
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-selected,
 .sd-select-menu__list-item--selected /* Commons: search: dropdowns with "File Type", "Image size": selected element */
 {
 	background-color: #334 !important;
@@ -747,6 +758,10 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 
 /* https://www.wikidata.org/wiki/Q171976 */
 .wb-deprecated .wikibase-statementview-mainsnak,
+
+/* Dropdown element onhover highlight https://commons.wikimedia.org/w/index.php?title=Category:50_rubles_banknotes&action=edit */
+.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-optionWidget.oo-ui-decoratedOptionWidget.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted,
+
 .ui-closeable.wb-error /* Wikidata: when Commons category not exists */
 {
 	background: #733;
