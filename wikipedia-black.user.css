@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.2.0
+@version        1.2.1
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -156,6 +156,8 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 .infobox td[style='text-align: right; vertical-align: top; border-top: 1px solid #d0e1e0; padding: 1px 5px 1px 5px;'], /* https://be-tarask.wikipedia.org/wiki/Дашкаўка */
 .infobox td[style='border-top:1px solid #d0e1e0; padding: 1px 1px 1px 9px;'], /* https://be-tarask.wikipedia.org/wiki/Дашкаўка */
 .oo-ui-searchWidget-query, /* Wikipedia: "Media settings" popup about inserting/uploading an image: separator horizontal line between search and images */
+.wikiEditor-ui-toolbar .group,
+.wikiEditor-ui .wikiEditor-ui-view,
 .mw-parser-output .community-page-wrapper /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
 {
 	border: 0 !important;
@@ -284,6 +286,7 @@ tr,
 .mwe-upwiz-info-file .mwe-upwiz-thumbnail, /* Commons: was white square at the left of "Copy information to all uploads following..." when uploading multiple images */
 .ext-discussiontools-ui-replyWidget-preview, /* Talk page: preview */
 .talkheader-help, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
+#wikiEditor-ui-toolbar,
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
