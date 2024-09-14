@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.0
+@version        1.3.1
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1294,7 +1294,9 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 }
 
 /* https://en.wikipedia.org/wiki/File:Armies-of-exigo--fallen-base--wide-screen.png */
-@-moz-document regexp("https://[a-z][a-z].wikipedia.org/wiki/File:.*") {
+@-moz-document regexp("https://[a-z][a-z].wikipedia.org/wiki/File:.*"),
+			   regexp("https://[a-z][a-z].wikipedia.org/w/index.php\?title=File:.*"),
+			   regexp("https://[a-z][a-z].wikipedia.org/w/index.php\?title=File%3A.*") {
 	#toc {
 		display: none;
 	}
