@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.1
+@version        1.3.2
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1299,6 +1299,12 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 			   regexp("https://[a-z][a-z].wikipedia.org/w/index.php\?title=File%3A.*") {
 	#toc {
 		display: none;
+	}
+
+	/* Blue line with "Non-free media data", red line with "Non-free media rationale for Armies of Exigo" */
+	.mw-parser-output .nfur caption {
+		background: 0;
+		border: 0;
 	}
 }
 
