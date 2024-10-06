@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.4
+@version        1.3.5
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1014,9 +1014,10 @@ code {
 	box-shadow: none;
 }
 
-.property-proposal-header {
-	background: #000;
-	box-shadow: none;
+.property-proposal-header /* "Before proposing a property" https://www.wikidata.org/wiki/Wikidata:Property_proposal/Person */
+{
+	background: #000 !important;
+	box-shadow: none !important;
 }
 
 /* "On this page, old discussions are archived. An overview of all archives can be found at..." https://www.wikidata.org/wiki/Wikidata:Property_proposal/Person */
