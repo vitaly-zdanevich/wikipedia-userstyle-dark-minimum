@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.2
+@version        1.3.3
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -555,9 +555,9 @@ kbd[style*='background:#EEEEEE'],
 	background: #311;
 }
 
+.mw-parser-output .property-proposal-header-steps, /* Block "Before proposing a property" https://www.wikidata.org/wiki/Wikidata:Property_proposal/Person */
 .mw-parser-output .community-tabs > ul > li, /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
 .mw-parser-output .discussion-menu,
-
 .licensetpl_wrapper,
 .cdx-tabs:not(.cdx-tabs--framed) > .cdx-tabs__header, /* Commons search: top bar with buttons */
 .mw-message-box-warning, /* Block with text "Remember that this is only a preview. Your changes have not yet been saved!" */
@@ -1011,6 +1011,17 @@ code {
 .mw-widget-mediaResultWidget-overlay /* Wikipedia: "Media settings" popup about inserting/uploading an image: border around every image */
 {
 	box-shadow: none;
+}
+
+.property-proposal-header {
+	background: #000;
+	box-shadow: none;
+}
+
+/* "On this page, old discussions are archived. An overview of all archives can be found at..." https://www.wikidata.org/wiki/Wikidata:Property_proposal/Person */
+table[style='box-shadow: 0 0 .2em var(--border-color-base, #a2a9b1); background-color:var(--background-color-base, #fff); color:inherit;'] {
+	box-shadow: none !important;
+	color: #bbb !important;
 }
 
 /* Commons: Structured data: map height increase */
