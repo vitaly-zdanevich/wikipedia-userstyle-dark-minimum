@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.3
+@version        1.3.4
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -676,6 +676,7 @@ div.vectorTabs ul li{
 	color: lightgray;
 }
 
+#mw-previewheader, /* "Remember that this is only a preview. Your changes have not yet been published!" https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/dtf.ru_person_ID&action=submit */
 #siteSub,
 #mw-usercssyoucanpreview
 {
@@ -1220,11 +1221,12 @@ div[style='background-color:#d4e4f4;'],
 	border: 0 !important;
 }
 
+.cdx-message.cdx-message--block.cdx-message--warning .cdx-message__content p, /* https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/dtf.ru_person_ID&action=submit */
 .mw-diff-inline-moved del,
 .mw-diff-inline-moved ins,
 .mw-diff-inline-deleted del
 {
-	color: #000;
+	color: #000 !important;
 }
 
 /* https://be.wikisource.org/wiki/Новая_зямля_(1923) */
