@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.1
+@version        1.4.2
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -331,6 +331,14 @@ tr,
  * */
 .mw-warning-with-logexcerpt.mw-warning-with-logexcerpt.mw-warning-with-logexcerpt {
 	--background-color-error-subtle: #100;
+}
+
+/* Page of article that not exists, right block:
+ * "Look for <article name> on one of Wikipedia's sister projects:"
+ */
+.mw-parser-output .no-article-text-sister-projects {
+	--background-color-neutral-subtle: #000;
+	border: 0;
 }
 
 .oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon:not(.oo-ui-image-invert), /* Wikipedia: popup "Media settings" when embedding an image: back button: make visible */
