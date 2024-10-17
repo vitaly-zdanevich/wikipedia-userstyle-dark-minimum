@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.13
+@version        1.3.14
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1336,7 +1336,7 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 .oo-ui-menuOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget span,
 
 /* Wikipedia: link edit popup: label "Edit link" */
-.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-labelElement-label.oo-ui-labelWidget
+.ve-ui-linkContextItem-label-preview .oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-labelElement-label.oo-ui-labelWidget
 {
 	color: #fff;
 }
