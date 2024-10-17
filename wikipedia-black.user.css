@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.9
+@version        1.3.10
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -732,6 +732,15 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 .ve-ui-context-menu.ve-ui-desktopContext-menu
 {
 	width: 50vw;
+}
+
+/* Wikipedia: visual editor: top-right notice: to make text in one line (because the container is already wide - from previous fix on link edit popup list);
+ * Wikidata also affect - warning popups
+ * */
+.oo-ui-clippableElement-clippable.oo-ui-popupWidget-body
+{
+	width: 50vw !important;
+	max-width: 50vw !important;
 }
 
 #mw-teleport-target .oo-ui-processDialog > .oo-ui-window-frame /* Wikipedia: UI for media Search and Upload */
