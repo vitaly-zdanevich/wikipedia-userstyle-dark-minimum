@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.11
+@version        1.3.12
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -15,7 +15,7 @@ domain("wikidata.org")
 {
 /* End of lines for removing, also remove "}" at the end of this file */
 
-a,
+a:not(.mw-mmv-stripe-button.mw-mmv-description-page-button.cdx-button.cdx-button--weight-primary.cdx-button--action-progressive.cdx-button--size-large.cdx-button--fake-button.cdx-button--fake-button--enabled.mw-mmv-repo-button-commons), /* :not("More details" in image viewer) */
 .vector-menu-dropdown .mw-list-item a,
 .mw-parser-output .main-box:not(:hover) .main-box-header a:not(:focus), /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 .mw-parser-output .module-clickable-button-3.module-clickable-button-quiet a, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
@@ -23,7 +23,7 @@ a,
 .popup_mainlink a, /* Gadget */
 .contributing a
 {
-	color: #37d;
+	color: #37d !important;
 }
 
 .mw-parser-output .wmf-navbar-body-row1-links ul li a, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
@@ -65,6 +65,20 @@ button {
 	left: 180px;
 }
 
+/* "Welcome to Wikipedia, the free encyclopedia that anyone can edit" */
+#mp-topbanner,
+
+body.page-Main_Page #firstHeading,
+body.page-Main_Page .main-top-left, /* "Добро пожаловать в Википедию *https://ru.wikipedia.org/wiki/Заглавная_страница */
+.main-top-articleCount,
+
+/* "Wikipedia is written by volunteer editors and hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other volunteer projects:" */
+#mp-sister-content > p,
+
+/* "This Wikipedia is written in English. Many other Wikipedias are available; some of the largest are listed below." */
+.wikipedia-languages.nourlexpansion > p,
+
+.wikipedia-languages-prettybars, /* Main page: "Wikipedia languages": lines at left/right of numbers "1,000,000+ articles", "250,000+ articles", "50,000+ articles" */
 
 /* Wikipedia: link edit popup: "Link" */
 .ve-ui-linearContextItem-title,
@@ -158,6 +172,8 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 {
     border: 0 !important;
 }
+
+.mw-parser-output .mp-box, /* Main page "Other areas of Wikipedia" */
 
 /* Wikipedia: link edit popup */
 .ve-ui-desktopContext .ve-ui-linkContextItem .ve-ui-linkContextItem-label,
@@ -300,6 +316,13 @@ tr,
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
+}
+
+/* Image viewer: buttons */
+.cdx-button:enabled,
+.cdx-button.cdx-button--fake-button--enabled
+{
+	--background-color-interactive-subtle: #000;
 }
 
 .oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon:not(.oo-ui-image-invert), /* Wikipedia: popup "Media settings" when embedding an image: back button: make visible */
@@ -829,7 +852,15 @@ div.thumbinner,
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
 	color: gray !important;
 }
-
+.mw-parser-output #mp-left, /* Main page */
+.mw-parser-output #mp-right, /* Main page */
+.mw-parser-output #mp-left .mp-h2, /* Main page */
+.mw-parser-output #mp-right .mp-h2, /* Main page */
+.mw-parser-output #mp-lower .mp-h2, /* Main page */
+.mw-parser-output #mp-lower, /* Main page */
+#Other_areas_of_Wikipedia, /* Main page "Other areas of Wikipedia" */
+h2[id$='sister_projects'], /* #Wikipedia's_sister_projects */
+#Wikipedia_languages,
 .ve-ui-targetWidget:not(.oo-ui-pendingElement-pending), /* Wikipedia: popup "Media settings" when embedding an image: textarea */
 .infobox [style='border:solid #bbb; border-width:1px 0;width:100%;background:#ccccff;font-weight:800; text-align:center'], /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .mw-parser-output .shortcut2, /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
@@ -859,6 +890,13 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 {
 	background: #742 !important;
 }
+
+
+.tfa-recent, /* Main page: "Recently featured" */
+
+.potd-recent, /* Main page: "Recently featured" image of the day */
+
+#mp-otd div[style='margin-top:0.5em;'], /* Main page: "More anniversaries" */
 
 /* Commons: file page */
 #fileinfotpl_desc,
