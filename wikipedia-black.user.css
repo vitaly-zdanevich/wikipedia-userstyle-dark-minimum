@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.8
+@version        1.3.9
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -726,7 +726,6 @@ ol.references li:target, /* Click to source[1] - highlight the source */
 }
 
 .oo-ui-widget.oo-ui-widget-enabled.oo-ui-floatableElement-floatable.oo-ui-popupWidget-anchored.oo-ui-popupWidget.oo-ui-popupWidget-anchored-top {
-	backdrop-filter: blur(10px);
 	width: 50vw;
 }
 
