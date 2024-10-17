@@ -6,7 +6,7 @@
 @author         Vitaly Zdanevich
 ==/UserStyle== */
 
-/* For use with Wikimedia backend, without brawse extension - remove these lines */
+/* For use with Wikimedia backend, without a browser extension - remove these lines */
 @-moz-document domain("wikisource.org"),
 domain("wikimedia.org"),
 domain("wikipedia.org"),
