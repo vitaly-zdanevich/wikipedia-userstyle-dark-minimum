@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.10
+@version        1.3.11
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -633,11 +633,6 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 	border: 5px dashed #4f4;
 }
 
-#content {
-	margin-top: 20px; /* Without this - title is over the search input */
-	padding: 0; /* To save space for the content */
-}
-
 /* https://be.wikipedia.org/wiki/Галоўная_старонка: space between Image of the day and the image */
 [style='text-align:left; position:relative; left:4px; top:2px; margin:0;']:nth-child(9) {
 	margin-bottom: 60px !important;
@@ -983,7 +978,10 @@ li[role='option'],
 }
  
 #content {
-	margin-left: 0;
+	margin: 20px 5px !important;
+	padding: 0;
+	/* More space for a content */
+
 }
 
 #toc
