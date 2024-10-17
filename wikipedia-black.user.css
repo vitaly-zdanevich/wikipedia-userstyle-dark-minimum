@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.12
+@version        1.3.13
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -258,6 +258,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	top: 156px;
 }
 
+.mw-mmv-post-image, /* Image viewer: bottom part after scroll */
 body,
 [style*="#CFFF9F;"],
 .mw-echo-notifications-badge, 
