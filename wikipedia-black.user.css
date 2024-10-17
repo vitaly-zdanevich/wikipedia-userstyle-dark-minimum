@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.3.5
+@version        1.3.6
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -599,7 +599,6 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 	border: 0;
 }
 
-.oo-ui-popupWidget-popup,
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button,
 .mw-parser-output .main-box, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 .toccolours, /* Top years at https://en.wikipedia.org/wiki/Category:2004_video_games */
@@ -609,6 +608,13 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 {
 	background: 0 !important;
 	border: 0 !important;
+}
+
+/* Wikidata popup on warning click */
+.oo-ui-popupWidget-popup {
+	background: #111;
+	color: #bbb !important;
+	border: 0;
 }
 
 /* Wikipedia: Ctrl-F toolbar for Search-and-Replace */
@@ -939,13 +945,10 @@ aside p, /* related articles: titles & second line with desc*/
 }
 
 /* Wikipedia: link edit popup "Edit link": onhover article names */
-.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted .mw-widget-titleOptionWidget-description,
+/* .oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted .mw-widget-titleOptionWidget-description, */
 .oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted a span,
 
 /* Override */
-/* Wikidata: popup with "Potential issues" */
-.oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-floatableElement-floatable.oo-ui-popupWidget-anchored.oo-ui-popupWidget.oo-ui-popupButtonWidget-popup.oo-ui-popupButtonWidget-frameless-popup.oo-ui-popupWidget-anchored-bottom p,
-
 /* Wikidata: popup with "Suggestions" */
 .oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-floatableElement-floatable.oo-ui-popupWidget-anchored.oo-ui-popupWidget.oo-ui-popupButtonWidget-popup.oo-ui-popupButtonWidget-frameless-popup.oo-ui-popupWidget-anchored-top p,
 
