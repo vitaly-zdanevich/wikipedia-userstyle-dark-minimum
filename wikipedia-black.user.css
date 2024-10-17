@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.0
+@version        1.4.1
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -324,6 +324,13 @@ tr,
 .cdx-button.cdx-button--fake-button--enabled
 {
 	--background-color-interactive-subtle: #000;
+}
+
+/* Red block on a page that does not exists, for example https://en.wikipedia.org/wiki/B2Broker
+ * make darker background
+ * */
+.mw-warning-with-logexcerpt.mw-warning-with-logexcerpt.mw-warning-with-logexcerpt {
+	--background-color-error-subtle: #100;
 }
 
 .oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon:not(.oo-ui-image-invert), /* Wikipedia: popup "Media settings" when embedding an image: back button: make visible */
@@ -1268,7 +1275,11 @@ div[style='background-color:#d4e4f4;'],
 	border: 0 !important;
 }
 
-.cdx-message.cdx-message--block.cdx-message--warning .cdx-message__content p, /* https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/dtf.ru_person_ID&action=submit */
+/* "Remember that this is only a preview. Your changes have not yet been published!"
+ * preview at, for example,
+ * https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/dtf.ru_person_ID&action=submit
+ */
+#wikiPreview .cdx-message.cdx-message--block.cdx-message--warning .cdx-message__content p,
 .mw-diff-inline-moved del,
 .mw-diff-inline-moved ins,
 .mw-diff-inline-deleted del
