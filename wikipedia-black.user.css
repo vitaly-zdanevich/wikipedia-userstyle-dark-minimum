@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.6
+@version        1.4.7
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1238,6 +1238,9 @@ span[style*='background:#FFE7FF;'],
 #p-lang {
 	margin-top: 30px;
 }
+
+/* "Insert" -> "Template" -> "Quote": popup top-left: white around input "Find field" */
+.ve-ui-mwTransclusionOutlineTemplateWidget-sticky,
 
 /* Wikisource: top-right download block */
 div[style*='#F3F3F3;'],
