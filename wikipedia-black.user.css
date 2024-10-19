@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.10
+@version        1.4.11
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -628,6 +628,8 @@ kbd[style*='background:#EEEEEE'],
 {
 	color: #555 !important;
  }
+
+html body p.ve-ce-branchNode-newSlug, /* When insert a paragraph between quotes https://ru.wikipedia.org/w/index.php?title=Любовник_Большой_Медведицы_(книга) */
 .mw-revslider-revision,
 span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/маркотна#Значэнне */
 .sdms-search-filters .sd-select__content:hover /* Commons search: buttons "License", "File Type"... */
