@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.13
+@version        1.4.14
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1492,8 +1492,9 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	}
 }
 
-@-moz-document url-prefix("https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard"),
-			   url-prefix("https://commons.wikimedia.org/wiki/Special:UploadWizard") {
+@-moz-document url-prefix('https://commons.wikimedia.org/wiki/Special:UploadWizard'),
+			   url-prefix('https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard'),
+			   url-prefix('https://commons.wikimedia.org/w/index.php?title=Special%3AUploadWizard') {
 	h1,
 	.mwe-upwiz-info-file.filled .oo-ui-fieldLayout-header, /* Hide labels from fields */
 	#contentSub,
