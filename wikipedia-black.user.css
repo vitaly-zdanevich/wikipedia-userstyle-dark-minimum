@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.22
+@version        1.4.23
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1598,7 +1598,7 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	}
 
 	#mf-intro,
-	td[bgcolor='white'][align='center'] /* https://ru.wiktionary.org/w/index.php?title=severe */
+	td[bgcolor='white'] /* https://ru.wiktionary.org/w/index.php?title=severe */
 	{
 		color: #bbb;
 	}
