@@ -1591,9 +1591,15 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	}
 }
 
-@-moz-document url-prefix('https://ru.wiktionary.org/w/index.php?title=') {
-	/* https://ru.wiktionary.org/w/index.php?title=severe */
-	td[bgcolor='white'][align='center'] {
+@-moz-document url-prefix('https://ru.wiktionary.org') {
+	/* Search on the main page - we already have search at top-right */
+	.mw-inputbox-centered {
+		display: none;
+	}
+
+	#mf-intro,
+	td[bgcolor='white'][align='center'] /* https://ru.wiktionary.org/w/index.php?title=severe */
+	{
 		color: #bbb;
 	}
 }
