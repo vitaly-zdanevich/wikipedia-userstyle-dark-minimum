@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.25
+@version        1.4.26
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1485,7 +1485,13 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 		max-width: max-content;
 	}
 
-	.wbqc-reports-status-warning.wbqc-reports.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-scrollable.oo-ui-panelLayout-expanded.oo-ui-stackLayout-continuous.oo-ui-stackLayout.oo-ui-labelElement .oo-ui-layout.oo-ui-panelLayout.wbqc-report.wbqc-report-status-warning .wbqc-report-heading + p { /* "Potential issues" popup */
+	/* "Potential issues" popup */
+	.wbqc-report {
+		border: 0;
+	}
+
+	/* "Potential issues" popup */
+	.wbqc-reports-status-warning.wbqc-reports.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-scrollable.oo-ui-panelLayout-expanded.oo-ui-stackLayout-continuous.oo-ui-stackLayout.oo-ui-labelElement .oo-ui-layout.oo-ui-panelLayout.wbqc-report.wbqc-report-status-warning .wbqc-report-heading + p {
 		color: #bbb !important;
 	}
 }
