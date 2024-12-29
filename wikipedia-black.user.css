@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.24
+@version        1.4.25
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1483,6 +1483,10 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	.wikibase-sitelinkgroupview.mw-collapsible.mw-made-collapsible.listview-item.wikibase-toolbar-item {
 		/* Item: bottom with links to other projects: width increase to have space for titles in one line */
 		max-width: max-content;
+	}
+
+	.wbqc-reports-status-warning.wbqc-reports.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-scrollable.oo-ui-panelLayout-expanded.oo-ui-stackLayout-continuous.oo-ui-stackLayout.oo-ui-labelElement .oo-ui-layout.oo-ui-panelLayout.wbqc-report.wbqc-report-status-warning .wbqc-report-heading + p { /* "Potential issues" popup */
+		color: #bbb !important;
 	}
 }
 
