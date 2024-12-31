@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.26
+@version        1.4.27
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -366,6 +366,8 @@ tr,
 {
 	background: #220 !important;
 }
+
+.current-events-title, /* For example "June 28, 2005 (Tuesday)" https://en.wikipedia.org/wiki/Portal:Current_events/2005_June_28 */
 h2,
 #pagehistory li.selected,
 
@@ -591,6 +593,7 @@ kbd[style*='background:#EEEEEE'],
 	border: none;
 }
 
+.mw-parser-output .current-events-nav a, /* Bottom navigation with dates https://en.wikipedia.org/wiki/Portal:Current_events/2005_June_28 */
 .mainpage-box-blue .mainpage-box-title /* Commons main page: blue titles of blocks */
 {
 	background: #003 !important;
@@ -649,6 +652,7 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 	border: 0;
 }
 
+.mw-parser-output .current-events-main, /* https://en.wikipedia.org/wiki/Portal:Current_events/2005_June_28 */
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button,
 .mw-parser-output .main-box, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 .toccolours, /* Top years at https://en.wikipedia.org/wiki/Category:2004_video_games */
