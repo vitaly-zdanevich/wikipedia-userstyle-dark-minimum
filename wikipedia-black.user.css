@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.27
+@version        1.4.28
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -266,6 +266,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	top: 156px;
 }
 
+.mw-parser-output .current-events-calendar caption, /* <month> <year> navigation https://en.wikipedia.org/wiki/Portal:Current_events/June_2005 */
 .ns-0 #mw-content-text .mw-heading1, /* https://ru.wiktionary.org/w/index.php?title=severe */
 .mw-mmv-post-image, /* Image viewer: bottom part after scroll */
 body,
@@ -652,6 +653,7 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 	border: 0;
 }
 
+.mw-parser-output .events-by-month, /* Navigation https://en.wikipedia.org/wiki/Portal:Current_events/June_2005 */
 .mw-parser-output .current-events-main, /* https://en.wikipedia.org/wiki/Portal:Current_events/2005_June_28 */
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button,
 .mw-parser-output .main-box, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
