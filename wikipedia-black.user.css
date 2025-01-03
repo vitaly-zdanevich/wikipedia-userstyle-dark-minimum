@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.30
+@version        1.4.31
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -359,6 +359,7 @@ tr,
 	filter: invert();
 }
 
+.ts-talk-quote, /* https://ru.wikipedia.org/wiki/Обсуждение_участницы:Megitsune-chan/Архив/2024 */
 .flaggedrevs-pending,
 .mw-parser-output .templatebox-usagesample, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
 .mw-parser-output .templatebox-languagedependant, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
@@ -1388,6 +1389,14 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	}
 }
 
+@-moz-document domain("ru.wikipedia.org") {
+	.mw-parser-output .ts-Закрыто {
+		background: #112;
+		border: 0;
+	}
+
+}
+
 /* https://en.wikipedia.org/wiki/File:Armies-of-exigo--fallen-base--wide-screen.png */
 @-moz-document regexp("https://[a-z][a-z].wikipedia.org/wiki/File:.*"),
 			   regexp("https://[a-z][a-z].wikipedia.org/w/index.php\?title=File:.*"),
@@ -1646,6 +1655,15 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	{
 		background: #000;
 	}
+}
+
+body {
+	--destructive: #ff0;
+}
+
+/* Deleted good article improvement https://ru.wikipedia.org/wiki/Обсуждение_участника:Vitaly_Zdanevich#Блокировка_от_3_января_2025 */
+a[title='Участница:Megitsune-chan'] span {
+	color: var(--destructive) !important;
 }
 
 
