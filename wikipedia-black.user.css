@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.31
+@version        1.4.32
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -552,6 +552,8 @@ kbd[style*='background:#EEEEEE'],
 #mwe-upwiz-step-thanks {
 	background: #000
 }
+
+.ts-Taxonomy-rang-name, /* Infobox https://ru.wikipedia.org/w/index.php?title=Мухомор_красный */
 #mwe-upwiz-steps li.head,
 .wb-empty /* Wikidata: top block with labels: "No label defined", "No description defined" */
 { /* Commons: uploading: highlight current step */
@@ -925,7 +927,7 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 	background: #742 !important;
 }
 
-
+.ts-Taxonomy-rang-label, /* Infobox https://ru.wikipedia.org/w/index.php?title=Мухомор_красный */
 .tfa-recent, /* Main page: "Recently featured" */
 
 .potd-recent, /* Main page: "Recently featured" image of the day */
@@ -1481,6 +1483,13 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	 * https://be.wikisource.org/wiki/Старонка:Hołas_dušy_(1926).pdf/72 */
 	.quality1 {
 		color: #000;
+	}
+}
+
+/* https://be.wikipedia.org/wiki/Мухамор_чырвоны */
+@-moz-document domain("be.wikipedia.org") {
+	.infobox {
+		color: #bbb;
 	}
 }
 
