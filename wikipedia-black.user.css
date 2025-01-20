@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.33
+@version        1.4.34
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -430,6 +430,9 @@ cite, /* Wikipedia quote */
 .sdms-search-filters__namespace, /* Commons search: button "Namespace: All" */
 #main-wotw, /* Work-Of-The-Week https://ru.wikipedia.org/wiki/Заглавная_страница */
 .description.mw-content-ltr, /* Top https://commons.wikimedia.org/wiki/Category:Receipts */
+#fileinfotpl_date + td, /* https://be-tarask.wikipedia.org/wiki/Файл:Miensk_Vilenski._Менск_Віленскі_(1926).jpg  */
+#fileinfotpl_src + td,
+#fileinfotpl_aut + td,
 .afd-notice, /* Talk page https://en.wikipedia.org/wiki/User_talk:Vitaly_Zdanevich */
 .metadata.divbox.divbox-gray, /* Talk page https://en.wikipedia.org/wiki/User_talk:Vitaly_Zdanevich */
 .mp-frame-body, /* Wikidata main page: label in block "Discover" */
