@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.35
+@version        1.4.36
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -15,7 +15,7 @@ domain("wikidata.org")
 {
 /* End of lines for removing, also remove "}" at the end of this file */
 
-a:not(.mw-mmv-stripe-button.mw-mmv-description-page-button.cdx-button.cdx-button--weight-primary.cdx-button--action-progressive.cdx-button--size-large.cdx-button--fake-button.cdx-button--fake-button--enabled.mw-mmv-repo-button-commons, .new, .oo-ui-tool-link.ve-ui-toolbar-saveButton), /* :not("More details" in image viewer, red link, on edit top-right button "Publish changes...") */
+a:not(.navbox .mw-selflink.selflink, .mw-mmv-stripe-button.mw-mmv-description-page-button.cdx-button.cdx-button--weight-primary.cdx-button--action-progressive.cdx-button--size-large.cdx-button--fake-button.cdx-button--fake-button--enabled.mw-mmv-repo-button-commons, .new, .oo-ui-tool-link.ve-ui-toolbar-saveButton), /* :not("More details" in image viewer, red link, on edit top-right button "Publish changes...") */
 .vector-menu-dropdown .mw-list-item a,
 .mw-parser-output .main-box:not(:hover) .main-box-header a:not(:focus), /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 .mw-parser-output .module-clickable-button-3.module-clickable-button-quiet a, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
