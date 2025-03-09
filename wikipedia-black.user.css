@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.36
+@version        1.4.37
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1397,6 +1397,11 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	.mw-parser-output .ts-Закрыто {
 		background: #112;
 		border: 0;
+	}
+
+	.ruwiki-previousSimilarDeletions b /* https://ru.wikipedia.org/wiki/Википедия:К_удалению/9_марта_2025#Магнолия_(здание_в_Батуми) */
+	{
+		color: wheat !important;
 	}
 
 }
