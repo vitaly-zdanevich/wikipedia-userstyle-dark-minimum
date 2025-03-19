@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.38
+@version        1.4.39
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1615,8 +1615,6 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 }
 
 @-moz-document url-prefix("https://commons.wikimedia.org/w/index.php?title=Special:ListFiles") {
-
-
 	.listfiles th:last-child,
 	.listfiles td:last-child
 	/* Remove last column "Current version" */
