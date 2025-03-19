@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.37
+@version        1.4.38
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1404,6 +1404,15 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 		color: wheat !important;
 	}
 
+	body {
+		--destructive: #ff0;
+	}
+
+	/* Deleted good article improvement https://ru.wikipedia.org/wiki/Обсуждение_участника:Vitaly_Zdanevich#Блокировка_от_3_января_2025 */
+	a[title='Участница:Megitsune-chan'] span {
+		color: var(--destructive) !important;
+	}
+
 }
 
 /* https://en.wikipedia.org/wiki/File:Armies-of-exigo--fallen-base--wide-screen.png */
@@ -1675,15 +1684,6 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	{
 		background: #000;
 	}
-}
-
-body {
-	--destructive: #ff0;
-}
-
-/* Deleted good article improvement https://ru.wikipedia.org/wiki/Обсуждение_участника:Vitaly_Zdanevich#Блокировка_от_3_января_2025 */
-a[title='Участница:Megitsune-chan'] span {
-	color: var(--destructive) !important;
 }
 
 
