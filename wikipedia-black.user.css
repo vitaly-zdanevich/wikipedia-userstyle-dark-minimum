@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.39
+@version        1.4.40
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -67,6 +67,8 @@ button {
 
 /* "Welcome to Wikipedia, the free encyclopedia that anyone can edit" */
 #mp-topbanner,
+
+.ve-ui-mwSaveDialog-summaryLabel, /* "Summary" label on page saving */
 
 body.page-Main_Page #firstHeading,
 body.page-Main_Page .main-top-left, /* "Добро пожаловать в Википедию *https://ru.wikipedia.org/wiki/Заглавная_страница */
