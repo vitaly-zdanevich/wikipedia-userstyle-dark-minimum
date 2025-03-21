@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.40
+@version        1.4.41
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -687,6 +687,7 @@ span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/мар
 	right: 0 !important;
 }
 
+ol.references li:target, /* Click to source[1] - highlight the source */
 .ext-WikiEditor-ManualWidget {
 	background: #333;
 	border: 0;
@@ -757,7 +758,6 @@ div.vectorTabs ul li{
 
 #mwdw, /* Popup in editing mode */
 .oo-ui-popupWidget-popup h3, /* Commons: mouse hover on "application/pdf": "Privacy considerations" and text after https://commons.wikimedia.org/wiki/File:Minskij_Listok_1886_03.pdf */
-ol.references li:target, /* Click to source[1] - highlight the source */
 .popupPreview .popupDiff, /* Gadget */
 .guider_description, /* Popup with messages like "Welcome to improved Recent Changes filtering" */
 .rt-tooltip cite, /* Popup tooltip on English Wikipedia */
@@ -1014,7 +1014,7 @@ dl, /* Talk page - comment body */
 center /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы  */,
 .noprint,
 ul li, /* For example this list https://ru.wikipedia.org/wiki/Рудня_(Червенский_район)#Население  */
-ol li, /* Wikipedia: sources list */
+ol li:not(.rt-target), /* Wikipedia: sources list */
 aside a, 
 aside p, /* related articles: titles & second line with desc*/
 .infobox span:not([data-wikidata-property-id="P625"]), /* map */
