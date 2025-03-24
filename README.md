@@ -49,3 +49,5 @@ if (mw.config.get('wgPageName') == 'Special:UploadWizard') {
     observer.observe(parent, config)
 }
 ```
+
+See my [related userscripts](https://greasyfork.org/en/users/22859-vitaly-zdanevich).
