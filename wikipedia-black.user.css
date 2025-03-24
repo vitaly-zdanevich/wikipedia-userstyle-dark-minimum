@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.42
+@version        1.4.43
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -64,6 +64,9 @@ button {
 	top: 15px !important;
 	left: 180px;
 }
+
+/* "Add a citation" window: label "Powered by Zotero" */
+.ve-ui-citoidInspector-credit,
 
 /* "Welcome to Wikipedia, the free encyclopedia that anyone can edit" */
 #mp-topbanner,
