@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.43
+@version        1.4.44
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -373,6 +373,9 @@ tr,
 {
 	background: #220 !important;
 }
+
+/* Editing of Wikipedia article: link popup: short page description */
+.ve-ui-mwInternalLinkContextItem-description,
 
 .current-events-title, /* For example "June 28, 2005 (Tuesday)" https://en.wikipedia.org/wiki/Portal:Current_events/2005_June_28 */
 h2,
