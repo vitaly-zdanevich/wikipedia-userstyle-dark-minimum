@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.41
+@version        1.4.42
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -832,6 +832,11 @@ div.vectorTabs ul li{
 .ui-closeable.wb-error /* Wikidata: when Commons category not exists */
 {
 	background: #733;
+}
+
+/* Red-like, for error on a page save "This site is blocked. This source is considered unreliable by our community, and therefore is not allowed. Please choose a different reliable source" for https://www.healthline.com/nutrition/10-proven-benefits-of-spirulina */
+.oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-error {
+	background: #462f2a;
 }
 
 /* "Insert link" popup: dropdown */
