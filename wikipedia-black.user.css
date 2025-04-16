@@ -1351,7 +1351,7 @@ td
 	display: none !important;
 }
 
-html {
+body {
 	width: 98%; /* Drop horizontal scroll on editing */
 }
 
