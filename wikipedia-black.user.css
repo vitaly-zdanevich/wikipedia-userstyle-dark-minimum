@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.4.45
+@version        1.5.0
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -651,6 +651,7 @@ kbd[style*='background:#EEEEEE'],
  }
 
 html body p.ve-ce-branchNode-newSlug, /* When insert a paragraph between quotes https://ru.wikipedia.org/w/index.php?title=Любовник_Большой_Медведицы_(книга) */
+.cdx-message, /* On page edit, top-right popup: "The stable version was checked on 22 October 2024. There is 1 pending change awaiting review" */
 .mw-revslider-revision,
 span[style='background-color:#EDF0FF'], /* https://be.wiktionary.org/wiki/маркотна#Значэнне */
 .sdms-search-filters .sd-select__content:hover /* Commons search: buttons "License", "File Type"... */
