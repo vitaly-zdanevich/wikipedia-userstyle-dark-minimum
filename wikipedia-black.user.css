@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.5.0
+@version        1.5.1
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1064,7 +1064,7 @@ li[role='option'],
 }
  
 #content {
-	margin: 20px 5px !important;
+	margin: 12px 0 0 5px !important; /* Decrease margins - to have more space for the content */
 	padding: 0;
 	/* More space for a content */
 
