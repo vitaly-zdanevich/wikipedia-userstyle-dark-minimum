@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.5.1
+@version        1.5.2
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1033,6 +1033,13 @@ aside p, /* related articles: titles & second line with desc*/
 [style='width:50%; border:1px solid #cef2e0; padding:0; background-color: #ffffff; vertical-align:top; color:#000;'] /* https://be.wikipedia.org/wiki/Галоўная_старонка: article of the day: text around link was black on black */
 {
 	color: lightgray !important;
+}
+
+ul {
+	list-style-image: none;
+}
+ul ::marker {
+	color: wheat;
 }
 
 /* Wikipedia: link edit popup "Edit link": onhover article names */
