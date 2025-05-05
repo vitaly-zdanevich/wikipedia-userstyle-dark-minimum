@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.5.2
+@version        1.5.3
 @description    Black, with removed elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -505,6 +505,8 @@ table[style='float: right; margin-left: 1em; margin-bottom: 0.5em; clear: right;
 table[style='float: right; margin-left: 1em; margin-bottom: 0.5em; clear: right;;background:#FAFAFA;border:1px solid #BBBBBB;width:258px;font-size:11px'] td[style='background:#d0e1e0;width:50%;text-align:right;padding-left:0.5em;padding-right:0.5em;'],
 table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 .localmap-caption, /* Above the map */
+
+.noplainlist, /* https://ru.wikipedia.org/wiki/Военный_переворот_в_Грузии_(1991—1992) */
 
 .tool2-userscript, /* https://www.wikidata.org/wiki/Wikidata:Tools/Enhance_user_interface */
 .tool2-external,
