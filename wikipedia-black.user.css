@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.5.5
+@version        1.5.6
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -166,6 +166,8 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	background-color: #000 !important;
 	border: 0 !important;
 }
+
+.wikiEditor-ui-top, /* Editor https://commons.wikimedia.org/w/index.php?title=File:Globustut_521_Геранены,_костел.jpg&action=edit */
 .documentation-startbox,
 .mw-parser-output .sister-projects, /* Commons: main page, near the text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family" */
 .mw-heading, /* Talk page - line between comment title and comment body */
@@ -604,6 +606,7 @@ kbd[style*='background:#EEEEEE'],
 	background: #131 !important;  /* Darkgreen */
 }
 
+#ext-WikiEditor-bottom-dragbar, /* Editor https://commons.wikimedia.org/w/index.php?title=File:Globustut_521_Геранены,_костел.jpg&action=edit */
 .mw-parser-output .wst-header .wst-header-mainblock /* https://en.wikisource.org/wiki/Alice%27s_Adventures_in_Wonderland_(1907)/Chapter_8 */
 {
 	background: #131 !important;  /* Darkgreen */
@@ -741,6 +744,7 @@ div.vectorTabs ul li{
 	background: #000;
 }
 
+textarea,
 .infobox [style='width:100%;background:#ccccff'], /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label,
 .sdms-search-filters .sd-select__content, /* Commons search: buttons "License", "File Type", "Image size", ... */
