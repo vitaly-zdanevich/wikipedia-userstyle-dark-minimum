@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.8.0
+@version        1.8.1
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1581,6 +1581,11 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	/* "Potential issues" popup */
 	.wbqc-report {
 		border: 0;
+	}
+
+	/* https://www.wikidata.org/wiki/Q6485287 */
+	#mw-content-subtitle details {
+		box-shadow: none !important;
 	}
 
 	/* "Potential issues" popup */
