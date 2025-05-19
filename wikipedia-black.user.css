@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.5.7
+@version        1.6.0
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1483,6 +1483,29 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	.mainpage-maintable div[style='margin-left: 0.3em; padding-right: 0.6em; line-height: 1.3; color: inherit; font-size: 1.4em'] {
 		color: #bbb !important;
 	}
+
+	/* https://commons.wikimedia.org/wiki/Category:Church_of_the_Immaculate_Conception_of_Blessed_Virgin_Mary_and_the_convent_of_Bernardine_in_Slonim */
+	li.gallerybox {
+		width: 130px !important;
+		margin-bottom: 40px;
+	}
+
+	/* https://commons.wikimedia.org/wiki/Category:Church_of_the_Immaculate_Conception_of_Blessed_Virgin_Mary_and_the_convent_of_Bernardine_in_Slonim */
+	.gallerytext {
+		display: none !important;
+	}
+
+	/* Category: make thumbnails bigger https://commons.wikimedia.org/wiki/Category:Church_of_the_Immaculate_Conception_of_Blessed_Virgin_Mary_and_the_convent_of_Bernardine_in_Slonim */
+	a.mw-file-description img {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	/* Categories after thumbnails https://commons.wikimedia.org/wiki/Category:Church_of_the_Immaculate_Conception_of_Blessed_Virgin_Mary_and_the_convent_of_Bernardine_in_Slonim */
+	#catlinks {
+		margin-top: 60px;
+	}
+
 }
 
 @-moz-document domain("wikisource.org") {
