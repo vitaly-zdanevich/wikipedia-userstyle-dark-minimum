@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.10.0
+@version        1.10.1
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -967,6 +967,7 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 #fileinfotpl_src,
 #fileinfotpl_aut,
 #fileinfotpl_ver, /* https://commons.wikimedia.org/wiki/File:1_Soviet_Ruble_Note_02.tif */
+.commons-file-information-table .fileinfo-paramfield, /* "Camera location" https://commons.wikimedia.org/wiki/File:Batumi_Dec_2019_08_35_59_112000.jpeg */
 
 #rationale_desc, /* https://en.wikipedia.org/wiki/File:Gc_squad_config.PNG */
 #rationale_src,
