@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.10.3
+@version        1.10.4
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1475,7 +1475,7 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	}
 }
 
-@-moz-document domain("commons.wikimedia.org") {
+@-moz-document domain('commons.wikimedia.org') {
 	#filehistory,
 	#mw-imagepage-section-filehistory > p,
 	#metadata,
@@ -1488,7 +1488,9 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 		display: none;
 	}
 
-	.mainpage-maintable div[style='margin-left: 0.3em; padding-right: 0.6em; line-height: 1.3; color: inherit; font-size: 1.4em'] {
+	.mainpage-maintable div[style='margin-left: 0.3em; padding-right: 0.6em; line-height: 1.3; color: inherit; font-size: 1.4em'],
+	.fileInfo /* https://commons.wikimedia.org/wiki/File:2025tbilisi--art-palace--siege-zoom.jpeg */
+	{
 		color: #bbb !important;
 	}
 
