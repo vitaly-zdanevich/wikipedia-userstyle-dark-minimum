@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.11.0
+@version        1.12.0
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -15,7 +15,7 @@ domain("wikidata.org")
 {
 /* End of lines for removing, also remove "}" at the end of this file */
 
-a:not(.navbox .mw-selflink.selflink, .mw-mmv-stripe-button.mw-mmv-description-page-button.cdx-button.cdx-button--weight-primary.cdx-button--action-progressive.cdx-button--size-large.cdx-button--fake-button.cdx-button--fake-button--enabled.mw-mmv-repo-button-commons, .new, .oo-ui-tool-link.ve-ui-toolbar-saveButton), /* :not("More details" in image viewer, red link, on edit top-right button "Publish changes...") */
+a:not(.navbox .mw-selflink.selflink, .cdx-button, .new, .oo-ui-tool-link.ve-ui-toolbar-saveButton), /* :not("More details" in image viewer, red link, on edit top-right button "Publish changes...") */
 .vector-menu-dropdown .mw-list-item a,
 .mw-parser-output .main-box:not(:hover) .main-box-header a:not(:focus), /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 .mw-parser-output .module-clickable-button-3.module-clickable-button-quiet a, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
@@ -1476,6 +1476,8 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 }
 
 @-moz-document domain('commons.wikimedia.org') {
+	.mw-mmv-dialog.mw-mmv-download-dialog .cdx-dialog__body ~ *,
+	.cdx-dialog__header__title,
 	#filehistory,
 	#cleanup,
 	#mw-imagepage-section-filehistory > p,
@@ -1487,7 +1489,7 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	h2#globalusage /* Title "File usage on other wikis" */
 	.gallerytext /* https://commons.wikimedia.org/wiki/Category:Church_of_the_Immaculate_Conception_of_Blessed_Virgin_Mary_and_the_convent_of_Bernardine_in_Slonim */
 	{
-		display: none;
+		display: none !important;
 	}
 
 	.mainpage-maintable div[style='margin-left: 0.3em; padding-right: 0.6em; line-height: 1.3; color: inherit; font-size: 1.4em'],
