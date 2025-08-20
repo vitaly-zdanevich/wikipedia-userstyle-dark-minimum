@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.0
+@version        1.13.1
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -952,6 +952,8 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 {
 	background: #742 !important;
 }
+
+.infobox .no-wikidata, /* https://ru.wikipedia.org/wiki/Данелия,_Георгий_Николаевич */
 
 .ts-Taxonomy-rang-label, /* Infobox https://ru.wikipedia.org/w/index.php?title=Мухомор_красный */
 .tfa-recent, /* Main page: "Recently featured" */
