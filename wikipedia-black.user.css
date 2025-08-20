@@ -845,8 +845,7 @@ textarea,
 	padding-right: 30px;
 }
 
-/* https://www.wikidata.org/wiki/Q171976 */
-.wb-deprecated .wikibase-statementview-mainsnak,
+.wb-deprecated .wikibase-statementview-mainsnak, /* https://www.wikidata.org/wiki/Q171976 */
 .ui-closeable.wb-error /* Wikidata: when Commons category not exists */
 {
 	background: #733;
