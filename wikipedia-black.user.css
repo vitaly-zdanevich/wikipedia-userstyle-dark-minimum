@@ -1298,8 +1298,8 @@ div[style*='#F3F3F3;'],
 }
 
 
-/* H1 https://be.wiktionary.org/wiki/спатканне */
-div[style='background-color:#d4e4f4;'],
+.flaggedrevs-unreviewed, /* https://ru.wikipedia.org/wiki/Служебная:Вклад/Vitaly_Zdanevich */
+div[style='background-color:#d4e4f4;'], /* H1 https://be.wiktionary.org/wiki/спатканне */
 .ns-0 #mw-content-text h1 /* https://ru.wiktionary.org/wiki/лозняк */
 {
 	background: #123 !important;
