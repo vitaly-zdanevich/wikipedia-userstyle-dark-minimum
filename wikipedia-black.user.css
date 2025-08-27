@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.2
+@version        1.13.3
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -37,6 +37,8 @@ a:visited {
 	color: #b2b !important;
 }
 
+.aiv-header > div:nth-child(5), /* Banner top at https://en.wikipedia.org/wiki/Wikipedia:Administrator_intervention_against_vandalism */
+.aiv-header > div:nth-child(5) > div:first-child,
 input,
 .unsolved,
 .summaryButtons button, /* Wikipedia: editing source: buttons to set Summary text */
@@ -180,6 +182,8 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 {
     border: 0 !important;
 }
+
+.aiv-header > div:nth-child(5) > div:nth-child(4), /* Banner top at https://en.wikipedia.org/wiki/Wikipedia:Administrator_intervention_against_vandalism */
 
 /* "Insert" -> "Template" -> "Quote": popup top-left: vertical line between checkboxes and fields */
 .ve-ui-mwTwoPaneTransclusionDialogLayout > .oo-ui-menuLayout-menu,
