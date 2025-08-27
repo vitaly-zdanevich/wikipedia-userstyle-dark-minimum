@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.3
+@version        1.13.4
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -381,6 +381,10 @@ tr,
 {
 	background: #220 !important;
 }
+
+/* https://en.wikipedia.org/wiki/Special:UserRights/Dorsetonian */
+legend,
+fieldset,
 
 /* Editing of Wikipedia article: link popup: short page description */
 .ve-ui-mwInternalLinkContextItem-description,
