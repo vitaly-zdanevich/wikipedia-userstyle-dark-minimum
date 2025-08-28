@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.4
+@version        1.13.5
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -108,6 +108,7 @@ a[title='Log out'],
 .mw-specialpage-summary, /* Text line "Please visit Commons:Help desk if you need to ask questions about uploading files." */
 .footer-content, /* Mobile pages */
 #editpage-copywarn,
+.editpage-head-copywarn,
 .oo-ui-icon-reload, /* Because full block is clickable, and with Reload text */
 .mw-preview-loading-elements span:nth-child(2), /* Redundant text */
 #ct-popup, /* https://be.wikisource.org/wiki/Новая_зямля_(1923)/I when mouse hover on page number, to drop vertical scroll */
