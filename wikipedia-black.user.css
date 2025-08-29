@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.5
+@version        1.13.6
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1100,6 +1100,13 @@ li[role='option'],
 	padding: 0;
 	/* More space for a content */
 
+}
+
+/* Wikipedia: editing: top toolbar with search-and-replace
+ * without it - its a few chars outside of the screen */
+.ve-init-mw-desktopArticleTarget-toolbar
+{
+	margin: 0;
 }
 
 #toc
