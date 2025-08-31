@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.6
+@version        1.13.7
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -830,7 +830,7 @@ textarea,
 
 #mw-teleport-target .oo-ui-processDialog > .oo-ui-window-frame /* Wikipedia: UI for media Search and Upload */
 {
-	height: 80% !important;
+	/* height: 80% !important; */
 	/* With bigger value - JS will not load next images, because it triggers on scroll :(
 	 * TODO fix JS?
 	 */
