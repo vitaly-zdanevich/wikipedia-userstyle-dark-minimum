@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.8
+@version        1.13.9
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -375,6 +375,7 @@ tr,
 	filter: invert();
 }
 
+.boilerplate.metadata.discussion-archived.mw-archivedtalk[style*='background-color: #F2F4FC'], /* https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot/Josh404Bot_4 */
 .ts-talk-quote, /* https://ru.wikipedia.org/wiki/Обсуждение_участницы:Megitsune-chan/Архив/2024 */
 .flaggedrevs-pending,
 .mw-parser-output .templatebox-usagesample, /* https://commons.wikimedia.org/wiki/Creator:Frank_Schulenburg */
