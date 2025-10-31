@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.9
+@version        1.13.10
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -644,6 +644,7 @@ kbd[style*='background:#EEEEEE'],
 	background: #311;
 }
 
+#mw-content-text .mw-content-ltr > div:first-child, /* "На дадзенай старонцы абмяркоўваецца кандыдат у абраныя сьпісы" https://be-tarask.wikipedia.org/wiki/Вікіпэдыя:Кандыдаты_ў_абраныя_сьпісы/Назва_сьпісу */
 .mw-parser-output .property-proposal-header-steps, /* Block "Before proposing a property" https://www.wikidata.org/wiki/Wikidata:Property_proposal/Person */
 .mw-parser-output .community-tabs > ul > li, /* https://commons.wikimedia.org/wiki/Commons:Help_desk */
 .mw-parser-output .discussion-menu,
