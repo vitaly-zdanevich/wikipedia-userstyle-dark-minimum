@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.10
+@version        1.13.11
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -966,6 +966,10 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 {
 	background: #742 !important;
 }
+
+
+.mw-parser-output .navbox-group,
+/* Wikipedia: page bottom: navigation template https://en.wikipedia.org/wiki/Emotional_reasoning */
 
 .mw-collapsible .ts-Скрытый_блок-title, /* Collapsed block title https://ru.wikipedia.org/wiki/Данелия,_Георгий_Николаевич */
 .infobox .no-wikidata, /* https://ru.wikipedia.org/wiki/Данелия,_Георгий_Николаевич */
