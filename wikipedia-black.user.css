@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.11
+@version        1.13.12
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1116,6 +1116,12 @@ li[role='option'],
 .ve-init-mw-desktopArticleTarget-toolbar
 {
 	margin: 0;
+}
+
+.mw-editable .wikitable
+{
+	margin-left: 10px;
+	/* To be able to add new row https://en.wikipedia.org/w/index.php?title=Emotional_reasoning&section=2&veaction=editsource&action=edit */
 }
 
 #toc
