@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.26
+@version        1.13.27
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1037,6 +1037,8 @@ table[style='text-align:center; border:1px solid black; background:#fafafa'] th,
 .mw-changeslist-links::after,
 
 .mw-tag-marker-mobile_edit, /* "Mobile edit" https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
+
+.wikitable.mw-filepage-transcodestatus th, /* https://en.wikipedia.org/wiki/File:Sonic_Robo_Blast_2_gameplay_video_Wikipedia.webm */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
