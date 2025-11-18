@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.17
+@version        1.13.18
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -549,6 +549,8 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 
 #mw-content-subtitle, /* Top text at https://be.wikisource.org/wiki/Адмысловае:Contributions/Vitaly_Zdanevich */
 #mw-content-subtitle .cdx-message__content, /* Top https://en.wikipedia.org/w/index.php?title=Draft:David_A._Clark&oldid=1314235062 */
+
+.cdx-message, /* Originally red box with for example "This page does not exist. The deletion, protection, and move log for the page are provided below for reference." https://en.wikipedia.org/wiki/David_A._Clark */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
