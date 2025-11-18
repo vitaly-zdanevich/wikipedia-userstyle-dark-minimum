@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.15
+@version        1.13.16
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1058,6 +1058,7 @@ dl, /* Talk page - comment body */
 center /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на_крыніцы  */,
 .noprint,
 .mw-heading.mw-heading2 ~ ul li, /* For example this list https://ru.wikipedia.org/wiki/Рудня_(Червенский_район)#Население  */
+.plainlinks.ombox.ombox-notice.afc-submission-declined ~ ul li, /* https://en.wikipedia.org/w/index.php?title=Draft:David_A._Clark&oldid=1314235062 */
 ol li:not(.rt-target), /* Wikipedia: sources list */
 aside a, 
 aside p, /* related articles: titles & second line with desc*/
