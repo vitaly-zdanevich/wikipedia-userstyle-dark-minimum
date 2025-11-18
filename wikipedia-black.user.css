@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.19
+@version        1.13.20
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1346,6 +1346,12 @@ div[style='background-color:#d4e4f4;'], /* H1 https://be.wiktionary.org/wiki/с�
 {
 	background: #123 !important;
 	border: 0 !important;
+}
+
+.user-block.unblock-reviewed.unblock-auto-reviewed /* "This user's request to have autoblock on their IP address lifted has been reviewed by an administrator" https://en.wikipedia.org/w/index.php?title=User_talk:Vitaly_Zdanevich&oldid=1322774397#The_World_Destubathon */
+{
+	background: #123 !important; /* blue light */
+	color: #bbb;
 }
 
 /* Here https://be.wiktionary.org/w/index.php?fulltext=1&search=верашчака&title=Адмысловае%3ASearch&ns0=1 labels "Сартаваць паводле рэлевантнасці" */
