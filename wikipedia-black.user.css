@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.29
+@version        1.13.30
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1043,6 +1043,8 @@ table[style='text-align:center; border:1px solid black; background:#fafafa'] th,
 .fileInfo, /* https://commons.wikimedia.org/wiki/File:2025tbilisi--art-palace--siege-zoom.jpeg */
 
 .wb-itemlink-description, /* https://www.wikidata.org/w/index.php?search=eye+on+the+prize&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns120=1 */
+
+li.oo-ui-widget .oo-ui-labelElement-label, /* Labels https://www.wikidata.org/w/index.php?search=eye+on+the+prize&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns120=1 */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
