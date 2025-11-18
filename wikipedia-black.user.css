@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.24
+@version        1.13.25
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1031,6 +1031,11 @@ table[style='text-align:center; border:1px solid black; background:#fafafa'] th,
 .ext-discussiontools-init-pageframe-latestcomment, /* Top after page title, text like "Latest comment: 54 minutes ago by Sgt.McHale in topic "Native American-sounding music for the Night Elves" at https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .quotebox-title, /* https://en.wikipedia.org/wiki/Llama_(language_model)#Architecture_and_training */
 .history-size.mw-diff-bytes, /* For example "(8,456 bytes) https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
+
+/* History page: brackets ( and ) https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
+.mw-changeslist-links::before,
+.mw-changeslist-links::after,
+
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
 	color: wheat !important;
