@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.22
+@version        1.13.23
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -551,6 +551,8 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 #mw-content-subtitle .cdx-message__content, /* Top https://en.wikipedia.org/w/index.php?title=Draft:David_A._Clark&oldid=1314235062 */
 
 .cdx-message, /* Originally red box with for example "This page does not exist. The deletion, protection, and move log for the page are provided below for reference." https://en.wikipedia.org/wiki/David_A._Clark */
+
+.comment--without-parentheses, /* History commit message https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
 
 .divbox.divbox-gray, /* "Your submission at Articles for creation: David A. Clark (September 30)" https://en.wikipedia.org/w/index.php?title=User_talk:Vitaly_Zdanevich&oldid=1322774397#Your_submission_at_Articles_for_creation:_David_A._Clark_(September_30) */
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
