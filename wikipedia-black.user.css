@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.27
+@version        1.13.28
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1040,6 +1040,8 @@ table[style='text-align:center; border:1px solid black; background:#fafafa'] th,
 
 .wikitable.mw-filepage-transcodestatus th, /* https://en.wikipedia.org/wiki/File:Sonic_Robo_Blast_2_gameplay_video_Wikipedia.webm */
 
+.fileInfo, /* https://commons.wikimedia.org/wiki/File:2025tbilisi--art-palace--siege-zoom.jpeg */
+
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
 	color: wheat !important;
@@ -1551,8 +1553,7 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 		display: none !important;
 	}
 
-	.mainpage-maintable div[style='margin-left: 0.3em; padding-right: 0.6em; line-height: 1.3; color: inherit; font-size: 1.4em'],
-	.fileInfo /* https://commons.wikimedia.org/wiki/File:2025tbilisi--art-palace--siege-zoom.jpeg */
+	.mainpage-maintable div[style='margin-left: 0.3em; padding-right: 0.6em; line-height: 1.3; color: inherit; font-size: 1.4em']
 	{
 		color: #bbb !important;
 	}
