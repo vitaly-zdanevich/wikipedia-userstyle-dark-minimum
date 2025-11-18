@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.23
+@version        1.13.24
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1217,6 +1217,7 @@ pre, /* Code pages like https://commons.wikimedia.org/wiki/User:Redditor098/vect
 .kw4
 .java.source-java,  /* return type, ex void */
 .kw4,
+.minoredit, /* History page https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
 .nn 
 {
 	color: lightblue !important;
