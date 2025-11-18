@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.25
+@version        1.13.26
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1035,6 +1035,8 @@ table[style='text-align:center; border:1px solid black; background:#fafafa'] th,
 /* History page: brackets ( and ) https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
 .mw-changeslist-links::before,
 .mw-changeslist-links::after,
+
+.mw-tag-marker-mobile_edit, /* "Mobile edit" https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
