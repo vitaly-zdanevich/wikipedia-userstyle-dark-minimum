@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.16
+@version        1.13.17
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -546,6 +546,9 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 
 /* Wikipedia: reference window: inputs */
 .oo-ui-textInputWidget .oo-ui-inputWidget-input,
+
+#mw-content-subtitle, /* Top text at https://be.wikisource.org/wiki/Адмысловае:Contributions/Vitaly_Zdanevich */
+#mw-content-subtitle .cdx-message__content, /* Top https://en.wikipedia.org/w/index.php?title=Draft:David_A._Clark&oldid=1314235062 */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
@@ -1594,11 +1597,6 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	.plainSister {
 		border: 0 !important;
 		background: #000 !important;
-	}
-
-	/* Top text at https://be.wikisource.org/wiki/Адмысловае:Contributions/Vitaly_Zdanevich */
-	#mw-content-subtitle {
-		color: #bbb;
 	}
 
 	/* Red background: "Гэта старонка не была вычытаная"
