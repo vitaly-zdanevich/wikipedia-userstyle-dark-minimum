@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.32
+@version        1.13.33
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1049,6 +1049,8 @@ table[style='text-align:center; border:1px solid black; background:#fafafa'] th,
 li.oo-ui-widget .oo-ui-labelElement-label, /* Labels https://www.wikidata.org/w/index.php?search=eye+on+the+prize&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&ns120=1 */
 
 .wikibase-sitelinkview-siteid, /* Language codes for Wikipedias https://www.wikidata.org/wiki/Q686963 */
+
+div.div-col ul li, /* https://en.wikipedia.org/wiki/As_Good_as_It_Gets#Cast */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
