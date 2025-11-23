@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.33
+@version        1.13.34
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -21,6 +21,7 @@ a:not(.navbox .mw-selflink.selflink, .cdx-button, .new, .oo-ui-tool-link.ve-ui-t
 .mw-parser-output .module-clickable-button-3.module-clickable-button-quiet a, /* https://ru.wikipedia.org/wiki/Заглавная_страница */
 #xtools_result a,
 .popup_mainlink a, /* Gadget */
+.mw-collapsible-text, /* Bottom nav at https://en.wikipedia.org/wiki/As_Good_as_It_Gets */
 .contributing a
 {
 	color: #37d !important;
@@ -1051,6 +1052,8 @@ li.oo-ui-widget .oo-ui-labelElement-label, /* Labels https://www.wikidata.org/w/
 .wikibase-sitelinkview-siteid, /* Language codes for Wikipedias https://www.wikidata.org/wiki/Q686963 */
 
 div.div-col ul li, /* https://en.wikipedia.org/wiki/As_Good_as_It_Gets#Cast */
+
+.navbox-title div, /* Bottom nav at https://en.wikipedia.org/wiki/As_Good_as_It_Gets */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
