@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.34
+@version        1.13.35
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1054,6 +1054,9 @@ li.oo-ui-widget .oo-ui-labelElement-label, /* Labels https://www.wikidata.org/w/
 div.div-col ul li, /* https://en.wikipedia.org/wiki/As_Good_as_It_Gets#Cast */
 
 .navbox-title div, /* Bottom nav at https://en.wikipedia.org/wiki/As_Good_as_It_Gets */
+
+.searchalttitle, /* https://en.wikipedia.org/wiki/Special:Search?search=Krig+7-B&sourceid=Mozilla-search&ns0=1 */
+.iw-result__content,
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
