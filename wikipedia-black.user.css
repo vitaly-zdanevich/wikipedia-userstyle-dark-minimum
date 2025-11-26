@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.36
+@version        1.13.37
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -558,6 +558,8 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 .searchresult, /* Wikidata https://en.wikipedia.org/wiki/Special:Search?search=Teonia&sourceid=Mozilla-search&ns0=1 */
 
 .refbegin, /* https://en.wikipedia.org/wiki/Sacred_space#Further_reading */
+
+.infobox.t-geoinfobox.t-geoinfobox-mount tr, /* https://ru.wikipedia.org/wiki/Кумистави */
 
 .divbox.divbox-gray, /* "Your submission at Articles for creation: David A. Clark (September 30)" https://en.wikipedia.org/w/index.php?title=User_talk:Vitaly_Zdanevich&oldid=1322774397#Your_submission_at_Articles_for_creation:_David_A._Clark_(September_30) */
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
