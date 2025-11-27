@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.38
+@version        1.13.39
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -561,6 +561,8 @@ table [style='line-height: 1.3em; padding-top: 2px; padding-bottom: 2px;'],
 
 .infobox.t-geoinfobox.t-geoinfobox-mount tr, /* https://ru.wikipedia.org/wiki/Кумистави */
 
+td:has(> [title^='Wikipedia:Userboxes']), /* https://en.wikipedia.org/wiki/Wikipedia:Userboxes/Interests/03#Lacrosse */
+
 .divbox.divbox-gray, /* "Your submission at Articles for creation: David A. Clark (September 30)" https://en.wikipedia.org/w/index.php?title=User_talk:Vitaly_Zdanevich&oldid=1322774397#Your_submission_at_Articles_for_creation:_David_A._Clark_(September_30) */
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
@@ -1055,6 +1057,8 @@ li.oo-ui-widget .oo-ui-labelElement-label, /* Labels https://www.wikidata.org/w/
 
 .wikibase-sitelinkview-siteid, /* Language codes for Wikipedias https://www.wikidata.org/wiki/Q686963 */
 
+.navbox-abovebelow ul li, /* Bottom "See also" https://en.wikipedia.org/wiki/Wikipedia:Userboxes/Interests/03 */
+
 div.div-col ul li, /* https://en.wikipedia.org/wiki/As_Good_as_It_Gets#Cast */
 
 .navbox-title div, /* Bottom nav at https://en.wikipedia.org/wiki/As_Good_as_It_Gets */
@@ -1186,8 +1190,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 2em;
 }
 
+/* https://en.wikipedia.org/wiki/Wikipedia:Userboxes/Interests/03#Lacrosse */
 code {
-	color: lightgray;
+	color: lightgray !important;
 	background: #000;
 	border: 1px solid;
 }
