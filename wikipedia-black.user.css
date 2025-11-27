@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.37
+@version        1.13.38
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1099,6 +1099,7 @@ center /* https://be.wikipedia.org/wiki/Вікіпедыя:Спасылкі_на
 .noprint,
 .mw-heading.mw-heading2 ~ ul li, /* For example this list https://ru.wikipedia.org/wiki/Рудня_(Червенский_район)#Население  */
 .navbox-list-with-group ul li, /* Wikipedia bottom navigation, for example https://en.wikipedia.org/wiki/The_Dark_Mod */
+p + ul li, /* https://en.wikipedia.org/wiki/CAP_theorem */
 .plainlinks.ombox.ombox-notice.afc-submission-declined ~ ul li, /* https://en.wikipedia.org/w/index.php?title=Draft:David_A._Clark&oldid=1314235062 */
 ol li:not(.rt-target), /* Wikipedia: sources list */
 aside a, 
