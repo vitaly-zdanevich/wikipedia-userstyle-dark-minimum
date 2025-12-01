@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.44
+@version        1.13.45
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1376,7 +1376,7 @@ span[style*='background:#FFE7FF;'],
 
 /* List of languages from my userscript https://meta.wikimedia.org/wiki/User:Vitaly_Zdanevich/global.js */
 #p-lang {
-	margin-top: 30px;
+	margin: 30px 0 0 20px;
 }
 
 /* "Insert" -> "Template" -> "Quote": popup top-left: white around input "Find field" */
