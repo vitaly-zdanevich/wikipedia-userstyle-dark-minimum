@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.47
+@version        1.13.48
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -816,6 +816,9 @@ textarea,
 
 /* #ooui-11, /1* Popup tooltip on English Wikipedia: preferences *1/ */ 
 /* Commented to fix "External site" on "Add a link" Wikipedia popup */
+
+.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.ve-ui-mwReferenceResultWidget.oo-ui-labelElement.oo-ui-optionWidget-highlighted cite,
+/* Wikipedia: editing: ref adding window: "Re-use" tab https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edit&section=1 */
 
 .oo-ui-window-frame .oo-ui-labelElement li, /* ..."One of the categories lacks a description page. Are you sure you typed the name correctly?" */
 .oo-ui-window-frame .oo-ui-fieldLayout-header .oo-ui-labelElement-label /* "Save your changes" popup with Summary - color of "This is a minor edit" and "Watch this page" */
