@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.50
+@version        1.13.51
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -565,6 +565,8 @@ td:has(> [title^='Wikipedia:Userboxes']), /* https://en.wikipedia.org/wiki/Wikip
 td:has(> [title^='Wikipedia:Babel/List']), /* https://en.wikipedia.org/wiki/Wikipedia:Userboxes/Life */
 
 .cquote.pullquote, /* https://en.wikipedia.org/wiki/Wikipedia:Purpose */
+
+table[style='margin:auto;'] tr[style='text-align:right;'] td[style='padding:0 1em'], /* Table https://en.wikipedia.org/wiki/Pythagorean_triple#Examples */
 
 .divbox.divbox-gray, /* "Your submission at Articles for creation: David A. Clark (September 30)" https://en.wikipedia.org/w/index.php?title=User_talk:Vitaly_Zdanevich&oldid=1322774397#Your_submission_at_Articles_for_creation:_David_A._Clark_(September_30) */
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
