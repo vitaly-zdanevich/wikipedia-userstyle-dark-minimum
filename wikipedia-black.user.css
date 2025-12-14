@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.56
+@version        1.13.57
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -616,6 +616,7 @@ kbd[style*='background:#EEEEEE'],
 	background: #000
 }
 
+.comment:has(> a.mw-redirect), /* https://ru.wikipedia.org/wiki/Служебная:Список_наблюдения?hidepreviousrevisions=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 .ts-Taxonomy-rang-name, /* Infobox https://ru.wikipedia.org/w/index.php?title=Мухомор_красный */
 #mwe-upwiz-steps li.head,
 .wb-empty /* Wikidata: top block with labels: "No label defined", "No description defined" */
