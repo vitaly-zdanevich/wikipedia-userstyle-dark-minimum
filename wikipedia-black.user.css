@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.58
+@version        1.13.59
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1101,7 +1101,7 @@ div.mw-heading.mw-heading2 + div i,
 .mw-changeslist-date.mw-changeslist-time,
 /* https://ru.wikipedia.org/wiki/Служебная:Список_наблюдения?hidepreviousrevisions=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 
-.CategoryTreeItem,
+.CategoryTreeItem, /* At the right of a category link like "(1 C, 1 F)" */
 /* https://commons.wikimedia.org/wiki/Category:Vitaly_Zdanevich */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
