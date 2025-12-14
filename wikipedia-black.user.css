@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.54
+@version        1.13.55
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -573,6 +573,9 @@ table[style='margin:auto;'] tr[style='text-align:right;'] td[style='padding:0 1e
 
 .mw-collapsible-content.collapse-mobile-content ul li,
 /* Expand "Examples of projects we fund as part of annual plan" https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/General_Support_Fund#What_we_fund */
+
+.mw-changeslist-log-entry,
+/* https://ru.wikipedia.org/wiki/Служебная:Список_наблюдения?hidepreviousrevisions=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 
 .divbox.divbox-gray, /* "Your submission at Articles for creation: David A. Clark (September 30)" https://en.wikipedia.org/w/index.php?title=User_talk:Vitaly_Zdanevich&oldid=1322774397#Your_submission_at_Articles_for_creation:_David_A._Clark_(September_30) */
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
