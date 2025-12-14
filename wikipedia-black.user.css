@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.59
+@version        1.13.58
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -577,7 +577,7 @@ table[style='margin:auto;'] tr[style='text-align:right;'] td[style='padding:0 1e
 .mw-changeslist-log-entry,
 /* https://ru.wikipedia.org/wiki/Служебная:Список_наблюдения?hidepreviousrevisions=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 
-.wikidatainfobox-lcell + td div.plainlist ul li,
+#wdinfobox .wdinfo_nomobile td,
 /* https://commons.wikimedia.org/wiki/Category:Vitaly_Zdanevich */
 
 .divbox.divbox-gray, /* "Your submission at Articles for creation: David A. Clark (September 30)" https://en.wikipedia.org/w/index.php?title=User_talk:Vitaly_Zdanevich&oldid=1322774397#Your_submission_at_Articles_for_creation:_David_A._Clark_(September_30) */
@@ -1100,6 +1100,9 @@ div.mw-heading.mw-heading2 + div i,
 
 .mw-changeslist-date.mw-changeslist-time,
 /* https://ru.wikipedia.org/wiki/Служебная:Список_наблюдения?hidepreviousrevisions=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
+
+.CategoryTreeItem,
+/* https://commons.wikimedia.org/wiki/Category:Vitaly_Zdanevich */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
