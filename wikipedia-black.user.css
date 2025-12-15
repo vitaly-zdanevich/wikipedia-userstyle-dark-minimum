@@ -270,6 +270,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 img[alt='(_AT_)'],
 /* Emails @ sign https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/General_Support_Fund#Contact_us */
 
+.oo-ui-iconElement-icon.oo-ui-icon-puzzle, /* Wikipedia: "Add a citation" popup: icon near "Cite web" */
 .ve-ui-citoidInspector-sourceSelect span[class^='oo-ui-iconElement-icon oo-ui-icon-'], /* Wikipedia: "Add a citation" popup: "Manual" tab: icons */
 .ve-init-mw-editSwitch .oo-ui-popupToolGroup.oo-ui-iconElement .oo-ui-popupToolGroup-handle, /* Edit page: right button with switch between source and visual editors */
 #left-navigation .vector-menu-content-list { /* Buttons "Page", "Discussion" */
