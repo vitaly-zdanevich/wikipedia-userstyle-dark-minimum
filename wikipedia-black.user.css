@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.60
+@version        1.13.61
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -146,6 +146,7 @@ a[title='Log out'],
 [src$='Yellow-bg_rounded.svg/350px-Yellow-bg_rounded.svg.png'],
 [style='background:#d0f5e5; border:1px solid #a6c4b5; text-align:left; margin:1px; margin-bottom: 1px; padding:3px;'], /* Bottom https://be.wikisource.org/wiki/Галоўная_старонка */
 [style='background:#ffe9a6; border:1px solid #dcbe73; text-align:left; margin:1px; margin-bottom: 1px; padding:3px;'], /* Bottom https://be.wikisource.org/wiki/Галоўная_старонка */
+.ve-ui-mwTemplatePage-description, /* Template description - for example when adding ref manually */
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
 	display: none !important;
