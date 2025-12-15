@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.64
+@version        1.13.65
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -148,6 +148,8 @@ a[title='Log out'],
 [style='background:#ffe9a6; border:1px solid #dcbe73; text-align:left; margin:1px; margin-bottom: 1px; padding:3px;'], /* Bottom https://be.wikisource.org/wiki/Галоўная_старонка */
 .ve-ui-mwTemplatePage-description, /* Template description - for example when adding ref manually */
 .ve-ui-citeSourceSelectWidget-separator, /* Wikipedia: "Add a citation" popup: "Manual" tab: separator line */
+.oo-ui-iconElement-icon.oo-ui-icon-linkExternal, /* Wikipedia: "Add a citation" popup: link field: drop the icon at the left */
+.oo-ui-iconElement-icon.oo-ui-icon-search, /* Wikipedia: "Add a citation" popup: "Find field" input: drop the icon at the left */
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
 	display: none !important;
@@ -1202,7 +1204,12 @@ li[role='option'],
 {
 	display: none !important;
 }
- 
+
+.oo-ui-textInputWidget.oo-ui-iconElement .oo-ui-inputWidget-input /* Wikipedia: "Add a citation" popup: link field: drop the icon at the left */
+{
+	padding-left: 5px;
+}
+
 #content {
 	margin: 12px 0 0 5px !important; /* Decrease margins - to have more space for the content */
 	padding: 0;
