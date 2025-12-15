@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.61
+@version        1.13.62
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -346,6 +346,7 @@ tr,
 .talkheader-help, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 #wikiEditor-ui-toolbar,
 .oo-ui-menuSelectWidget, /* Dropdown at the right of "Watch this page" https://commons.wikimedia.org/w/index.php?title=Category:50_rubles_banknotes&action=edit */
+.ve-ui-expandableContent-toggle, /* Wikipedia: template popup (for example when adding a ref manually): "More" buttons */
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
