@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.62
+@version        1.13.63
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -350,6 +350,11 @@ tr,
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
+}
+
+.ve-ui-expandableContent-fade /* Wikipedia: template popup (for example when adding a ref manually): at the left of the "More" buttons */
+{
+--background-color-base: #000;
 }
 
 /* Image viewer: buttons */
