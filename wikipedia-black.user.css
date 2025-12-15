@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.67
+@version        1.13.68
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -637,6 +637,11 @@ kbd[style*='background:#EEEEEE'],
 .wb-empty /* Wikidata: top block with labels: "No label defined", "No description defined" */
 { /* Commons: uploading: highlight current step */
 	color: green !important;
+}
+
+.mw-changeslist-line-inner .botedit /* Watchlist: "b" for bot edit */
+{
+	color: orange;
 }
 
 /* Commons: Uploading: first step Upload: drag-n-drop reaction */
