@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.68
+@version        1.13.69
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -150,6 +150,7 @@ a[title='Log out'],
 .ve-ui-citeSourceSelectWidget-separator, /* Wikipedia: "Add a citation" popup: "Manual" tab: separator line */
 .oo-ui-iconElement-icon.oo-ui-icon-linkExternal, /* Wikipedia: "Add a citation" popup: link field: drop the icon at the left */
 .oo-ui-iconElement-icon.oo-ui-icon-search, /* Wikipedia: "Add a citation" popup: "Find field" input: drop the icon at the left */
+.mw-changeslist-legend, /* Watchlist: legend with "List of abbreviations" */
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
 	display: none !important;
