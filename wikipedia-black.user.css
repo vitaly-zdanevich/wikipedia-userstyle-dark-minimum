@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.72
+@version        1.13.73
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -637,6 +637,7 @@ kbd[style*='background:#EEEEEE'],
 .mw-changeslist-line-inner .comment, /* https://ru.wikipedia.org/wiki/Служебная:Список_наблюдения?hidepreviousrevisions=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 .ts-Taxonomy-rang-name, /* Infobox https://ru.wikipedia.org/w/index.php?title=Мухомор_красный */
 #mwe-upwiz-steps li.head,
+.mw-logline-newusers, /* "17:09, 15 December 2025 User account BRTD2005 talk contribs was created" https://www.wikidata.org/w/index.php?title=Special:Log&page=User%3ABRTD2005 */
 .wb-empty /* Wikidata: top block with labels: "No label defined", "No description defined" */
 { /* Commons: uploading: highlight current step */
 	color: green !important;
