@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.73
+@version        1.13.74
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1129,6 +1129,8 @@ div.mw-heading.mw-heading2 + div i,
 /* https://commons.wikimedia.org/wiki/Category:Vitaly_Zdanevich */
 
 .mw-tag-marker.mw-tag-marker-mobile_web_edit, /* Watchlist: "Mobile web edit" https://en.wikipedia.org/wiki/Special:Watchlist?hidepreviousrevisions=1&hidecategorization=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
+
+#anontalktext, /* Bottom labels with links https://www.wikidata.org/wiki/Special:Contributions/Vitaly_Zdanevich */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
