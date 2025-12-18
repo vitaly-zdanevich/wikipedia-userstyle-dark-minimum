@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.80
+@version        1.13.81
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -153,6 +153,10 @@ a[title='Log out'],
 .mw-changeslist-legend, /* Watchlist: legend with "List of abbreviations" */
 .mw-rcfilters-ui-watchlistTopSectionWidget-separator, /* Watchlist: separator line horizontal https://en.wikipedia.org/wiki/Special:Watchlist?hidepreviousrevisions=1&hidecategorization=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 #pt-betafeatures, /* Topbar: Beta */
+
+.talkheader-body .talkheader-help,
+/* "Put new text under old text. Click here to start a new topic." https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_Video_games */
+
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
 	display: none !important;
@@ -605,9 +609,6 @@ table[style='margin:auto;'] tr[style='text-align:right;'] td[style='padding:0 1e
 
 td[style='vertical-align:top;border: 1px solid #AAAAAA;'] table[style='width: 100%; border-spacing: 10px'],
 /* "Tasks" block https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
-
-.talkheader-body .talkheader-help,
-/* "Put new text under old text. Click here to start a new topic." https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_Video_games */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
