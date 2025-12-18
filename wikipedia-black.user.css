@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.84
+@version        1.13.85
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -603,6 +603,9 @@ table[style='margin:auto;'] tr[style='text-align:right;'] td[style='padding:0 1e
 
 .mw-content-ltr.mw-parser-output td[style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA;'],
 /* Main block https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
+
+td[style='border-top: 1px solid #c0c090; padding: 1px 3px;'] span[style='position: relative; top: 2px; float: right; font-size: 90%; margin-left: 1em;'],
+/* "Auto-archiving period: 14 days" https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_Video_games */
 
 .mw-content-ltr.mw-parser-output td[style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA;'] + td[style='width: 15%; vertical-align:top;border: 1px solid #AAAAAA;'],
 /* Right block https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
