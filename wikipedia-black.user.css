@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.75
+@version        1.13.76
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -643,6 +643,7 @@ kbd[style*='background:#EEEEEE'],
 	color: green !important;
 }
 
+.mw-tag-markers, /* "Mobile app edit Android app edit" https://en.wikipedia.org/wiki/Special:Watchlist?hidepreviousrevisions=1&hidecategorization=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 .mw-changeslist-line-inner .botedit /* Watchlist: "b" for bot edit */
 {
 	color: orange;
