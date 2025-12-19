@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.87
+@version        1.13.88
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1164,6 +1164,8 @@ div.mw-heading.mw-heading2 + div i,
 #anontalktext, /* Bottom labels with links https://www.wikidata.org/wiki/Special:Contributions/Vitaly_Zdanevich */
 
 .mw-tag-marker.mw-tag-marker-wikidata-ui, /* "Wikidata user interface" https://www.wikidata.org/wiki/Special:Contributions/Vitaly_Zdanevich */
+
+.mw-tag-wikidata-ui .comment, /* https://www.wikidata.org/w/index.php?title=Special:NewPages&hidepatrolled=0&username=Vitaly+Zdanevich */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
