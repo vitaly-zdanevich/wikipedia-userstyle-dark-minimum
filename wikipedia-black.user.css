@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.86
+@version        1.13.87
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -663,6 +663,7 @@ kbd[style*='background:#EEEEEE'],
 	background: #000
 }
 
+.mw-newpages-length, /* https://www.wikidata.org/w/index.php?title=Special:NewPages&hidepatrolled=0&username=Vitaly+Zdanevich */
 .mw-changeslist-line-inner .comment, /* https://ru.wikipedia.org/wiki/Служебная:Список_наблюдения?hidepreviousrevisions=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 .ts-Taxonomy-rang-name, /* Infobox https://ru.wikipedia.org/w/index.php?title=Мухомор_красный */
 #mwe-upwiz-steps li.head,
