@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.95
+@version        1.13.96
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1809,6 +1809,14 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	/* https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions */
 	{
 		color: #bbb !important;
+	}
+}
+
+@-moz-document domain('meta.wikimedia.org') {
+	table[style='border: 1px solid #006600; width: 100%; text-align: center;']
+	/* https://meta.wikimedia.org/wiki/Global_sysops#Permissions */
+	{
+		color: #bbb;
 	}
 }
 
