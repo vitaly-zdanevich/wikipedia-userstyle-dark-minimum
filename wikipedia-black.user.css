@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.91
+@version        1.13.92
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -855,6 +855,10 @@ div.vectorTabs ul li{
 	background: #000;
 }
 
+.quotebox-title,
+/* https://en.wikipedia.org/wiki/Llama_(language_model)#Architecture_and_training */
+/* "Historical affiliations" https://en.wikipedia.org/wiki/Batumi */
+
 textarea,
 .infobox [style='width:100%;background:#ccccff'], /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label,
@@ -863,7 +867,7 @@ textarea,
 .oo-ui-tabOptionWidget
 {
 	background: #000 !important;
-	color: lightgray;
+	color: lightgray !important;
 }
 
 #mw-previewheader, /* "Remember that this is only a preview. Your changes have not yet been published!" https://www.wikidata.org/w/index.php?title=Wikidata:Property_proposal/dtf.ru_person_ID&action=submit */
@@ -1116,7 +1120,6 @@ table[style='text-align:center; border:1px solid black; background:#fafafa'] th,
 .metadata.plainlinks, /* https://ru.wikipedia.org/wiki/Проект:Кино/Списки/Список_фильмов_студии_«Беларусьфильм» */
 .article-history-milestones, /* https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
 .ext-discussiontools-init-pageframe-latestcomment, /* Top after page title, text like "Latest comment: 54 minutes ago by Sgt.McHale in topic "Native American-sounding music for the Night Elves" at https://en.wikipedia.org/wiki/Talk:Warcraft_III:_Reign_of_Chaos */
-.quotebox-title, /* https://en.wikipedia.org/wiki/Llama_(language_model)#Architecture_and_training */
 .history-size.mw-diff-bytes, /* For example "(8,456 bytes) https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
 
 /* History page: brackets ( and ) https://en.wikipedia.org/w/index.php?title=The_Dark_Mod&action=history */
