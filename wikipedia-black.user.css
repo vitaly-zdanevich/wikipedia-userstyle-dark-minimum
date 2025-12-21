@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.92
+@version        1.13.93
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1799,8 +1799,12 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 		box-shadow: none !important;
 	}
 
+	.wbqc-reports-status-warning.wbqc-reports.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-scrollable.oo-ui-panelLayout-expanded.oo-ui-stackLayout-continuous.oo-ui-stackLayout.oo-ui-labelElement .oo-ui-layout.oo-ui-panelLayout.wbqc-report.wbqc-report-status-warning .wbqc-report-heading + p,
 	/* "Potential issues" popup */
-	.wbqc-reports-status-warning.wbqc-reports.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-scrollable.oo-ui-panelLayout-expanded.oo-ui-stackLayout-continuous.oo-ui-stackLayout.oo-ui-labelElement .oo-ui-layout.oo-ui-panelLayout.wbqc-report.wbqc-report-status-warning .wbqc-report-heading + p {
+
+	td[style='background-color:var(--background-color-neutral-subtle, #f8f9fa); color:inherit; box-shadow: 0 0 .2em var(--border-color-base, #a2a9b1); border-radius: .2em; padding: 10px;']
+	/* https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions */
+	{
 		color: #bbb !important;
 	}
 }
