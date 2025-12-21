@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.94
+@version        1.13.95
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -626,6 +626,8 @@ tr[style='vertical-align:top;'] td[width='50%'] div[role='heading'],
 .mw-babel-box,
 
 .mw-heading.mw-heading3 + ul li, /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games/Reference_library */
+
+.mw-contributions-list .comment, /* https://www.wikidata.org/wiki/Special:NewPages */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
