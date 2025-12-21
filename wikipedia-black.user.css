@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.93
+@version        1.13.94
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1371,6 +1371,7 @@ pre, /* Code pages like https://commons.wikimedia.org/wiki/User:Redditor098/vect
 }
 
 .mw-changeslist-line-inner .newpage, /* "N" letter at Watchlist https://en.wikipedia.org/wiki/Special:Watchlist?hidepreviousrevisions=1&hidecategorization=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
+.mw-contributions-list .newpage, /* "N" letter at https://www.wikidata.org/w/index.php?title=Special:Contributions&namespace=0&newOnly=1&target=Vitaly+Zdanevich&offset=&limit=500 */
 .java5.source-java5 .kw166 /* constructor call */
 {
 	color: lightseagreen;
