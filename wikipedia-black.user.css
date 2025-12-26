@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.99
+@version        1.14.00
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -632,6 +632,8 @@ tr[style='vertical-align:top;'] td[width='50%'] div[role='heading'],
 .mw-heading + ul li, /* https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Administrator/Vitaly_Zdanevich */
 
 .wd-box-text, /* https://www.wikidata.org/wiki/Wikidata:Administrators%27_noticeboard#Request_to_undelete_Q137439282 */
+
+.infobox.vcard tr[style='vertical-align:top;'] td:first-child, /* Infobox labels https://ka.wikipedia.org/wiki/მტირალას_ეროვნული_პარკი */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
