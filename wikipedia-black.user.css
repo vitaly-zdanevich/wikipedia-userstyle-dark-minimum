@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.01
+@version        1.14.02
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1082,7 +1082,7 @@ span[style='background:yellow'] /* https://en.wikipedia.org/wiki/Wikipedia:Tools
 /* Wikipedia: page bottom: navigation template https://en.wikipedia.org/wiki/Emotional_reasoning */
 
 .mw-collapsible .ts-Скрытый_блок-title, /* Collapsed block title https://ru.wikipedia.org/wiki/Данелия,_Георгий_Николаевич */
-.infobox .no-wikidata, /* https://ru.wikipedia.org/wiki/Данелия,_Георгий_Николаевич */
+.infobox td.plainlist .no-wikidata, /* https://ru.wikipedia.org/wiki/Данелия,_Георгий_Николаевич, be careful with map labels color ar https://ru.wikipedia.org/wiki/Мтирала_(национальный_парк) */
 
 .ts-Taxonomy-rang-label, /* Infobox https://ru.wikipedia.org/w/index.php?title=Мухомор_красный */
 .tfa-recent, /* Main page: "Recently featured" */
