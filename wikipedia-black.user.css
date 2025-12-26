@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.02
+@version        1.14.03
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -636,6 +636,8 @@ tr[style='vertical-align:top;'] td[width='50%'] div[role='heading'],
 .infobox.vcard tr[style='vertical-align:top;'] td:first-child, /* Infobox labels https://ka.wikipedia.org/wiki/მტირალას_ეროვნული_პარკი */
 
 .infobox.t-geoinfobox.t-geoinfobox-green th[scope='row'], /* https://ru.wikipedia.org/wiki/Мтирала_(национальный_парк) */
+
+td[style='border: 2px solid var(--color-emphasized, #000); padding: 0.2em; ;'], /* https://ru.wikipedia.org/wiki/Данелия,_Георгий_Николаевич#Фрагмент_генеалогического_древа_Георгия_Данелии */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
