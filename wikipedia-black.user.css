@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.13.98
+@version        1.13.99
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -865,6 +865,7 @@ div.vectorTabs ul li{
 /* https://en.wikipedia.org/wiki/Llama_(language_model)#Architecture_and_training */
 /* "Historical affiliations" https://en.wikipedia.org/wiki/Batumi */
 
+.infobox.sisterproject, /* Link to Commons button-right https://ka.wikipedia.org/wiki/მტირალას_ეროვნული_პარკი */
 textarea,
 .infobox [style='width:100%;background:#ccccff'], /* https://be.wikipedia.org/wiki/Дашкаўка_(Магілёўскі_раён) */
 .mw-advancedSearch-fieldContainer .oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label,
