@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.05
+@version        1.14.06
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -158,6 +158,7 @@ a[title='Log out'],
 /* "Put new text under old text. Click here to start a new topic." https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_Video_games */
 
 .mw-page-title-namespace, /* "File" https://commons.wikimedia.org/w/index.php?title=File:Иркутская_жизнь,_1914,_№010.pdf&action=edit */
+.mw-page-title-separator, /* ":" for File and Category https://commons.wikimedia.org/wiki/Category:Uploaded_with_pwb_wrapper_script_by_Vitaly_Zdanevich */
 
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
