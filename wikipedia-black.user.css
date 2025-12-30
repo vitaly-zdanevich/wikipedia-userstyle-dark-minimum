@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.06
+@version        1.14.07
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -710,6 +710,7 @@ kbd[style*='background:#EEEEEE'],
 	background-color: #111 !important;
 }
 
+.mw-notification.mw-notification-type-warn, /* "This topic could not be found on this page, but it does exist on the following page:" https://www.wikidata.org/wiki/Wikidata:Administrators%27_noticeboard#Request_to_undelete_Q137439282 */
 .mw-highlight .hll,
 .mainpage-box-orange .mainpage-box-title /* Commons main page: orange titles of blocks */
 {
