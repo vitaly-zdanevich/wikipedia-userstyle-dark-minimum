@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.07
+@version        1.14.08
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -642,6 +642,8 @@ tr[style='vertical-align:top;'] td[width='50%'] div[role='heading'],
 
 td[style='border: 2px solid var(--color-emphasized, #000); padding: 0.2em; ;'], /* https://ru.wikipedia.org/wiki/Данелия,_Георгий_Николаевич#Фрагмент_генеалогического_древа_Георгия_Данелии */
 
+.mw-mmv-filename-prefix, /* "Файл:" https://ru.wikipedia.org/w/index.php?title=Римский-Корсаков%2C_Воин_Андреевич#/media/Файл:Живописне_обозрение_1872_-_1873page379.webp */
+
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='max-width: 40%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
@@ -1190,6 +1192,9 @@ div.mw-heading.mw-heading2 + div i,
 .mw-tag-wikidata-ui .comment, /* https://www.wikidata.org/w/index.php?title=Special:NewPages&hidepatrolled=0&username=Vitaly+Zdanevich */
 
 small[style='color:var(--color-subtle, #54595d);'], /* https://ru.wikipedia.org/wiki/Евротур_(фильм)#В_ролях */
+
+.mw-mmv-filename, /* https://ru.wikipedia.org/w/index.php?title=Римский-Корсаков%2C_Воин_Андреевич#/media/Файл:Живописне_обозрение_1872_-_1873page379.webp */
+.mw-mmv-datetime,
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
