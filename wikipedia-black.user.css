@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.10
+@version        1.14.11
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1198,6 +1198,8 @@ small[style='color:var(--color-subtle, #54595d);'], /* https://ru.wikipedia.org/
 .mw-mmv-datetime,
 
 .hlist bdi, /* Top https://commons.wikimedia.org/wiki/Category:Euphorbia_canariensis */
+
+.commonsuserbox td, /* Template User_autopatrolled https://commons.wikimedia.org/wiki/Template:User_autopatrolled */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
