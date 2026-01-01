@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.09
+@version        1.14.10
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -362,6 +362,7 @@ tr,
 #wikiEditor-ui-toolbar,
 .oo-ui-menuSelectWidget, /* Dropdown at the right of "Watch this page" https://commons.wikimedia.org/w/index.php?title=Category:50_rubles_banknotes&action=edit */
 .ve-ui-expandableContent-toggle, /* Wikipedia: template popup (for example when adding a ref manually): "More" buttons */
+div[style='background:var(--background-color-success-subtle,#F1FCF1); color:var(--color-base,#202122);padding:0 .25em'], /* Top nav https://commons.wikimedia.org/wiki/Category:Euphorbia_canariensis */
 .mw-parser-output .category-redirect-content
 {
 	background: #000 !important;
