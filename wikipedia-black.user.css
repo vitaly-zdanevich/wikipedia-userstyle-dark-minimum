@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.08
+@version        1.14.09
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1195,6 +1195,8 @@ small[style='color:var(--color-subtle, #54595d);'], /* https://ru.wikipedia.org/
 
 .mw-mmv-filename, /* https://ru.wikipedia.org/w/index.php?title=Римский-Корсаков%2C_Воин_Андреевич#/media/Файл:Живописне_обозрение_1872_-_1873page379.webp */
 .mw-mmv-datetime,
+
+.hlist bdi, /* Top https://commons.wikimedia.org/wiki/Category:Euphorbia_canariensis */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
