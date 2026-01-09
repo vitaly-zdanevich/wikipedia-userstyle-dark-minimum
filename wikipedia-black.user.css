@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.12
+@version        1.14.13
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1631,11 +1631,6 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	display: none !important;
 }
 
-
-::selection {
-	background-color: #3b4 !important;
-	color: #000;
-}
 
 /* Wikipedia: link edit popup: article links */
 .oo-ui-menuOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget span,
