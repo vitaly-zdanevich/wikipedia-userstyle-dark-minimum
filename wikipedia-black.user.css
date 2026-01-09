@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.13
+@version        1.14.14
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -449,7 +449,6 @@ h2,
 .mw-parser-output .collapse-mobile > .mw-collapsible-toggle, /* Unfoldable titles https://meta.wikimedia.org/wiki/Grants:Project/Rapid */
 .funds-timeline-content, /* Text like "Cycle 5" in boxes https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
 .wmf-department-info-title, /* Titles here https://meta.wikimedia.org/wiki/Grants:Project/Rapid#Timeline */
-cite, /* Wikipedia quote */
 .mw-filepage-resolutioninfo, /* Commons: "Size of this preview:", "Other resolutions:" */
 #ooui-php-7 .oo-ui-labelElement-label, /* Commons: "File information" */
 #ooui-php-8 .oo-ui-labelElement-label, /* Commons: "Structured data" */
