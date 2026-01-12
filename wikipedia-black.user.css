@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.16
+@version        1.14.17
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -228,6 +228,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 .mw-diff-table-prefix {
 	/* Diff page: drop horizontal scrollbar https://meta.wikimedia.org/w/index.php?title=Talk:Pageviews_Analysis&diff=next&oldid=26270848 */
 	margin-right: 5px;
+	width: 99%; /* Drop horizontal scrollbar https://be-tarask.wikipedia.org/w/index.php?title=Каранёўскі_сельсавет_(Смаргонскі_раён)&diff=2651761&oldid=2222778 */
 }
 
 /* "Low-importance" https://en.wikipedia.org/wiki/Talk:Armies_of_Exigo */
