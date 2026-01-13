@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.19
+@version        1.14.20
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -652,6 +652,9 @@ td[style='border: 2px solid var(--color-emphasized, #000); padding: 0.2em; ;'], 
 
 table[style='width: 315px; margin: 0 0 1em 1em; clear: right; border: 1px #aaa solid; border-collapse: collapse; font-size: 85%; background-color: #f9f9f9;'],
 /* Infobox https://be-tarask.wikipedia.org/wiki/Бой_за_Вострава */
+
+.infobox td[style='text-align: right; vertical-align: top; border-top: 1px solid #d0e1e0; padding: 1px 5px 1px 5px;'],
+/* https://be-tarask.wikipedia.org/wiki/Бухавічы */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
