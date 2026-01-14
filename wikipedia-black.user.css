@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.26
+@version        1.14.28
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1246,6 +1246,13 @@ th[style='padding-left: 2px; padding-right: 2px; line-height: 1.45em; background
 
 td[style='border: solid #DDDDDD; border-width: 1px 0px 0px 0px;width:100%;background:#F0F0F0'],
 /* Infobox https://be-tarask.wikipedia.org/wiki/Лошыцкі_сядзібна-паркавы_комплекс */
+
+td[style='text-align: right; vertical-align: top; border-top: 1px solid #d0e1e0; padding: 0px 5px 0px 5px;'],
+td[style='border-top:1px solid #d0e1e0; padding-left: 15px;'],
+/* Infobox https://be-tarask.wikipedia.org/wiki/Рудаўляны */
+
+table[style='width: 100%; margin: 0 0 1em 0; border: solid darkgray; border-width: 1px 1px 1px 1px; font-size: 90%; background-color: #fff;'],
+/* https://be-tarask.wikipedia.org/wiki/Сьпіс_помнікаў_гісторыі_і_архітэктуры_Беларусі%2C_зруйнаваных_Маскоўскім_патрыярхатам */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
