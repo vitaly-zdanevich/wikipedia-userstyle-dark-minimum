@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.24
+@version        1.14.25
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1234,6 +1234,12 @@ table[align='right'][style='border: 1px solid #aaa; border-width: 1px;'],
 
 th[style='padding-left: 2px; padding-right: 2px; line-height: 1.45em;'],
 /* https://be-tarask.wikipedia.org/wiki/Глёбус_Беларусі */
+
+td[style='text-align:center; font-size: 130%; font-weight: bold; line-height: 1.45em; align: center; background-color: #d0e1e0; border: solid #BBBBBB; border-width: 1px 0px; padding-top: 1px; padding-bottom: 2px; margin: 0 0 1em 0;'],
+td[style='text-align:center; font-style: oblique; padding-bottom: 3px; line-height: 1.15em; align: center; background-color: #d0e1e0; border: solid #BBBBBB; border-width: 1px 0px; padding-top: 1px; padding-bottom: 2px; margin: 0 0 1em 0;'] i,
+th[style='padding-left: 2px; padding-right: 2px; line-height: 1.45em; border-top: 1px solid #d0e1e0; text-align: right; width: 50%;'],
+th[style='line-height: 1.45em; text-align:center; background-color: #d0e1e0;'],
+/* Infobox https://be-tarask.wikipedia.org/wiki/Лёзьненскі_раён */
 
 td[style='border: solid #DDDDDD; border-width: 1px 0px 0px 0px;width:100%;background:#F0F0F0'],
 /* Infobox https://be-tarask.wikipedia.org/wiki/Лошыцкі_сядзібна-паркавы_комплекс */
