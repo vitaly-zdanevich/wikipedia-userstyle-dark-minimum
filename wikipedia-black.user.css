@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.25
+@version        1.14.26
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1240,6 +1240,9 @@ td[style='text-align:center; font-style: oblique; padding-bottom: 3px; line-heig
 th[style='padding-left: 2px; padding-right: 2px; line-height: 1.45em; border-top: 1px solid #d0e1e0; text-align: right; width: 50%;'],
 th[style='line-height: 1.45em; text-align:center; background-color: #d0e1e0;'],
 /* Infobox https://be-tarask.wikipedia.org/wiki/Лёзьненскі_раён */
+
+th[style='padding-left: 2px; padding-right: 2px; line-height: 1.45em; background:#EEDD82;'],
+/* https://be-tarask.wikipedia.org/wiki/Напалеон_Орда */
 
 td[style='border: solid #DDDDDD; border-width: 1px 0px 0px 0px;width:100%;background:#F0F0F0'],
 /* Infobox https://be-tarask.wikipedia.org/wiki/Лошыцкі_сядзібна-паркавы_комплекс */
