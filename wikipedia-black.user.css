@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.21
+@version        1.14.22
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1228,6 +1228,9 @@ blockquote, /* https://be-tarask.wikipedia.org/wiki/Бой_за_Вострава
 
 table[border='0'][cellspacing='0'][cellpadding='2'],
 /* https://be-tarask.wikipedia.org/wiki/Месяц_(каляндар) */
+
+table[align='right'][style='border: 1px solid #aaa; border-width: 1px;'],
+/* https://be-tarask.wikipedia.org/wiki/Рыбы_(знак_задыяку) */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
