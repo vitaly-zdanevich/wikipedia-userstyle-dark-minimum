@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.23
+@version        1.14.24
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1234,6 +1234,9 @@ table[align='right'][style='border: 1px solid #aaa; border-width: 1px;'],
 
 th[style='padding-left: 2px; padding-right: 2px; line-height: 1.45em;'],
 /* https://be-tarask.wikipedia.org/wiki/Глёбус_Беларусі */
+
+td[style='border: solid #DDDDDD; border-width: 1px 0px 0px 0px;width:100%;background:#F0F0F0'],
+/* Infobox https://be-tarask.wikipedia.org/wiki/Лошыцкі_сядзібна-паркавы_комплекс */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
