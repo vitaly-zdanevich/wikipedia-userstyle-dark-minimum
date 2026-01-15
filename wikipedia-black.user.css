@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.28
+@version        1.14.29
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1253,6 +1253,9 @@ td[style='border-top:1px solid #d0e1e0; padding-left: 15px;'],
 
 table[style='width: 100%; margin: 0 0 1em 0; border: solid darkgray; border-width: 1px 1px 1px 1px; font-size: 90%; background-color: #fff;'],
 /* https://be-tarask.wikipedia.org/wiki/Сьпіс_помнікаў_гісторыі_і_архітэктуры_Беларусі%2C_зруйнаваных_Маскоўскім_патрыярхатам */
+
+table[style='width: 800px; margin: 0 0 1em 0; border: solid darkgray; border-width: 1px 1px 1px 1px; font-size: 90%; background-color: #fff;'],
+/* https://be-tarask.wikipedia.org/wiki/Траецкае_прадмесьце#Вуліцы_і_пляцы */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
