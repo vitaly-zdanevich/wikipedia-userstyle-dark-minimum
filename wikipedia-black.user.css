@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.29
+@version        1.14.30
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -655,6 +655,9 @@ table[style='width: 315px; margin: 0 0 1em 1em; clear: right; border: 1px #aaa s
 
 .infobox td[style='text-align: right; vertical-align: top; border-top: 1px solid #d0e1e0; padding: 1px 5px 1px 5px;'],
 /* https://be-tarask.wikipedia.org/wiki/Бухавічы */
+
+div[style='-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;'],
+/* https://be-tarask.wikipedia.org/wiki/Вікіпэдыя:Праект:Населеныя_пункты_Беларусі/Дапаможныя_сродкі */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
