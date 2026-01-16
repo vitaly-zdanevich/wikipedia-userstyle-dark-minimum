@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.30
+@version        1.14.31
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1259,6 +1259,10 @@ table[style='width: 100%; margin: 0 0 1em 0; border: solid darkgray; border-widt
 
 table[style='width: 800px; margin: 0 0 1em 0; border: solid darkgray; border-width: 1px 1px 1px 1px; font-size: 90%; background-color: #fff;'],
 /* https://be-tarask.wikipedia.org/wiki/Траецкае_прадмесьце#Вуліцы_і_пляцы */
+
+.mw-logevent-loglines .mw-logline-move,
+.mw-logevent-loglines .mw-logline-create,
+/* Logs https://be.wikipedia.org/w/index.php?title=Адмысловае:Log&user=JerzyKundrat */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
