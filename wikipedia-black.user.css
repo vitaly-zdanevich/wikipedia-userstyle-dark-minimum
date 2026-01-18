@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.31
+@version        1.14.32
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -930,7 +930,6 @@ textarea,
 .oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.ve-ui-mwReferenceResultWidget.oo-ui-labelElement.oo-ui-optionWidget-highlighted cite,
 /* Wikipedia: editing: ref adding window: "Re-use" tab https://en.wikipedia.org/w/index.php?title=CAP_theorem&action=edit&section=1 */
 
-.oo-ui-window-frame .oo-ui-labelElement li, /* ..."One of the categories lacks a description page. Are you sure you typed the name correctly?" */
 .oo-ui-window-frame .oo-ui-fieldLayout-header .oo-ui-labelElement-label /* "Save your changes" popup with Summary - color of "This is a minor edit" and "Watch this page" */
 { 
     color: #000 !important;
@@ -1263,6 +1262,9 @@ table[style='width: 800px; margin: 0 0 1em 0; border: solid darkgray; border-wid
 .mw-logevent-loglines .mw-logline-move,
 .mw-logevent-loglines .mw-logline-create,
 /* Logs https://be.wikipedia.org/w/index.php?title=Адмысловае:Log&user=JerzyKundrat */
+
+.ve-ui-diffElement-sidebar .ve-ui-diffElement-attributeChange .oo-ui-labelElement-label,
+/* Popupup "Review your changes": "Template parameters changed" */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
@@ -1608,15 +1610,17 @@ div[style='background-color:#d4e4f4;'], /* H1 https://be.wiktionary.org/wiki/с�
 }
 
 .diff-deletedline .diffchange,
+.ve-ui-diffElement-attributeChange del,
 .mw-diff-inline-changed del
 {
-	background: #411 !important;
+	background: #411 !important; /* red */
 }
 .diffchange,
+.ve-ui-diffElement-attributeChange ins,
 .mw-diff-inline-added ins,
 .mw-diff-inline-changed ins
 {
-	/* https://be.wikipedia.org/w/index.php?title=Новая_зямля_(паэма)&diff=prev&oldid=4680402 */
+	/* green https://be.wikipedia.org/w/index.php?title=Новая_зямля_(паэма)&diff=prev&oldid=4680402 */
 	background: #242 !important;
 }
 
