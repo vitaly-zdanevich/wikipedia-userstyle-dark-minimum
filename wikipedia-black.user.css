@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.34
+@version        1.14.35
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -2069,6 +2069,16 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	{
 		color: #bbb;
 		background: #000;
+	}
+
+	/* Infobox https://wikitech.wikimedia.org/wiki/Help:CirrusSearch_OpenSearch_replicas */
+	.mw-parser-output .tpl-navsidebar
+	{
+		background: #000;
+	}
+	.mw-parser-output .tpl-navsidebar-title
+	{
+		border: 0;
 	}
 }
 
