@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.36
+@version        1.14.37
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1707,6 +1707,16 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 	color: #fff;
 }
 
+/* Without these ::selection - the text is badly readable when a browser window is not active */
+::selection
+{
+	background: #050;
+}
+a::selection
+{
+	color: lightblue;
+	text-decoration: underline solid blue 5px;
+}
 
 /* For use with Wikimedia backend, without brawse extension - remove this line */
 }
