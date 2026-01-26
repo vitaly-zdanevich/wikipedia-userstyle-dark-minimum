@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.35
+@version        1.14.36
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -495,6 +495,7 @@ h2,
 .rlicense-declaration, /* Commons file page: "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license." https://commons.wikimedia.org/wiki/File:Complex-numbers--first-group-photo.jpg */
 .mw-newarticletext, /* Commons: creating new category: help page title "Wikimedia Commons does not currently have a category called..." */
 .mw-parser-output .funds-title, /* https://meta.wikimedia.org/wiki/Grants:Project/Rapid/Browse_applications_and_reports */
+.hatnote.navigation-not-searchable ~ table, /* https://en.wikipedia.org/wiki/Newline#Unicode */
 #linkstoimage, /* "The following pages on the English Wikipedia use this file (pages on other projects are not listed):" https://en.wikipedia.org/wiki/File:Wikimedia-external-dark-and-minimal-style.png */
 #page-count, /* Commons search, for example https://commons.wikimedia.org/w/index.php?search=kaunas&title=Special:MediaSearch&go=Go&type=page */
 table.wikitable > tr > th, table.wikitable > * > tr > td, /* https://ru.wikipedia.org/wiki/Памятные_монеты_Кыргызстана  */
