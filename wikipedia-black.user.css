@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.38
+@version        1.14.39
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1740,6 +1740,7 @@ a::selection
 		border: 0;
 	}
 
+	.ruwiki-previousNominations, /* "См. предыдущую заявку на статус автопатрулируемого" https://ru.wikipedia.org/wiki/Википедия:Заявки_на_статус_автопатрулируемого/Архив/2021/02#ЖуковАФ */
 	.ruwiki-previousSimilarDeletions b /* https://ru.wikipedia.org/wiki/Википедия:К_удалению/9_марта_2025#Магнолия_(здание_в_Батуми) */
 	{
 		color: wheat !important;
