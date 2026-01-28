@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.40
+@version        1.14.41
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1715,8 +1715,8 @@ body.mediawiki .ve-ce-mwLatexNode .mwe-math-mathml-a11y {
 /* Without these ::selection - the text is badly readable when a browser window is not active */
 ::selection
 {
-	color: #bbb;
-	background: #050;
+	color: #000;
+	background: orange; /* Not green to be visible at diff add https://zh.wikipedia.org/w/index.php?title=聖西蒙和赫倫那教堂&diff=91294365&oldid=89972309 */
 }
 a::selection
 {
