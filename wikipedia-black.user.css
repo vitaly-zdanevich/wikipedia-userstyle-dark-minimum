@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.41
+@version        1.14.42
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -14,11 +14,6 @@ domain("wiktionary.org"),
 domain("wikidata.org")
 {
 /* End of lines for removing, also remove "}" at the end of this file */
-
-:root
-{
-	--background-color-neutral: #111; /* "Common punctuation and other typographical symbols" https://en.wikipedia.org/wiki/Pilcrow#External_links */
-}
 
 a:not(.navbox .mw-selflink.selflink, .cdx-button, .new, .oo-ui-tool-link.ve-ui-toolbar-saveButton), /* :not("More details" in image viewer, red link, on edit top-right button "Publish changes...") */
 .vector-menu-dropdown .mw-list-item a,
@@ -1545,11 +1540,12 @@ blockquote,
 	border-bottom: 1px solid #222;
 }
 
+span[style='background: var( --background-color-neutral, #eaecf0 ); color: inherit; font-size:125%;'], /* Glyphs https://en.wikipedia.org/wiki/Pilcrow#External_links */
 .wikibase-referenceview,
 #p-page .vector-menu-content .vector-menu-content-list, /* MoreMenu: "Page" button dropdown */
 #p-user .vector-menu-content .vector-menu-content-list /* MoreMenu: "User" button dropdown */
 {
-	background: #111;
+	background: #111 !important;
 }
 .wikibase-labelview-input,
 .wikipediauserbox *:not(a) /* https://en.wikipedia.org/wiki/User:Vitaly_Zdanevich */
