@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.47
+@version        1.14.48
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -36,6 +36,11 @@ a:not(.navbox .mw-selflink.selflink, .cdx-button, .new, .oo-ui-tool-link.ve-ui-t
 
 a:visited {
 	color: #b2b !important;
+}
+
+p[data-diff-action='insert'] a:visited
+{
+	color: #a0a !important;
 }
 
 .aiv-header > div:nth-child(5), /* Banner top at https://en.wikipedia.org/wiki/Wikipedia:Administrator_intervention_against_vandalism */
