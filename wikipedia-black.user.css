@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.48
+@version        1.14.49
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1272,6 +1272,8 @@ table[style='width: 800px; margin: 0 0 1em 0; border: solid darkgray; border-wid
 
 .ve-ui-diffElement-sidebar .ve-ui-diffElement-attributeChange .oo-ui-labelElement-label,
 /* Popupup "Review your changes": "Template parameters changed" */
+
+li.rt-target::marker, /* refs: number of selected https://ru.wikipedia.org/w/index.php?title=Койоты._Закон_пустыни */
 
 .block-indent /* https://be.wikipedia.org/wiki/Вікіпедыя:Адказы_на_частую_крытыку */
 {
