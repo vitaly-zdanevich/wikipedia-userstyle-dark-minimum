@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.14.54
+@version        1.14.55
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -373,6 +373,9 @@ th div[style='background: lightsteelblue; margin: 2px 2px 0px 2px; padding: 1px 
 div.ts-Userbox-id[style='background: white;'] + div, /* https://ru.wikipedia.org/wiki/Шаблон:Userbox/Возраст_в_днях */
 .sharedUploadNotice, /* https://meta.wikimedia.org/wiki/File:Olena_Vinsent_at_the_conference_in_Kyiv.jpg */
 table[style='background-color:#f6f7f7;border-collapse:collapse;width:100%'],
+
+#p-associated-pages, /* Hide vertical separator at top-left screen part */
+
 .mw-parser-output .property-navibox, /* https://www.wikidata.org/wiki/Wikidata:Property_proposal/Person */
 .mw-parser-output .ts-Общение-wrapper, /* Top nav https://ru.wikipedia.org/wiki/Википедия:Запросы_к_ботоводам */
 .mw-parser-output .ts-Box, /* Top nav https://ru.wikipedia.org/wiki/Википедия:Запросы_к_ботоводам */
