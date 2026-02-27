@@ -10,6 +10,8 @@
 
 ![screenshot](/screenshot.png)
 
+![screenshot](/screenshot_laptop.jpg)
+
 ![screenshot](/screenshot-wikidata.png)
 
 
