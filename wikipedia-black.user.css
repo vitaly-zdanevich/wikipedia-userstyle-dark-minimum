@@ -1628,11 +1628,12 @@ div[style='background-color:#d4e4f4;'], /* H1 https://be.wiktionary.org/wiki/—Å–
 	text-shadow: none;
 }
 
+div.mw-translate-fuzzy, /* https://commons.wikimedia.org/wiki/Commons:Licensing/ru */
 .diff-deletedline .diffchange,
 .ve-ui-diffElement-attributeChange del,
 .mw-diff-inline-changed del
 {
-	background: #411 !important; /* red */
+	background: #411 !important; /* background red */
 }
 .diffchange,
 .ve-ui-diffElement-attributeChange ins,
