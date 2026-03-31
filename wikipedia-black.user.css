@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.15.0
+@version        1.16.0
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -168,6 +168,7 @@ a[title='Log out'],
 .mw-page-title-separator, /* ":" for File and Category https://commons.wikimedia.org/wiki/Category:Uploaded_with_pwb_wrapper_script_by_Vitaly_Zdanevich */
 
 #transcodestatus, /* "Transcode status" https://commons.wikimedia.org/wiki/File:＂Мор_2＂_и_хоррор_＂Тук-Тук-Тук＂._Интервью_с_Николаем_Дыбовским,_ЧАСТЬ_2_(un9Byyca8YI).webm */
+#globalusage, /* "File usage on other wikis" */
 
 .mw-newarticletext div[style*='background:#F8FFFF']:first-child /* Help text in Wiktionary edit screen */
 {
