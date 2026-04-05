@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.17.0
+@version        1.18.0
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -678,6 +678,8 @@ div[style='-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;'],
 /* https://be-tarask.wikipedia.org/wiki/Вікіпэдыя:Праект:Населеныя_пункты_Беларусі/Дапаможныя_сродкі */
 
 .ts-doc-content li, /* https://ru.wikipedia.org/wiki/Шаблон:Userbox/Возраст_в_днях */
+
+.mainpage-box-content, /* Top-right block with a header "Upload your local culture photos during Wiki Loves Africa 2026."  https://commons.wikimedia.org/wiki/Main_Page */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
