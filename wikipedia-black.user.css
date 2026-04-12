@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.18.0
+@version        1.19.0
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -200,6 +200,7 @@ li.gallerybox div.thumb, /* https://commons.wikimedia.org/wiki/Category:Historic
 	border: 0 !important;
 }
 
+img.mw-file-element, /* Images in articles https://ru.wikipedia.org/wiki/Ночной_Дозор_(игра) */
 .wikiEditor-ui-top, /* Editor https://commons.wikimedia.org/w/index.php?title=File:Globustut_521_Геранены,_костел.jpg&action=edit */
 .documentation-startbox,
 .mw-parser-output .sister-projects, /* Commons: main page, near the text "Wikimedia Commons is part of the non-profit, multilingual, free-content Wikimedia family" */
