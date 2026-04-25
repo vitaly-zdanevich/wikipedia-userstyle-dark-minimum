@@ -721,7 +721,7 @@ kbd[style*='background:#EEEEEE'],
 }
 
 .jquery-confirmable-text, /* "Publicly send thanks?" https://en.wikipedia.org/w/index.php?title=Heroes_of_Might_and_Magic_III:_Horn_of_the_Abyss&action=history */
-.mw-changeslist-links.mw-pager-tools span,
+.mw-changeslist-links.mw-pager-tools span, /* "Thanked" https://en.wikipedia.org/w/index.php?title=Heroes_of_Might_and_Magic_III:_Horn_of_the_Abyss&action=history */
 .mw-newpages-length, /* https://www.wikidata.org/w/index.php?title=Special:NewPages&hidepatrolled=0&username=Vitaly+Zdanevich */
 .mw-changeslist-line-inner .comment, /* https://ru.wikipedia.org/wiki/Служебная:Список_наблюдения?hidepreviousrevisions=1&hideWikibase=1&limit=250&days=3&urlversion=2 */
 .ts-Taxonomy-rang-name, /* Infobox https://ru.wikipedia.org/w/index.php?title=Мухомор_красный */
