@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.21.1
+@version        1.22.0
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -682,6 +682,8 @@ div[style='-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;'],
 .ts-doc-content li, /* https://ru.wikipedia.org/wiki/Шаблон:Userbox/Возраст_в_днях */
 
 .mainpage-box-content, /* Top-right block with a header "Upload your local culture photos during Wiki Loves Africa 2026."  https://commons.wikimedia.org/wiki/Main_Page */
+
+.mw-logline-mwoauthconsumer, /* OAuth consumer log https://meta.wikimedia.org/wiki/Special:OAuthListConsumers/view/2260471694b45464c738bf0a5f4fe830 */
 
 [style='background: #F9F9F9; border-width:1px; border-color: #ababab; padding: 0px; width: 100%;'] .mw-collapsible.mw-made-collapsible th[colspan='2'], /* Right https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
 [style='width: 77%; vertical-align:top;border: 1px solid #AAAAAA; background-color:white;'] [style='width: 50%'], /* https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Video_games */
