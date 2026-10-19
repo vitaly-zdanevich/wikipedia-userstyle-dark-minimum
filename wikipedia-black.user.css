@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikipedia and sister projects: black, minimal
 @namespace      https://github.com/vitaly-zdanevich/wikipedia-userstyle-dark-minimum
-@version        1.22.0
+@version        1.23.0
 @description    Black, remove elements that I do not need.
 @author         Vitaly Zdanevich
 ==/UserStyle== */
@@ -1818,6 +1818,7 @@ a::selection
 }
 
 @-moz-document domain('commons.wikimedia.org') {
+	#ooui-2, /* "application/pdf" warning with the popup that any PDF can be dangerous https://commons.wikimedia.org/w/index.php?title=File:Pamiętniki_polskie_-_zebrane_przez_Ksawerego_Bronikowskiego._T._1(1883)_--_BY-NLB-br0000067296_--_3466105.pdf */
 	#filehistory,
 	#cleanup,
 	#mw-imagepage-section-filehistory > p,
